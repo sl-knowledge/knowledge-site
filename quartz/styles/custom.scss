@@ -16,7 +16,8 @@ article table { font-size: .92rem; }
 .page-title { font-size: 1.4rem; line-height: 1.5; }
 .site-navigation { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--lightgray); margin-bottom: 1.2rem; font-size: .85rem; }
 .site-navigation .nav-home { font-weight: 600; color: var(--dark); white-space: nowrap; }
-.site-navigation > div { display: flex; gap: 1.2rem; }
+.site-navigation > div { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; }
+.site-navigation > div > a { white-space: nowrap; }
 .site-navigation a:hover { text-decoration: underline; text-underline-offset: .3em; }
 .publication-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.1rem; font-size: .76rem; color: var(--darkgray); padding: .3rem 0 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid var(--lightgray); }
 .version-badge { background: var(--highlight); color: var(--secondary); border-radius: 3px; padding: .2rem .5rem; font-weight: 600; }

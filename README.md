@@ -9,7 +9,7 @@
 本仓库位于 `D:\Document\Knowledge\knowledge-site`，与研究库 `my_knowledge` 并列，是独立 Git 仓库。
 最初从研究库的 Public 复制了 5 篇稿件；原件保留。以后只手动维护本仓库的 `content/`，没有同步脚本，也没有指向研究库的链接或依赖。
 
-`content/learning/`：学习方法；`content/economics/`：经济学；`content/language/`：语言与文字；`content/framework/`：理论框架；`content/about.md`：作者与版权；`content/index.md`：首页。
+`content/learning/`：学习方法；`content/economics/`：经济学；`content/language/`：语言与文字；`content/framework/`：理论框架；`content/safety/`：安全研究；`content/about.md`：作者与版权；`content/index.md`：首页。
 
 ## 更新文章
 
@@ -29,6 +29,8 @@ kind: article
 ```
 
 `created` 保留初始日期；`updated` 改成实际修改日期。重大内容修订提升次版本（0.1 → 0.2），勘误提升修订号（0.2 → 0.2.1）。替换正文时也要保留并更新这些元数据。旧版由 Git 历史保留，不在网站重复展示。
+
+迁移已发布文章的栏目时，在 frontmatter 的 `aliases` 列表中保留旧路径（例如 `framework/viability-theory`），使旧网址跳转至新网址。
 
 新增文章放入对应栏目，补全元数据，并在栏目 index.md 中加入链接。首页精选卡片位于 `quartz/components/Publication.tsx`。
 
