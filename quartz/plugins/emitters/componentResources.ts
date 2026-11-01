@@ -129,14 +129,24 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.head.appendChild(plausibleScript);
     `)
   } else if (cfg.analytics?.provider === "umami") {
+    const hostname = cfg.baseUrl ? new URL(`https://${cfg.baseUrl}`).hostname : ""
+    // The tracker handles History API navigation itself; do not also count Quartz nav events.
     componentResources.afterDOMLoaded.push(`
-      const umamiScript = document.createElement("script");
-      umamiScript.src = "${cfg.analytics.host ?? "https://analytics.umami.is"}/script.js";
-      umamiScript.setAttribute("data-website-id", "${cfg.analytics.websiteId}");
-      umamiScript.setAttribute("data-auto-track", "true");
-      umamiScript.defer = true;
-
-      document.head.appendChild(umamiScript);
+      if ((!${JSON.stringify(hostname)} || window.location.hostname === ${JSON.stringify(hostname)}) && !document.getElementById("quartz-umami-tracker")) {
+        const umamiScript = document.createElement("script");
+        umamiScript.id = "quartz-umami-tracker";
+        umamiScript.src = "${cfg.analytics.host ?? "https://analytics.umami.is"}/script.js";
+        umamiScript.setAttribute("data-website-id", "${cfg.analytics.websiteId}");
+        umamiScript.setAttribute("data-auto-track", "true");
+        umamiScript.setAttribute("data-persist", "true");
+        if (${JSON.stringify(hostname)}) umamiScript.setAttribute("data-domains", ${JSON.stringify(hostname)});
+        umamiScript.setAttribute("data-exclude-search", "true");
+        umamiScript.setAttribute("data-exclude-hash", "true");
+        umamiScript.setAttribute("data-performance", "false");
+        umamiScript.setAttribute("data-errors", "false");
+        umamiScript.defer = true;
+        document.head.appendChild(umamiScript);
+      }
     `)
   } else if (cfg.analytics?.provider === "goatcounter") {
     componentResources.afterDOMLoaded.push(`

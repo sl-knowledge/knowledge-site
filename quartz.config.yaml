@@ -4,7 +4,10 @@ configuration:
   pageTitleSuffix: " · SL"
   enableSPA: true
   enablePopovers: true
-  analytics: null
+  analytics:
+    provider: umami
+    websiteId: 8486d200-3738-4f33-a408-d8415cf6d20f
+    host: https://cloud.umami.is
   locale: zh-CN
   baseUrl: sl-knowledge.github.io/knowledge-site
   ignorePatterns:
