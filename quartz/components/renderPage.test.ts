@@ -1,5 +1,6 @@
 import test, { describe } from "node:test"
 import assert from "node:assert"
+import { runInNewContext } from "node:vm"
 import { renderTranscludes, pageResources } from "./renderPage"
 import { Root, Element } from "hast"
 import { FullSlug } from "../util/path"
@@ -324,4 +325,51 @@ describe("pageResources", () => {
       `expected contentIndex fetch without /quartz/ prefix in serve mode, got: ${inlineJsServe.script}`,
     )
   })
+
+  test("refreshes the shared index on SPA navigation at a different URL depth", async () => {
+    const resources = pageResources("/knowledge-site" as FullSlug, emptyResources)
+    const script = resources.js.find(resource => resource.contentType === "inline")
+    assert.ok(script && "script" in script)
+    const listeners = new Map<string, () => void>()
+    const requests: Array<{ url: string; cache?: string }> = []
+    let index = { "learning/index": { title: "Learning" } } as Record<string, unknown>
+    let fail = false
+    const warnings: unknown[] = []
+    const document = {
+      baseURI: "https://sl-knowledge.github.io/knowledge-site/",
+      addEventListener: (event: string, listener: () => void) => listeners.set(event, listener),
+    }
+    const sandbox: Record<string, any> = {
+      URL,
+      document,
+      console: { warn: (...args: unknown[]) => warnings.push(args) },
+      fetch: async (url: string, options: { cache?: string }) => {
+        requests.push({ url, cache: options.cache })
+        if (fail) throw new Error("offline")
+        return { ok: true, json: async () => index }
+      },
+    }
+    runInNewContext(script.script, sandbox)
+    const first = await sandbox.fetchData
+    assert.ok(!first["safety/index"])
+
+    index = { ...index, "safety/index": { title: "安全研究" } }
+    document.baseURI = "https://sl-knowledge.github.io/knowledge-site/framework/acting-under-uncertainty"
+    const refresh = listeners.get("prenav")
+    assert.ok(refresh)
+    refresh()
+    const updated = await sandbox.fetchData
+    assert.equal(updated["safety/index"].title, "安全研究")
+    assert.equal(requests.length, 2)
+    for (const request of requests) {
+      assert.equal(request.url, "https://sl-knowledge.github.io/knowledge-site/static/contentIndex.json")
+      assert.equal(request.cache, "no-cache")
+    }
+
+    fail = true
+    refresh()
+    assert.equal(await sandbox.fetchData, updated, "temporary failures retain the last usable index")
+    assert.equal(warnings.length, 1)
+  })
+
 })
