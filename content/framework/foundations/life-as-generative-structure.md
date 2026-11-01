@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/life-as-generative-structure
 ---
 
 > **公开整理版 v0.1 · 生命的关系视角与研究假说。** 以2026-09-28《生命作为生成结构：核心理论版V2》（Core v2.0）为主体整理。本文未报告新实验数据，EGBE是候选性质，桥接模型与实验计划尚待验证；本页不是已经建立生命必要充分定义的宣言。
@@ -626,4 +628,4 @@ Rosen关系生物学、RAF及化学组织理论等在原研究稿中也是后续
 
 附录C所列证明、长篇映射与旧模拟是研究档案的追溯线索。本页没有提供或重新验证这些模拟，也没有把它们作为已复现的结果。原始研究文档保留，网站稿单独维护。
 
-相关概念：[存活性理论](../safety/viability-theory.md)、[约束与未来选择](./constraints-and-future-options.md)、[表示与检验](./what-belongs-in-a-model.md)、[原创性与独立验证计划](./originality-and-validation.md)。
+相关概念：[存活性理论](../../safety/viability-theory.md)、[约束与未来选择](../book/constraints-and-future-options.md)、[表示与检验](../book/what-belongs-in-a-model.md)、[原创性与独立验证计划](../methods/originality-and-validation.md)。

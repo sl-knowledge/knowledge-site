@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/freedom-and-future-options
 ---
 
 > **公开整理版 v0.1 · 个人哲学与行动方法。** 根据《自由、逍遥与可行状态空间》的讨论稿整理。这是一种理解选择、能力与承诺的思考方式；文中的庄子式表达为作者的当代阐释，公式式比喻不作为心理学测量或实证结论。
@@ -114,4 +116,4 @@ kind: article
 
 这里最值得保留的一句话是：**真正的自由，是环境变化以后仍有路可走，也能在理解这些可能之后，自主选择并承担其中一条。**
 
-相关阅读：[约束、可行性与未来选择](./constraints-and-future-options.md)、[框架驱动的学习循环](../learning/framework-driven-learning.md)。
+相关阅读：[约束、可行性与未来选择](../book/constraints-and-future-options.md)、[框架驱动的学习循环](../../learning/framework-driven-learning.md)。

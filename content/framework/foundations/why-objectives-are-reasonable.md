@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/why-objectives-are-reasonable
 ---
 
 > **公开整理版 v0.1 · 价值论与研究治理。** 根据同题研究笔记整理，保留“目标不能持续破坏其承载条件”“为未来保留选择与纠错能力”的主线，补充事实与价值的区分、受影响者的地位，以及目标制定与修订程序。本文提出可以讨论和反驳的规范立场，不把它作为从物理定律唯一推出的社会最优目标。
@@ -132,4 +134,4 @@ kind: article
 
 上述文献是相关思想参照，并不共同构成对本文全部立场的证明。原研究笔记中的生存、主体、指标、长期开放性与自我否定问题均予保留；公开整理补充了价值前提和程序条件，收紧了单一指标必然导致某种社会结果的表述。没有将这些改写作为经验研究已经取得的结果。
 
-相关阅读：[自由与逍遥](./freedom-and-future-options.md)、[不确定世界中的行动](./acting-under-uncertainty.md)、[人机协作研究系统](./human-ai-research-system.md)、[生命作为生成结构](./life-as-generative-structure.md)。
+相关阅读：[自由与逍遥](./freedom-and-future-options.md)、[不确定世界中的行动](../book/acting-under-uncertainty.md)、[人机协作研究系统](../book/human-ai-research-system.md)、[生命作为生成结构](./life-as-generative-structure.md)。

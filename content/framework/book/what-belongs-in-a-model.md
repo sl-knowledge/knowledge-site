@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/what-belongs-in-a-model
 ---
 
 > **公开整理版 v0.1 · 研究方法与待验证框架。** 根据2026-10-06书稿《Representation》结构合并稿v2.0整理，保留十二章主线，补充独立导言、贯穿案例与研究出处。本文提出组织研究与检验的方法，尚未证明整套流程能稳定提高预测或决策表现。

@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/human-ai-research-system
 ---
 
 > **公开整理版 v0.1 · 研究方法与系统设计提案。** 保留2026-10-06书稿《Human–AI Research OS》结构合并稿v2.0的十章主体，结合2026-10-09《人机联合认知研究总纲》v1.1整理。本文描述应如何组织长期研究；功能实现情况与效果验证需要另行记录。

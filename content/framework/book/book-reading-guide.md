@@ -8,13 +8,15 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/book-reading-guide
 ---
 
 > **公开整理版 v0.1 · 第一稿阅读入口。** 根据2026-10-06《全书统一目录v1.1》与网站现有五部整理稿编制。五部保留8、12、10、12、10章，共52章；目录标题采用公开稿表述，部分措辞与原目录不同。
 
 ## 从哪里开始？
 
-初次阅读，可以先看[总架构](./research-architecture.md)，了解整套研究试图回答什么，再依次读五部主体。需要查词时使用[统一术语与符号](./canonical-vocabulary.md)；关心研究如何被检验，可直接进入[原创性与独立验证计划](./originality-and-validation.md)。
+初次阅读，可以先看[总架构](../methods/research-architecture.md)，了解整套研究试图回答什么，再依次读五部主体。需要查词时使用[统一术语与符号](../methods/canonical-vocabulary.md)；关心研究如何被检验，可直接进入[原创性与独立验证计划](../methods/originality-and-validation.md)。
 
 这些文章沿着一条主线展开：现实证据 → 构造表示 → 推理 → 预测与行动 → 反馈 → 修订。五部承担不同责任，既可顺读，也可从当前问题进入。
 
@@ -115,16 +117,16 @@ kind: article
 
 | 文档 | 作用 |
 | --- | --- |
-| [开放世界研究的总架构](./research-architecture.md) | 定位R1、R2，说明表示、推理、行动与修订之间的接口 |
-| [统一术语、符号与知识等级](./canonical-vocabulary.md) | 查定义、知识地位、符号与旧词替换 |
-| [原创性自查与独立验证计划](./originality-and-validation.md) | 区分已有方法与候选贡献，提出尚待执行的实验 |
-| [从研究卡片到书稿：一致性审计与修订说明](./consistency-and-revision.md) | 记录八项概念修正、定义分工与历史编辑决定 |
+| [开放世界研究的总架构](../methods/research-architecture.md) | 定位R1、R2，说明表示、推理、行动与修订之间的接口 |
+| [统一术语、符号与知识等级](../methods/canonical-vocabulary.md) | 查定义、知识地位、符号与旧词替换 |
+| [原创性自查与独立验证计划](../methods/originality-and-validation.md) | 区分已有方法与候选贡献，提出尚待执行的实验 |
+| [从研究卡片到书稿：一致性审计与修订说明](../methods/consistency-and-revision.md) | 记录八项概念修正、定义分工与历史编辑决定 |
 
 ## 怎样使用这些文章？
 
 做具体分析时，先用第一部明确系统与可行性，再用第二部建立可检验表示；需要行动时进入第三部。投资问题继续读第四部，长期维护证据和研究进展则使用第五部。结果不符时，回到表示与行动理由，而不是只改写结论。
 
-如果关心航空和跨领域安全，可以另读[安全研究](../safety/index.md)。它是相关应用系列，未计入这52章。
+如果关心航空和跨领域安全，可以另读[安全研究](../../safety/index.md)。它是相关应用系列，未计入这52章。
 
 ## 整理范围与保留原稿
 

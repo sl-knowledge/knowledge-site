@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/canonical-vocabulary
 ---
 
 > **公开整理版 v0.1 · 本书内部术语规范。** 根据2026-10-06《Canonical Vocabulary & Notation v1.0》整理。这里的“统一”适用于本书及其公开整理稿，不表示各研究领域都采用同一术语，也不表示工作定义已成为学界标准。
@@ -73,7 +75,7 @@ kind: article
 | 存活性边界（Viability Boundary） | 在指定模型、控制和时域下失去持续路径的边界 |
 | 可达前沿（Reachability Frontier） | 当前条件下可达集合的边界 |
 
-讨论“接近边界”时要指明是哪一种。关于数学概念的入门与来源，见[存活性理论](../safety/viability-theory.md)。
+讨论“接近边界”时要指明是哪一种。关于数学概念的入门与来源，见[存活性理论](../../safety/viability-theory.md)。
 
 “自由”保留为自然语言上位词，具体研究拆成可达选择、到达后仍可持续的选择、以及环境改变后重构路径的能力。不能用一个状态数量直接给个人、企业和国家排出通用自由分数。
 
@@ -179,7 +181,7 @@ kind: article
 
 新增资本回报率的差分近似需要考虑资本形成、会计口径和时滞。边际购买力、叙事阶段和市场生命周期都是待操作化的表示，不作为价格预测的乘法定律。组合可生存性则关注资金与流动性冲击下能否继续履约和调整，不等同于低波动。
 
-具体说明与金融概念来源见[投资的三个系统](./investment-three-systems.md)。
+具体说明与金融概念来源见[投资的三个系统](../book/investment-three-systems.md)。
 
 ## 十二、旧表达的迁移与版本规则
 
@@ -196,4 +198,4 @@ kind: article
 
 普通语言优先，英文术语用于保持概念对应，公式仅在消除歧义、支持推导或操作化时使用。本公开版与原术语文件分别编号；实质定义或符号改变应升级版本并记录理由，例子与文字调整按公开版本规则维护。
 
-配套阅读：[总架构](./research-architecture.md)、[一致性审计与修订说明](./consistency-and-revision.md)、[五部阅读总览](./book-reading-guide.md)。
+配套阅读：[总架构](./research-architecture.md)、[一致性审计与修订说明](./consistency-and-revision.md)、[五部阅读总览](../book/book-reading-guide.md)。

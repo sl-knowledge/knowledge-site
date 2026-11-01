@@ -18,26 +18,60 @@ const entries = [
   ["06", "语言与文字", "文字的起源：语言结构如何长出书写系统", "一个生成器和三个参数，探索书写系统形成与分化。", "language/origins-of-writing", "v0.1"],
   ["07", "语言与文字", "概念打包与字的约束：汉字如何固化汉语的单音节语素结构", "从同态码与任意码出发，追问汉字、表达与学习的关系。", "language/concept-packaging-and-characters", "v0.1"],
   ["08", "学习方法", "给中文母语学习英语者的建议", "把另一种编码方式转成可调用的英语习惯。", "learning/english-for-chinese-speakers", "v0.1"],
-  ["09", "理论框架", "约束、可行性与未来选择：复杂系统分析框架", "区分可达与可生存，用压力测试和反馈修订理解。", "framework/constraints-and-future-options", "v0.1"],
-  ["10", "理论框架", "过去的成功，为什么可能成为下一次转型的约束？", "从索尼与苹果的数字音乐案例出发，区分资源、组织约束、事前准备、竞争窗口与历史偶然性。", "framework/success-and-transition", "v0.1"],
-  ["11", "理论框架", "东方雨虹：业务重构，怎样才算真正改善？", "把渠道结构变化、信用资本效率和海外能力迁移分别验证，研究经营变化如何转成持续现金回报。", "framework/business-reconstruction-yuhong", "v0.1"],
-  ["12", "理论框架", "自由与逍遥：在约束中保留未来选择", "从可达路径、恢复能力、适应时间与自主承诺，思考个人如何面对变化并认真选择生活。", "framework/freedom-and-future-options", "v0.1"],
-  ["13", "理论框架", "人机协作研究系统：让证据、预测与修订长期运行", "从一次回答走向可追溯、可更新、可验证的长期研究状态。", "framework/human-ai-research-system", "v0.1"],
-  ["14", "理论框架", "我们如何知道什么值得进入模型", "从开放世界证据到竞争解释、预测检验和最小修订。", "framework/what-belongs-in-a-model", "v0.1"],
-  ["15", "理论框架", "不确定世界中的行动", "把预测放进后果结构，比较等待、承诺和可更新的行动策略。", "framework/acting-under-uncertainty", "v0.1"],
-  ["16", "理论框架", "投资的三个系统：公司、市场与投资者", "保留十二章主线，从经营状态和每股价值，到预期差、交易执行与投资者的持续决策能力。", "framework/investment-three-systems", "v0.1"],
+  ["09", "五部书稿", "约束、可行性与未来选择：复杂系统分析框架", "区分可达与可生存，用压力测试和反馈修订理解。", "framework/book/constraints-and-future-options", "v0.1"],
+  ["10", "案例研究", "过去的成功，为什么可能成为下一次转型的约束？", "从索尼与苹果的数字音乐案例出发，区分资源、组织约束、事前准备、竞争窗口与历史偶然性。", "framework/cases/success-and-transition", "v0.1"],
+  ["11", "案例研究", "东方雨虹：业务重构，怎样才算真正改善？", "把渠道结构变化、信用资本效率和海外能力迁移分别验证，研究经营变化如何转成持续现金回报。", "framework/cases/business-reconstruction-yuhong", "v0.1"],
+  ["12", "系统、生命与价值", "自由与逍遥：在约束中保留未来选择", "从可达路径、恢复能力、适应时间与自主承诺，思考个人如何面对变化并认真选择生活。", "framework/foundations/freedom-and-future-options", "v0.1"],
+  ["13", "五部书稿", "人机协作研究系统：让证据、预测与修订长期运行", "从一次回答走向可追溯、可更新、可验证的长期研究状态。", "framework/book/human-ai-research-system", "v0.1"],
+  ["14", "五部书稿", "我们如何知道什么值得进入模型", "从开放世界证据到竞争解释、预测检验和最小修订。", "framework/book/what-belongs-in-a-model", "v0.1"],
+  ["15", "五部书稿", "不确定世界中的行动", "把预测放进后果结构，比较等待、承诺和可更新的行动策略。", "framework/book/acting-under-uncertainty", "v0.1"],
+  ["16", "五部书稿", "投资的三个系统：公司、市场与投资者", "保留十二章主线，从经营状态和每股价值，到预期差、交易执行与投资者的持续决策能力。", "framework/book/investment-three-systems", "v0.1"],
   ["17", "安全研究", "存活性理论：当前安全，是否意味着未来仍有路？", "从约束集、存活核、调节映射和捕获盆出发，区分数学结果、航空应用与教学设想。", "safety/viability-theory", "v0.1"],
   ["18", "安全研究", "Viability-First Authority Allocation in Flight Deck Automation", "An English position paper on control responsibility, state uncertainty and joint constraints, with a conditional argument and verification agenda.", "safety/viability-first-flight-deck", "v0.1"],
   ["19", "安全研究", "Viability-First Safety Design: A Domain-General Theory", "An English research hypothesis comparing recovery, observability, latency and coupling across safety-critical domains.", "safety/viability-first-safety-design", "v0.1"],
-  ["20", "理论框架", "开放世界研究的总架构：表示、推理、行动与修订", "从两个核心研究问题出发，说明表示发现、既有方法、反馈诊断与人机执行的完整闭环。", "framework/research-architecture", "v0.1"],
-  ["21", "理论框架", "统一术语、符号与知识等级", "将状态、约束、可达性、表示失效和研究治理的定义放在同一份可查阅规范中。", "framework/canonical-vocabulary", "v0.1"],
-  ["22", "理论框架", "原创性自查与独立验证计划", "比较六项候选思想，提出基线、消融、前瞻预测和表示修订的验证方案。", "framework/originality-and-validation", "v0.1"],
-  ["23", "理论框架", "从研究卡片到书稿：一致性审计与修订说明", "记录八项关键概念修正、五部的定义分工，以及从卡片到书稿的编辑原则。", "framework/consistency-and-revision", "v0.1"],
-  ["24", "理论框架", "第一稿：五部五十二章阅读总览", "五部主体、52个章节直达链接，以及总架构、统一术语、验证计划和修订说明。", "framework/book-reading-guide", "v0.1"],
-  ["25", "理论框架", "生命作为生成结构：核心理论版 V2", "从关系更新、持续执行到扰动恢复，提出EGBE工作定义、三变量桥接模型与待执行的验证计划。", "framework/life-as-generative-structure", "v0.1"],
-  ["26", "理论框架", "目标函数为什么合理？", "从生存条件到价值选择，讨论目标为谁服务、长期有效选择、人的尊严，以及谁制定目标和怎样检验反馈。", "framework/why-objectives-are-reasonable", "v0.1"],
-  ["27", "理论框架", "任何系统都是宇宙的子系统", "从整体与局部出发，讨论系统边界、观察尺度、变量与噪声，以及环境改变何时需要修订模型。", "framework/systems-within-the-universe", "v0.1"],
+  ["20", "研究方法与规范", "开放世界研究的总架构：表示、推理、行动与修订", "从两个核心研究问题出发，说明表示发现、既有方法、反馈诊断与人机执行的完整闭环。", "framework/methods/research-architecture", "v0.1"],
+  ["21", "研究方法与规范", "统一术语、符号与知识等级", "将状态、约束、可达性、表示失效和研究治理的定义放在同一份可查阅规范中。", "framework/methods/canonical-vocabulary", "v0.1"],
+  ["22", "研究方法与规范", "原创性自查与独立验证计划", "比较六项候选思想，提出基线、消融、前瞻预测和表示修订的验证方案。", "framework/methods/originality-and-validation", "v0.1"],
+  ["23", "研究方法与规范", "从研究卡片到书稿：一致性审计与修订说明", "记录八项关键概念修正、五部的定义分工，以及从卡片到书稿的编辑原则。", "framework/methods/consistency-and-revision", "v0.1"],
+  ["24", "五部书稿", "第一稿：五部五十二章阅读总览", "五部主体、52个章节直达链接，以及总架构、统一术语、验证计划和修订说明。", "framework/book/book-reading-guide", "v0.1"],
+  ["25", "系统、生命与价值", "生命作为生成结构：核心理论版 V2", "从关系更新、持续执行到扰动恢复，提出EGBE工作定义、三变量桥接模型与待执行的验证计划。", "framework/foundations/life-as-generative-structure", "v0.1"],
+  ["26", "系统、生命与价值", "目标函数为什么合理？", "从生存条件到价值选择，讨论目标为谁服务、长期有效选择、人的尊严，以及谁制定目标和怎样检验反馈。", "framework/foundations/why-objectives-are-reasonable", "v0.1"],
+  ["27", "系统、生命与价值", "任何系统都是宇宙的子系统", "从整体与局部出发，讨论系统边界、观察尺度、变量与噪声，以及环境改变何时需要修订模型。", "framework/foundations/systems-within-the-universe", "v0.1"],
   ["28", "语言与文字", "词汇与经验压缩：从概念到共享符号", "从词与概念的区别出发，讨论经验如何被组织、关系如何被表达，以及序参量类比的条件与检验路径。", "language/vocabulary-and-experience-compression", "v0.1"],
+  ["29", "研究方法与规范", "CF Grammar：从约束诊断到可检验的研究表示", "用主体、目标、环境和时域组织诊断，区分支持、约束、缓冲与替代，并把机制假说放回证据和修订闭环。", "framework/methods/cf-grammar", "v0.1"],
+]
+
+const directions = [
+  [
+    "01",
+    "framework",
+    "理论框架",
+    "从五部书稿、研究方法、系统与价值、案例研究四条路线进入。"
+  ],
+  [
+    "02",
+    "learning",
+    "学习方法",
+    "通过框架、问题与反馈，把理解逐步转为可调用的能力。"
+  ],
+  [
+    "03",
+    "economics",
+    "经济学",
+    "从相互生产、相互满足需求的最小模型，理解交换与持续循环。"
+  ],
+  [
+    "04",
+    "language",
+    "语言与文字",
+    "研究词汇、经验压缩、概念打包与书写系统。"
+  ],
+  [
+    "05",
+    "safety",
+    "安全研究",
+    "在约束与不确定性下，研究安全路径、控制权与系统设计。"
+  ]
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
@@ -50,8 +84,16 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
     <h1>从小模型出发，<br />理解更大的世界。</h1>
     <p class="hero-description">关于学习、经济、语言、复杂系统与安全的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
     <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开笔记 / 05 个研究方向</span><span>首辑 · 2026.10</span></div>
-    <div class="collection-heading"><h2>从这里开始阅读</h2><span>SELECTED NOTES</span></div>
-    <div class="notes-grid">{entries.map(([no, category, title, description, slug, version]) =>
+    <div class="collection-heading"><h2>按研究方向阅读</h2><span>RESEARCH COLLECTIONS</span></div>
+    <div class="notes-grid topic-grid">{directions.map(([no, slug, title, description]) =>
+      <a class="internal note-card" href={`${root}/${slug}/`} key={slug}>
+        <div class="card-top"><span>研究方向</span><span>{no}</span></div>
+        <h3>{title}</h3><p>{description}</p>
+        <div class="card-bottom"><span>{notes.filter(file => file.slug?.startsWith(`${slug}/`)).length} 篇公开笔记</span><span>进入专题 ↗</span></div>
+      </a>
+    )}</div>
+    <div class="collection-heading"><h2>最近发表</h2><span>RECENT NOTES</span></div>
+    <div class="notes-grid recent-notes">{entries.slice(-4).reverse().map(([no, category, title, description, slug, version]) =>
       <a class="internal note-card" href={`${root}/${slug}`} key={slug}>
         <div class="card-top"><span>{category}</span><span>{no}</span></div>
         <h3>{String(metadata(slug).title ?? title)}</h3><p>{String(metadata(slug).description ?? description)}</p>

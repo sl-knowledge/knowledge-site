@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/originality-and-validation
 ---
 
 > **公开整理版 v0.1 · 原创性自查与研究设计。** 根据2026-10-05《原创性审计与独立验证计划v0.1》整理，并采用随后总架构和统一术语中的修正。下文是拟开展的比较方案，不是已经执行的实验、公开预注册或第三方原创性鉴定。
@@ -159,4 +161,4 @@ kind: article
 
 “未显著”与“等效”必须分开。真正值得保护的不是某个术语，而是允许结果改变研究立场的过程。
 
-配套阅读：[总架构](./research-architecture.md)、[统一术语](./canonical-vocabulary.md)、[人机协作研究系统](./human-ai-research-system.md)、[五部阅读总览](./book-reading-guide.md)。
+配套阅读：[总架构](./research-architecture.md)、[统一术语](./canonical-vocabulary.md)、[人机协作研究系统](../book/human-ai-research-system.md)、[五部阅读总览](../book/book-reading-guide.md)。

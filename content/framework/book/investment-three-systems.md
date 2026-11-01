@@ -9,6 +9,8 @@ published: "2026-11-01"
 publish: true
 kind: article
 language: zh
+aliases:
+  - framework/investment-three-systems
 ---
 
 > **公开整理版 v0.1 · 投资研究方法。** 根据2026-10-06《Investment》结构合并稿v2.0整理，保留十二章主线，补充独立说明、示例与研究出处。这里提出的是分析程序和待检验的工作表示，没有报告策略实盘或回测业绩。
