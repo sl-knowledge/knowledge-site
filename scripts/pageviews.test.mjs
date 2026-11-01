@@ -45,9 +45,15 @@ test("rejects a different website before sending a statistics request", async ()
     return json({ websiteId: "different-website", token: "test" })
   } }))
   assert.equal(calls, 1)
-  for (const url of ["https://evil.example/share/test", "http://cloud.umami.is/analytics/us/share/test", sampleShare + "?token=test"]) {
+  for (const url of ["https://evil.example/share/test", "http://cloud.umami.is/analytics/us/share/test", "https://cloud.umami.is/analytics/us/websites/test"]) {
     assert.throws(() => shareEndpoint(url))
   }
+})
+
+test("accepts copied Markdown links and share views without applying dashboard filters", () => {
+  const expected = shareEndpoint(sampleShare)
+  assert.deepEqual(shareEndpoint(`[Umami](${sampleShare})`), expected)
+  assert.deepEqual(shareEndpoint(sampleShare + "/sl-knowledge.github.io/overview?date=0month#details"), expected)
 })
 
 test("a refresh failure retains the old timestamp and aggregate without leaking errors", async () => {

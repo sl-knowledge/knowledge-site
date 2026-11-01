@@ -9,9 +9,13 @@ class StatisticsError extends Error {}
 
 export function shareEndpoint(value) {
   let url
-  try { url = new URL(value.trim()) } catch { throw new StatisticsError("UMAMI_SHARE_URL is not a valid URL") }
-  const match = url.pathname.match(/^\/analytics\/(us|eu)\/share\/([A-Za-z0-9_-]+)\/?$/)
-  if (url.origin !== "https://cloud.umami.is" || url.username || url.password || !match || url.search || url.hash) {
+  // Accept a copied Markdown link as well as a plain address. Share pages may
+  // append a domain/view and date filters; our own request defines the time range.
+  const supplied = value.trim()
+  const address = supplied.match(/^\[[^\]\r\n]*\]\((https:\/\/[^)\r\n]+)\)$/)?.[1] ?? supplied
+  try { url = new URL(address) } catch { throw new StatisticsError("UMAMI_SHARE_URL is not a valid URL") }
+  const match = url.pathname.match(/^\/analytics\/(us|eu)\/share\/([A-Za-z0-9_-]+)(?:\/[^?#]*)?$/)
+  if (url.origin !== "https://cloud.umami.is" || url.username || url.password || !match) {
     throw new StatisticsError("UMAMI_SHARE_URL must contain only the full Umami Cloud regional Share URL")
   }
   return { api: `https://gateway-${match[1]}.umami.is/api`, slug: match[2] }
