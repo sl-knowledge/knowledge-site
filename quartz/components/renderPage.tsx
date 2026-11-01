@@ -72,7 +72,25 @@ export function pageResources(
   })
 
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
-  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+  // This script survives SPA navigation, so its shared promise must be refreshed.
+  // Resolve the URL once: later navigations may have a different directory depth.
+  const contentIndexScript = `
+var fetchData
+{
+  const indexUrl = new URL(${JSON.stringify(contentIndexPath)}, document.baseURI).href
+  const loadIndex = () => fetch(indexUrl, { cache: "no-cache" }).then(response => {
+    if (!response.ok) throw new Error("Content index request failed: " + response.status)
+    return response.json()
+  })
+  fetchData = loadIndex()
+  document.addEventListener("prenav", () => {
+    const previous = fetchData
+    fetchData = loadIndex().catch(error => {
+      console.warn("Could not refresh content index; keeping the previous index", error)
+      return previous
+    })
+  })
+}`
 
   const resources: StaticResources = {
     css: [
