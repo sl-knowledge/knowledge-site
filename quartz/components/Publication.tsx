@@ -36,6 +36,7 @@ const entries = [
   ["24", "理论框架", "第一稿：五部五十二章阅读总览", "五部主体、52个章节直达链接，以及总架构、统一术语、验证计划和修订说明。", "framework/book-reading-guide", "v0.1"],
   ["25", "理论框架", "生命作为生成结构：核心理论版 V2", "从关系更新、持续执行到扰动恢复，提出EGBE工作定义、三变量桥接模型与待执行的验证计划。", "framework/life-as-generative-structure", "v0.1"],
   ["26", "理论框架", "目标函数为什么合理？", "从生存条件到价值选择，讨论目标为谁服务、长期有效选择、人的尊严，以及谁制定目标和怎样检验反馈。", "framework/why-objectives-are-reasonable", "v0.1"],
+  ["27", "理论框架", "任何系统都是宇宙的子系统", "从整体与局部出发，讨论系统边界、观察尺度、变量与噪声，以及环境改变何时需要修订模型。", "framework/systems-within-the-universe", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
