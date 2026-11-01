@@ -34,6 +34,7 @@ const entries = [
   ["22", "理论框架", "原创性自查与独立验证计划", "比较六项候选思想，提出基线、消融、前瞻预测和表示修订的验证方案。", "framework/originality-and-validation", "v0.1"],
   ["23", "理论框架", "从研究卡片到书稿：一致性审计与修订说明", "记录八项关键概念修正、五部的定义分工，以及从卡片到书稿的编辑原则。", "framework/consistency-and-revision", "v0.1"],
   ["24", "理论框架", "第一稿：五部五十二章阅读总览", "五部主体、52个章节直达链接，以及总架构、统一术语、验证计划和修订说明。", "framework/book-reading-guide", "v0.1"],
+  ["25", "理论框架", "生命作为生成结构：核心理论版 V2", "从关系更新、持续执行到扰动恢复，提出EGBE工作定义、三变量桥接模型与待执行的验证计划。", "framework/life-as-generative-structure", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
