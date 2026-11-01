@@ -5,7 +5,7 @@ export const SiteNavigation: QuartzComponent = ({ fileData }: QuartzComponentPro
   const root = pathToRoot(fileData.slug!)
   return <nav class="site-navigation" aria-label="主导航">
     <a class="internal nav-home" href={`${root}/`}>SL / 研究与学习</a>
-    <div><a class="internal" href={`${root}/learning/`}>学习方法</a><a class="internal" href={`${root}/economics/`}>经济学</a><a class="internal" href={`${root}/language/`}>语言与文字</a><a class="internal" href={`${root}/about`}>关于</a></div>
+    <div><a class="internal" href={`${root}/learning/`}>学习方法</a><a class="internal" href={`${root}/economics/`}>经济学</a><a class="internal" href={`${root}/language/`}>语言与文字</a><a class="internal" href={`${root}/framework/`}>理论框架</a><a class="internal" href={`${root}/about`}>关于</a></div>
   </nav>
 }
 
@@ -17,6 +17,8 @@ const entries = [
   ["05", "经济学", "经济活动的本质与可持续循环", "沿着生产、需求与交换，追问一个经济循环怎样持续。", "economics/sustainable-circulation", "v0.1"],
   ["06", "语言与文字", "文字的起源：语言结构如何长出书写系统", "一个生成器和三个参数，探索书写系统形成与分化。", "language/origins-of-writing", "v0.1"],
   ["07", "语言与文字", "概念打包与字的约束：汉字如何固化汉语的单音节语素结构", "从同态码与任意码出发，追问汉字、表达与学习的关系。", "language/concept-packaging-and-characters", "v0.1"],
+  ["08", "学习方法", "给中文母语学习英语者的建议", "把另一种编码方式转成可调用的英语习惯。", "learning/english-for-chinese-speakers", "v0.1"],
+  ["09", "理论框架", "约束、可行性与未来选择：复杂系统分析框架", "区分可达与可生存，用压力测试和反馈修订理解。", "framework/constraints-and-future-options", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
@@ -27,8 +29,8 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
   if (fm.kind === "home") return <section class="home-hero">
     <p class="eyebrow">SL’S FIELD NOTES · 持续修订中</p>
     <h1>从小模型出发，<br />理解更大的世界。</h1>
-    <p class="hero-description">关于学习、经济循环，以及语言与文字的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
-    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开笔记 / 03 个研究方向</span><span>首辑 · 2026.10</span></div>
+    <p class="hero-description">关于学习、经济、语言与复杂系统的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
+    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开笔记 / 04 个研究方向</span><span>首辑 · 2026.10</span></div>
     <div class="collection-heading"><h2>从这里开始阅读</h2><span>SELECTED NOTES</span></div>
     <div class="notes-grid">{entries.map(([no, category, title, description, slug, version]) =>
       <a class="internal note-card" href={`${root}/${slug}`} key={slug}>

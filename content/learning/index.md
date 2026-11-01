@@ -14,3 +14,5 @@ publish: true
 - [框架驱动的学习循环](./framework-driven-learning.md)：一页可执行的学习模板。
 - [认知失衡：问题从哪里来](./cognitive-disequilibrium.md)：问题生成与反馈的探索。
 - [把提出问题的控制权交给学习者](./asking-better-questions.md)：课程设计中的支架与逐步移交。
+
+- [给中文母语学习英语者的建议](./english-for-chinese-speakers.md)：把句子骨架、语法信息、动词搭配和练习反馈转成日常训练。
