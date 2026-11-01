@@ -22,6 +22,7 @@ const entries = [
   ["10", "理论框架", "过去的成功，为什么可能成为下一次转型的约束？", "从索尼与苹果的数字音乐案例出发，区分资源、组织约束、事前准备、竞争窗口与历史偶然性。", "framework/success-and-transition", "v0.1"],
   ["11", "理论框架", "东方雨虹：业务重构，怎样才算真正改善？", "把渠道结构变化、信用资本效率和海外能力迁移分别验证，研究经营变化如何转成持续现金回报。", "framework/business-reconstruction-yuhong", "v0.1"],
   ["12", "理论框架", "自由与逍遥：在约束中保留未来选择", "从可达路径、恢复能力、适应时间与自主承诺，思考个人如何面对变化并认真选择生活。", "framework/freedom-and-future-options", "v0.1"],
+  ["13", "理论框架", "人机协作研究系统：让证据、预测与修订长期运行", "从一次回答走向可追溯、可更新、可验证的长期研究状态。", "framework/human-ai-research-system", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
