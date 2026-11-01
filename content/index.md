@@ -4,7 +4,7 @@ description: "关于学习、经济、语言文字与复杂系统的公开研究
 author: SL
 version: "0.1"
 created: "2026-10-31"
-updated: "2026-10-31"
+updated: "2026-11-01"
 published: "2026-10-31"
 publish: true
 kind: home
