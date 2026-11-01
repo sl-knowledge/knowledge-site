@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
 
 permissions:
   contents: read
@@ -23,7 +25,12 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci --no-audit --no-fund
+      - run: node --test scripts/pageviews.test.mjs
       - run: npm run build
+      - name: Refresh public pageview total
+        env:
+          UMAMI_SHARE_URL: ${{ secrets.UMAMI_SHARE_URL }}
+        run: node scripts/update-public-pageviews.mjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: public
