@@ -1,0 +1,55 @@
+@use "./variables.scss" as *;
+
+:root {
+  --bodyFont: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --headerFont: Georgia, "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --codeFont: "Cascadia Code", Consolas, monospace;
+}
+body { -webkit-font-smoothing: antialiased; }
+article { font-size: 1rem; line-height: 1.95; }
+article p { margin: 1.1rem 0; }
+article h2 { margin-top: 2.5rem; font-size: 1.5rem; }
+article h3 { line-height: 1.6; }
+article blockquote { border-left: 2px solid var(--tertiary); margin-left: 0; padding: .15rem 1.1rem; background: var(--highlight); }
+article table { font-size: .92rem; }
+.article-title { font-size: clamp(1.8rem, 3vw, 2.65rem); line-height: 1.45; letter-spacing: -.025em; margin-top: 2rem; }
+.page-title { font-size: 1.4rem; line-height: 1.5; }
+.site-navigation { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--lightgray); margin-bottom: 1.2rem; font-size: .85rem; }
+.site-navigation .nav-home { font-weight: 600; color: var(--dark); white-space: nowrap; }
+.site-navigation > div { display: flex; gap: 1.2rem; }
+.site-navigation a:hover { text-decoration: underline; text-underline-offset: .3em; }
+.publication-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.1rem; font-size: .76rem; color: var(--darkgray); padding: .3rem 0 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid var(--lightgray); }
+.version-badge { background: var(--highlight); color: var(--secondary); border-radius: 3px; padding: .2rem .5rem; font-weight: 600; }
+.publication-footer { margin-top: 4rem; padding: 1.8rem 0; border-top: 1px solid var(--lightgray); font-size: .75rem; opacity: 1; }
+.publication-footer p { margin: 0 0 .8rem; }
+.publication-footer > div { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+.page:has(.home-hero) .article-title { display: none; }
+.page:has(.home-hero) .sidebar.right { visibility: hidden; }
+.eyebrow { font: 500 .72rem var(--bodyFont); letter-spacing: .14em; color: var(--secondary); margin: 2.3rem 0 1.3rem; }
+.home-hero h1 { font: 500 clamp(2.3rem, 4.5vw, 3.6rem)/1.35 var(--headerFont); letter-spacing: -.035em; color: var(--dark); margin: 0 0 1.5rem; }
+.hero-description { font-size: 1rem; line-height: 1.9; color: var(--darkgray); }
+.hero-bottom { display: flex; justify-content: space-between; gap: 1rem; font-size: .72rem; color: var(--darkgray); border-bottom: 1px solid var(--lightgray); margin-top: 2rem; padding-bottom: 1.3rem; }
+.collection-heading { display: flex; justify-content: space-between; align-items: baseline; margin: 2.4rem 0 1.2rem; gap: 1rem; }
+.collection-heading h2 { margin: 0; font-size: 1.4rem; font-weight: 500; }
+.collection-heading > span { font-size: .62rem; letter-spacing: .12em; color: var(--darkgray); }
+.notes-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+a.note-card { display: flex; flex-direction: column; background: transparent; border: 1px solid var(--lightgray); padding: 1.4rem; border-radius: 4px; color: var(--darkgray); font-weight: 400; transition: border-color .2s, background .2s; }
+a.note-card:hover { border-color: var(--secondary); background: var(--highlight); }
+a.note-card:first-child { grid-column: 1 / -1; background: var(--highlight); border-left: 3px solid var(--secondary); }
+.card-top, .card-bottom { display: flex; justify-content: space-between; font-size: .7rem; color: var(--secondary); }
+.note-card h3 { font: 500 1.35rem/1.5 var(--headerFont); color: var(--dark); margin: .9rem 0 .65rem; }
+.note-card p { font-size: .87rem; line-height: 1.8; margin: 0 0 1.3rem; }
+.card-bottom { margin-top: auto; padding-top: .9rem; border-top: 1px solid var(--lightgray); }
+a.note-card .external-icon { display: none; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--secondary); outline-offset: 4px; }
+@media (max-width: 800px) {
+  .site-navigation { font-size: .75rem; gap: .75rem; flex-wrap: wrap; }
+  .site-navigation > div { gap: 1rem; }
+  .home-hero h1 { font-size: clamp(1.8rem, 7.8vw, 2.45rem); }
+  .page-title { font-size: 1.05rem; }
+  .notes-grid { grid-template-columns: 1fr; }
+  .hero-bottom { flex-wrap: wrap; }
+  .collection-heading > span { font-size: .55rem; }
+  .publication-meta { gap: .6rem .9rem; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } a.note-card { transition: none; } }
