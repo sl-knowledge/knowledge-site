@@ -4,7 +4,7 @@ description: "复杂系统、约束、可生存性与未来选择的公开研究
 author: SL
 version: "0.1"
 created: "2026-10-31"
-updated: "2026-10-31"
+updated: "2026-11-01"
 published: "2026-10-31"
 publish: true
 kind: category
@@ -14,3 +14,9 @@ kind: category
 从“哪些指标重要”，走向“哪些差异会改变未来仍然可能发生什么”。
 
 - [约束、可行性与未来选择：复杂系统分析框架](./constraints-and-future-options.md)：以10月6日书稿v2.0为主体整理的独立公开稿，附三类压力测试、八步分析程序和一页研究卡。
+
+## 案例与应用
+
+- [过去的成功，为什么可能成为下一次转型的约束？](./success-and-transition.md)：从索尼与苹果的数字音乐案例出发，区分资源、组织约束、事前准备、竞争窗口与历史偶然性。
+- [东方雨虹：业务重构，怎样才算真正改善？](./business-reconstruction-yuhong.md)：把渠道结构变化、信用资本效率和海外能力迁移分别验证，研究经营变化如何转成持续现金回报。
+- [自由与逍遥：在约束中保留未来选择](./freedom-and-future-options.md)：从可达路径、恢复能力、适应时间与自主承诺，思考个人如何面对变化并认真选择生活。
