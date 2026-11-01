@@ -16,7 +16,7 @@ for (const file of files) {
   for (const key of ["created", "updated"]) if (!validDate(fm[key])) problems.push(`${file}: invalid ${key} date`)
   if (fm.updated < fm.created) problems.push(`${file}: updated date precedes created date`)
   const normalized = file.replaceAll(path.sep, "/")
-  const investmentPages = new Set(["framework/book/investment-three-systems.md", "framework/cases/index.md", "framework/cases/success-and-transition.md", "framework/cases/business-reconstruction-yuhong.md"])
+  const investmentPages = new Set(["framework/methods/investment-research-charter.md", "framework/methods/company-analysis-protocol.md", "framework/book/investment-three-systems.md", "framework/cases/index.md", "framework/cases/success-and-transition.md", "framework/cases/business-reconstruction-yuhong.md"])
   const expectedScope = normalized.startsWith("safety/") ? "safety" : investmentPages.has(normalized) ? "investment" : undefined
   if (expectedScope && fm.researchScope !== expectedScope) problems.push(`${file}: set researchScope: ${expectedScope}`)
   if (fm.researchScope !== undefined && !["safety", "investment"].includes(fm.researchScope)) problems.push(`${file}: invalid researchScope`)
