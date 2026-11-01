@@ -55,3 +55,5 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--secondary); out
   .publication-meta { gap: .6rem .9rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } a.note-card { transition: none; } }
+
+.publication-footer .site-pageviews { font-variant-numeric: tabular-nums; }

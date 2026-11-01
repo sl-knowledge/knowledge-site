@@ -1,5 +1,7 @@
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { pathToRoot } from "../util/path"
+// @ts-ignore
+import pageviewsScript from "./scripts/pageviews.inline"
 
 export const SiteNavigation: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const root = pathToRoot(fileData.slug!)
@@ -115,7 +117,10 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
 export const PublicationFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const root = pathToRoot(fileData.slug!)
   return <footer class="publication-footer"><p>© 2026 SL. All rights reserved.</p>
+    <p class="site-pageviews" data-pageviews-url={`${root}/static/pageviews.json`} aria-live="polite">累计浏览量：<span data-pageviews-count>加载中…</span></p>
     <p class="research-use-footer">本站内容为研究笔记。安全与投资内容不构成操作或交易建议。<span lang="en"> Research use only; not operational or investment advice.</span></p>
     <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>
   </footer>
 }
+
+PublicationFooter.afterDOMLoaded = pageviewsScript

@@ -46,9 +46,17 @@ kind: article
 
 `quartz.config.yaml` 使用内置 `umami` provider，追踪脚本来自 `https://cloud.umami.is/script.js`，公开Website ID为 `8486d200-3738-4f33-a408-d8415cf6d20f`。这是页面追踪标识，不是后台API密钥；后台凭据不要写进本仓库。
 
-在Umami Cloud中打开 `knowledge-site` 查看浏览量。Domain填写 `sl-knowledge.github.io`，网站路径 `/knowledge-site/` 不属于Domain。未开启公开分享看板或页脚公开计数。
+在Umami Cloud中打开 `knowledge-site` 查看浏览量。Domain填写 `sl-knowledge.github.io`，网站路径 `/knowledge-site/` 不属于Domain。页脚显示全站累计浏览量（PV），与后台使用同一数据来源。
 
 跟踪脚本仅在正式域名注入，通过 `data-persist` 保留跨页脚本并防止重复注入。Umami自动记录History API导航，不另行在Quartz的 `nav` 事件上调用 `track()`。URL参数、章节锚点不采集；不添加自定义点击、身份识别、性能、错误或回放采集。预览环境不加载统计脚本。
+
+页脚总数由 GitHub Actions 在每次发布及每小时第17分钟读取一次（调度可能延迟），然后写入 `public/static/pageviews.json`。浏览器只请求本站的汇总JSON，不接触Umami分享凭据，也不另行上报计数。总数按2026-11-01起至查询时刻计算，以Umami现有数据为准，受服务的数据保留期影响，并非永久归档计数器。
+
+在Umami的knowledge-site → Edit → Share URL生成仅开放Overview的分享链接，并将完整链接保存在本仓库的Actions Secret `UMAMI_SHARE_URL`。分享链接持有人能查看被授权的统计视图，因此不要写入仓库、工作流命令或网页。脚本支持Cloud的美国/欧洲区分享URL，并核对其Website ID；如果以后切换服务或分享链接格式，应相应更新脚本。
+
+`scripts/update-public-pageviews.mjs`只发布浏览量、统计起点和更新时间，不发布访客、来源、分享链接或token。服务临时失败时读取线上旧快照并保留原更新时间；首次取数和旧快照均不可用时构建失败，避免发布假的0。页面读取失败显示“暂不可用”。诊断时检查Actions日志和Secret设置，不要打印完整API响应或凭据。撤销分享链接后也应移除Secret并停用更新步骤；撤销不会自动删除已公开的历史汇总数字。
+
+可运行 `node --test scripts/pageviews.test.mjs` 验证凭据隔离、错误回退、零值及站内导航缓存。
 
 更换站点ID或统计服务时同步更新关于页说明。关闭统计可将 `analytics` 恢复为 `null`。过去未安装追踪器的浏览无法补记；拦截和网络失败也会使统计低于实际访问。
 
