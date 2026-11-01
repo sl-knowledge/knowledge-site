@@ -9,7 +9,7 @@
 本仓库位于 `D:\Document\Knowledge\knowledge-site`，与研究库 `my_knowledge` 并列，是独立 Git 仓库。
 最初从研究库的 Public 复制了 5 篇稿件；原件保留。以后只手动维护本仓库的 `content/`，没有同步脚本，也没有指向研究库的链接或依赖。
 
-`content/learning/`：学习方法；`content/economics/`：经济学；`content/about.md`：作者与版权；`content/index.md`：首页。
+`content/learning/`：学习方法；`content/economics/`：经济学；`content/language/`：语言与文字；`content/about.md`：作者与版权；`content/index.md`：首页。
 
 ## 更新文章
 
