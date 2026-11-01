@@ -39,6 +39,8 @@ const entries = [
   ["27", "系统、生命与价值", "任何系统都是宇宙的子系统", "从整体与局部出发，讨论系统边界、观察尺度、变量与噪声，以及环境改变何时需要修订模型。", "framework/foundations/systems-within-the-universe", "v0.1"],
   ["28", "语言与文字", "词汇与经验压缩：从概念到共享符号", "从词与概念的区别出发，讨论经验如何被组织、关系如何被表达，以及序参量类比的条件与检验路径。", "language/vocabulary-and-experience-compression", "v0.1"],
   ["29", "研究方法与规范", "CF Grammar：从约束诊断到可检验的研究表示", "用主体、目标、环境和时域组织诊断，区分支持、约束、缓冲与替代，并把机制假说放回证据和修订闭环。", "framework/methods/cf-grammar", "v0.1"],
+  ["30", "投资研究方法", "投资研究与交易决策总纲", "研究资料，不构成投资或交易建议。保留研究目标、机制、关键证据、估值情景与独立验证主线，将交易动作改为研究假说。", "framework/methods/investment-research-charter", "v0.1"],
+  ["31", "投资研究方法", "企业分析操作总纲", "研究资料，不构成投资或交易建议。从三问、分层研究与十二个问题，到财务核对、关键证据和可追溯跟踪；操作指研究流程。", "framework/methods/company-analysis-protocol", "v0.1"],
 ]
 
 const directions = [
