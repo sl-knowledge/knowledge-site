@@ -8,6 +8,8 @@ updated: "2026-10-31"
 published: "2026-10-31"
 publish: true
 kind: article
+aliases:
+  - framework/constraints-and-future-options
 ---
 
 > **公开整理版 v0.1 · 工作框架。** 以 2026-10-06《Reality：世界不是一张变量表》结构合并稿 v2.0 为主体，沿用同日总架构的术语纪律，并从 2026-09-24 方法论 v0.4 中整理压力测试与分析步骤。公开整理版本号与原研究版本号分开记录。

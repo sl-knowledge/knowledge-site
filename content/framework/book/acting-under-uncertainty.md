@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/acting-under-uncertainty
 ---
 
 > **公开整理版 v0.1 · 决策方法与工作框架。** 根据2026-10-06《Decision》结构合并稿v2.0整理，保留十章主线，补充独立说明、虚构案例与研究出处。本文整合已有决策思想并提出工作程序，整套流程的增量效果仍需检验。

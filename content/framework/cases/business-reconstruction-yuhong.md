@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/business-reconstruction-yuhong
 ---
 
 > **公开整理版 v0.1 · 经营机制案例。** 根据原研究备忘录的前六节整理，研究基准日保留为2026-10-09；本次公开整理日期为2026-11-01。文中财务口径为2026年半年度报告，围绕这一材料窗口讨论待验证机制。
@@ -88,4 +90,4 @@ kind: article
 - 组织能力、信用效率和能力迁移属于原研究的机制判断与待验证假说。
 - 本稿保留原备忘录的核心研究问题，将后续聊天中混入的估值、其他公司及新增专题留在原研究库中。
 
-相关框架：[约束、可行性与未来选择](./constraints-and-future-options.md)；历史对照：[过去的成功与下一次转型](./success-and-transition.md)。
+相关框架：[约束、可行性与未来选择](../book/constraints-and-future-options.md)；历史对照：[过去的成功与下一次转型](./success-and-transition.md)。

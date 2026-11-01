@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/consistency-and-revision
 ---
 
 > **公开整理版 v0.1 · 历史编辑审计与修订说明。** 根据2026-10-06《全书一致性审计v1.0》整理。原审计针对当时五部重构工作稿；本文说明其问题与编辑决定，不是对当前所有公开文章完成的第三方一致性认证，也不证明理论已经成立。
@@ -118,4 +120,4 @@ kind: article
 
 这些是研究定位与写作纪律的变化。其实际效果仍由[独立验证计划](./originality-and-validation.md)所提出的比较来判断。
 
-配套阅读：[总架构](./research-architecture.md)、[统一术语](./canonical-vocabulary.md)、[五部五十二章阅读总览](./book-reading-guide.md)。
+配套阅读：[总架构](./research-architecture.md)、[统一术语](./canonical-vocabulary.md)、[五部五十二章阅读总览](../book/book-reading-guide.md)。

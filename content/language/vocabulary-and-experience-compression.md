@@ -126,4 +126,4 @@ kind: article
 
 这些文献分别提供相邻研究基础，不共同构成对本文全部观点的证明，也不是完整文献综述。公开稿删除了对话中的重复、赞誉和无依据的原创性比例，区分词与概念、典型性与动力学稳定性，并将中英文整体优劣判断改为具体用法与任务的比较。本文提出研究问题与教学设想，尚未执行表中的实验。
 
-相关阅读：[文字的起源](./origins-of-writing.md)、[概念打包与字的约束](./concept-packaging-and-characters.md)、[给中文母语学习英语者的建议](../learning/english-for-chinese-speakers.md)、[我们如何知道什么值得进入模型](../framework/what-belongs-in-a-model.md)。
+相关阅读：[文字的起源](./origins-of-writing.md)、[概念打包与字的约束](./concept-packaging-and-characters.md)、[给中文母语学习英语者的建议](../learning/english-for-chinese-speakers.md)、[我们如何知道什么值得进入模型](../framework/book/what-belongs-in-a-model.md)。

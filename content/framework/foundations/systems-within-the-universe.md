@@ -8,6 +8,8 @@ updated: "2026-11-01"
 published: "2026-11-01"
 publish: true
 kind: article
+aliases:
+  - framework/systems-within-the-universe
 ---
 
 > **公开整理版 v0.1 · 整体、局部与建模尺度。** 根据同题研究笔记整理，保留系统嵌入环境、观察尺度影响表示，以及检查模型适用条件的主线。本文是一篇方法与哲学讨论，不把“尺度切片”作为新物理定律，也不以一个统一宇宙方程解释所有具体系统。
@@ -138,7 +140,7 @@ x^*=e_0+\frac{b u_0}{a}.
 
 回到温度例子，若目标是短时内部温度，简单模型可能有用。若任务改为长期能耗、植物生长或设备老化，原来没有进入模型的湿度、光照、控制策略或参数变化，就可能需要重新评估。
 
-变量增加之前，先问它是否会改变目标预测、动作或误差；同时保留监测层，防止将当前没有观察到的影响当成永远无关。这与[构造和检验表示](./what-belongs-in-a-model.md)、[统一术语](./canonical-vocabulary.md)中的取舍纪律相连。
+变量增加之前，先问它是否会改变目标预测、动作或误差；同时保留监测层，防止将当前没有观察到的影响当成永远无关。这与[构造和检验表示](../book/what-belongs-in-a-model.md)、[统一术语](../methods/canonical-vocabulary.md)中的取舍纪律相连。
 
 本篇保留的整体立场，最终落在一个具体要求上：**研究局部时，交代它与环境的联系、当前近似的依据，以及什么证据会使我们改变这种切分。**
 
@@ -150,4 +152,4 @@ x^*=e_0+\frac{b u_0}{a}.
 
 上述文献提供相邻方法基础，不是对本文全部哲学表述的证明。公开稿删除了原讨论中的赞誉性评论和对科研群体的无依据概括，收紧了参数、噪声、稳定性与相变的绝对表述，并补充两个教学模型。本文不报告新实验、预测业绩或新的普适数学结果。
 
-相关阅读：[约束、可行性与未来选择](./constraints-and-future-options.md)、[开放世界研究的总架构](./research-architecture.md)、[生命作为生成结构](./life-as-generative-structure.md)、[目标函数为什么合理？](./why-objectives-are-reasonable.md)。
+相关阅读：[约束、可行性与未来选择](../book/constraints-and-future-options.md)、[开放世界研究的总架构](../methods/research-architecture.md)、[生命作为生成结构](./life-as-generative-structure.md)、[目标函数为什么合理？](./why-objectives-are-reasonable.md)。
