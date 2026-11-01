@@ -19,6 +19,9 @@ const entries = [
   ["07", "语言与文字", "概念打包与字的约束：汉字如何固化汉语的单音节语素结构", "从同态码与任意码出发，追问汉字、表达与学习的关系。", "language/concept-packaging-and-characters", "v0.1"],
   ["08", "学习方法", "给中文母语学习英语者的建议", "把另一种编码方式转成可调用的英语习惯。", "learning/english-for-chinese-speakers", "v0.1"],
   ["09", "理论框架", "约束、可行性与未来选择：复杂系统分析框架", "区分可达与可生存，用压力测试和反馈修订理解。", "framework/constraints-and-future-options", "v0.1"],
+  ["10", "理论框架", "过去的成功，为什么可能成为下一次转型的约束？", "从索尼与苹果的数字音乐案例出发，区分资源、组织约束、事前准备、竞争窗口与历史偶然性。", "framework/success-and-transition", "v0.1"],
+  ["11", "理论框架", "东方雨虹：业务重构，怎样才算真正改善？", "把渠道结构变化、信用资本效率和海外能力迁移分别验证，研究经营变化如何转成持续现金回报。", "framework/business-reconstruction-yuhong", "v0.1"],
+  ["12", "理论框架", "自由与逍遥：在约束中保留未来选择", "从可达路径、恢复能力、适应时间与自主承诺，思考个人如何面对变化并认真选择生活。", "framework/freedom-and-future-options", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
