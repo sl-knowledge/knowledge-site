@@ -42,6 +42,16 @@ kind: article
 
 声明不代替正文审读：不提供可直接执行的操作步骤、交易参数或未经验证的部署方案；研究问题、教学模型和候选策略均须说明条件与验证状态。学习文章若仅包含局部航空示例，可在示例旁加入具体用途说明。
 
+## 访问量统计（Umami）
+
+`quartz.config.yaml` 使用内置 `umami` provider，追踪脚本来自 `https://cloud.umami.is/script.js`，公开Website ID为 `8486d200-3738-4f33-a408-d8415cf6d20f`。这是页面追踪标识，不是后台API密钥；后台凭据不要写进本仓库。
+
+在Umami Cloud中打开 `knowledge-site` 查看浏览量。Domain填写 `sl-knowledge.github.io`，网站路径 `/knowledge-site/` 不属于Domain。未开启公开分享看板或页脚公开计数。
+
+跟踪脚本仅在正式域名注入，通过 `data-persist` 保留跨页脚本并防止重复注入。Umami自动记录History API导航，不另行在Quartz的 `nav` 事件上调用 `track()`。URL参数、章节锚点不采集；不添加自定义点击、身份识别、性能、错误或回放采集。预览环境不加载统计脚本。
+
+更换站点ID或统计服务时同步更新关于页说明。关闭统计可将 `analytics` 恢复为 `null`。过去未安装追踪器的浏览无法补记；拦截和网络失败也会使统计低于实际访问。
+
 ## 本地检查与预览
 
 需要 Node.js 24 和 npm：
