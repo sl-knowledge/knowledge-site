@@ -25,6 +25,10 @@ const entries = [
   ["13", "理论框架", "人机协作研究系统：让证据、预测与修订长期运行", "从一次回答走向可追溯、可更新、可验证的长期研究状态。", "framework/human-ai-research-system", "v0.1"],
   ["14", "理论框架", "我们如何知道什么值得进入模型", "从开放世界证据到竞争解释、预测检验和最小修订。", "framework/what-belongs-in-a-model", "v0.1"],
   ["15", "理论框架", "不确定世界中的行动", "把预测放进后果结构，比较等待、承诺和可更新的行动策略。", "framework/acting-under-uncertainty", "v0.1"],
+  ["16", "理论框架", "投资的三个系统：公司、市场与投资者", "保留十二章主线，从经营状态和每股价值，到预期差、交易执行与投资者的持续决策能力。", "framework/investment-three-systems", "v0.1"],
+  ["17", "理论框架", "存活性理论：当前安全，是否意味着未来仍有路？", "从约束集、存活核、调节映射和捕获盆出发，区分数学结果、航空应用与教学设想。", "framework/viability-theory", "v0.1"],
+  ["18", "理论框架", "Viability-First Authority Allocation in Flight Deck Automation", "An English position paper on control responsibility, state uncertainty and joint constraints, with a conditional argument and verification agenda.", "framework/viability-first-flight-deck", "v0.1"],
+  ["19", "理论框架", "Viability-First Safety Design: A Domain-General Theory", "An English research hypothesis comparing recovery, observability, latency and coupling across safety-critical domains.", "framework/viability-first-safety-design", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
