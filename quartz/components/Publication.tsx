@@ -29,6 +29,11 @@ const entries = [
   ["17", "安全研究", "存活性理论：当前安全，是否意味着未来仍有路？", "从约束集、存活核、调节映射和捕获盆出发，区分数学结果、航空应用与教学设想。", "safety/viability-theory", "v0.1"],
   ["18", "安全研究", "Viability-First Authority Allocation in Flight Deck Automation", "An English position paper on control responsibility, state uncertainty and joint constraints, with a conditional argument and verification agenda.", "safety/viability-first-flight-deck", "v0.1"],
   ["19", "安全研究", "Viability-First Safety Design: A Domain-General Theory", "An English research hypothesis comparing recovery, observability, latency and coupling across safety-critical domains.", "safety/viability-first-safety-design", "v0.1"],
+  ["20", "理论框架", "开放世界研究的总架构：表示、推理、行动与修订", "从两个核心研究问题出发，说明表示发现、既有方法、反馈诊断与人机执行的完整闭环。", "framework/research-architecture", "v0.1"],
+  ["21", "理论框架", "统一术语、符号与知识等级", "将状态、约束、可达性、表示失效和研究治理的定义放在同一份可查阅规范中。", "framework/canonical-vocabulary", "v0.1"],
+  ["22", "理论框架", "原创性自查与独立验证计划", "比较六项候选思想，提出基线、消融、前瞻预测和表示修订的验证方案。", "framework/originality-and-validation", "v0.1"],
+  ["23", "理论框架", "从研究卡片到书稿：一致性审计与修订说明", "记录八项关键概念修正、五部的定义分工，以及从卡片到书稿的编辑原则。", "framework/consistency-and-revision", "v0.1"],
+  ["24", "理论框架", "第一稿：五部五十二章阅读总览", "五部主体、52个章节直达链接，以及总架构、统一术语、验证计划和修订说明。", "framework/book-reading-guide", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
