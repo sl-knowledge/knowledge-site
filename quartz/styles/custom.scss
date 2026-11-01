@@ -23,6 +23,7 @@ article table { font-size: .92rem; }
 .version-badge { background: var(--highlight); color: var(--secondary); border-radius: 3px; padding: .2rem .5rem; font-weight: 600; }
 .publication-footer { margin-top: 4rem; padding: 1.8rem 0; border-top: 1px solid var(--lightgray); font-size: .75rem; opacity: 1; }
 .publication-footer p { margin: 0 0 .8rem; }
+.publication-footer .research-use-footer { line-height: 1.8; max-width: 58rem; margin-bottom: 1rem; }
 .publication-footer > div { display: flex; flex-wrap: wrap; gap: 1.25rem; }
 .page:has(.home-hero) .article-title { display: none; }
 .page:has(.home-hero) .sidebar.right { visibility: hidden; }
