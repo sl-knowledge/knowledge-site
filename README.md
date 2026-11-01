@@ -32,7 +32,15 @@ kind: article
 
 迁移已发布文章的栏目时，在 frontmatter 的 `aliases` 列表中保留旧路径（例如 `framework/viability-theory`），使旧网址跳转至新网址。
 
-新增文章放入对应栏目，补全元数据，并在栏目 index.md 中加入链接。首页精选卡片位于 `quartz/components/Publication.tsx`。
+新增文章放入对应栏目，补全元数据，并在栏目 index.md 中加入链接。首页研究方向和最近发表入口位于 `quartz/components/Publication.tsx`。
+
+## 安全与投资内容的研究边界
+
+完整声明位于 `content/disclaimer.md`，全站页脚始终提供入口。安全、航空和设备操作相关内容的 frontmatter 使用 `researchScope: safety`；投资、交易和企业投资案例使用 `researchScope: investment`。英文文章同时设置 `language: en`。
+
+构建时会在对应正文开头自动插入统一的中英文研究用途声明，网页正文和搜索全文使用同一份提示。RSS输出文章摘要，因此description也须保留“研究资料，不构成操作指引／投资或交易建议”的简明声明；英文摘要使用对应的not operational guidance／not investment or trading advice。安全栏目及现有投资专题缺失标记或摘要声明时，内容校验会失败。新增其他栏目中的敏感主题，也须主动设置标记。
+
+声明不代替正文审读：不提供可直接执行的操作步骤、交易参数或未经验证的部署方案；研究问题、教学模型和候选策略均须说明条件与验证状态。学习文章若仅包含局部航空示例，可在示例旁加入具体用途说明。
 
 ## 本地检查与预览
 

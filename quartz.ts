@@ -1,10 +1,11 @@
 import { PageTypeDispatcher } from "./quartz/plugins/pageTypes/dispatcher"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import { PublicationMath } from "./quartz/plugins/transformers/publicationMath"
+import { ResearchNotice } from "./quartz/plugins/transformers/researchNotice"
 import { SiteNavigation, PublicationMeta, PublicationFooter } from "./quartz/components/Publication"
 
 const config = await loadQuartzConfig()
-config.plugins.transformers.unshift(PublicationMath())
+config.plugins.transformers.unshift(ResearchNotice(), PublicationMath())
 export default config
 
 const loaded = await loadQuartzLayout()
