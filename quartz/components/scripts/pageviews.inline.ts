@@ -8,7 +8,11 @@ async function loadPageviews(url: string): Promise<PublicPageviews> {
   if (pageviewsCache && Date.now() - pageviewsFetchedAt < 5 * 60_000) return pageviewsCache
   if (pageviewsPending) return pageviewsPending
   pageviewsPending = (async () => {
-    const response = await fetch(url, { credentials: "omit", signal: AbortSignal.timeout(8000) })
+    // The site and its JSON snapshot deploy separately from this tab's lifetime.
+    // Bypass both browser and edge caches; keep the five-minute SPA memory cache.
+    const requestUrl = new URL(url)
+    requestUrl.searchParams.set("snapshot", String(Date.now()))
+    const response = await fetch(requestUrl.href, { cache: "no-store", credentials: "omit", signal: AbortSignal.timeout(8000) })
     if (!response.ok) throw new Error("Pageviews unavailable")
     const data = await response.json()
     if (!Number.isSafeInteger(data.pageviews) || data.pageviews < 0 ||

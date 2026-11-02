@@ -98,7 +98,10 @@ test("SPA navigation reads the aggregate once, resolves deep paths, and never se
   assert.equal((await page.nav()).text, "1,234 次")
   assert.equal((await page.nav()).text, "1,234 次")
   assert.equal(calls.length, 1)
-  assert.equal(calls[0].url, "https://sl-knowledge.github.io/knowledge-site/static/pageviews.json")
+  const request = new URL(calls[0].url)
+  assert.equal(request.origin + request.pathname, "https://sl-knowledge.github.io/knowledge-site/static/pageviews.json")
+  assert.match(request.searchParams.get("snapshot"), /^\d+$/)
+  assert.equal(calls[0].options.cache, "no-store")
   assert.equal(calls[0].options.credentials, "omit")
 })
 
