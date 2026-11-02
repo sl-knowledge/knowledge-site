@@ -2,7 +2,7 @@
 title: "生命作为生成结构：核心理论版 V2"
 description: "从关系更新、持续执行到扰动恢复，提出EGBE工作定义、三变量桥接模型与待执行的验证计划。"
 author: "SL"
-version: "0.1"
+version: "0.2"
 created: "2026-09-28"
 updated: "2026-11-01"
 published: "2026-11-01"
@@ -628,4 +628,4 @@ Rosen关系生物学、RAF及化学组织理论等在原研究稿中也是后续
 
 附录C所列证明、长篇映射与旧模拟是研究档案的追溯线索。本页没有提供或重新验证这些模拟，也没有把它们作为已复现的结果。原始研究文档保留，网站稿单独维护。
 
-相关概念：[存活性理论](../../safety/viability-theory.md)、[约束与未来选择](../book/constraints-and-future-options.md)、[表示与检验](../book/what-belongs-in-a-model.md)、[原创性与独立验证计划](../methods/originality-and-validation.md)。
+相关概念：[约束与未来选择](../book/constraints-and-future-options.md)、[表示与检验](../book/what-belongs-in-a-model.md)、[原创性与独立验证计划](../methods/originality-and-validation.md)。
