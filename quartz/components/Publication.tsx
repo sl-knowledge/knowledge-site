@@ -1,11 +1,13 @@
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { pathToRoot } from "../util/path"
+// @ts-ignore
+import pageviewsScript from "./scripts/pageviews.inline"
 
 export const SiteNavigation: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const root = pathToRoot(fileData.slug!)
   return <nav class="site-navigation" aria-label="主导航">
     <a class="internal nav-home" href={`${root}/`}>SL / 研究与学习</a>
-    <div><a class="internal" href={`${root}/learning/`}>学习方法</a><a class="internal" href={`${root}/economics/`}>经济学</a><a class="internal" href={`${root}/language/`}>语言与文字</a><a class="internal" href={`${root}/framework/`}>理论框架</a><a class="internal" href={`${root}/safety/`}>安全研究</a><a class="internal" href={`${root}/about`}>关于</a></div>
+    <div><a class="internal" href={`${root}/learning/`}>学习方法</a><a class="internal" href={`${root}/economics/`}>经济学</a><a class="internal" href={`${root}/language/`}>语言与文字</a><a class="internal" href={`${root}/framework/`}>理论框架</a><a class="internal" href={`${root}/about`}>关于</a></div>
   </nav>
 }
 
@@ -26,9 +28,6 @@ const entries = [
   ["14", "五部书稿", "我们如何知道什么值得进入模型", "从开放世界证据到竞争解释、预测检验和最小修订。", "framework/book/what-belongs-in-a-model", "v0.1"],
   ["15", "五部书稿", "不确定世界中的行动", "把预测放进后果结构，比较等待、承诺和可更新的行动策略。", "framework/book/acting-under-uncertainty", "v0.1"],
   ["16", "五部书稿", "投资的三个系统：公司、市场与投资者", "保留十二章主线，从经营状态和每股价值，到预期差、交易执行与投资者的持续决策能力。", "framework/book/investment-three-systems", "v0.1"],
-  ["17", "安全研究", "存活性理论：当前安全，是否意味着未来仍有路？", "从约束集、存活核、调节映射和捕获盆出发，区分数学结果、航空应用与教学设想。", "safety/viability-theory", "v0.1"],
-  ["18", "安全研究", "Viability-First Authority Allocation in Flight Deck Automation", "An English position paper on control responsibility, state uncertainty and joint constraints, with a conditional argument and verification agenda.", "safety/viability-first-flight-deck", "v0.1"],
-  ["19", "安全研究", "Viability-First Safety Design: A Domain-General Theory", "An English research hypothesis comparing recovery, observability, latency and coupling across safety-critical domains.", "safety/viability-first-safety-design", "v0.1"],
   ["20", "研究方法与规范", "开放世界研究的总架构：表示、推理、行动与修订", "从两个核心研究问题出发，说明表示发现、既有方法、反馈诊断与人机执行的完整闭环。", "framework/methods/research-architecture", "v0.1"],
   ["21", "研究方法与规范", "统一术语、符号与知识等级", "将状态、约束、可达性、表示失效和研究治理的定义放在同一份可查阅规范中。", "framework/methods/canonical-vocabulary", "v0.1"],
   ["22", "研究方法与规范", "原创性自查与独立验证计划", "比较六项候选思想，提出基线、消融、前瞻预测和表示修订的验证方案。", "framework/methods/originality-and-validation", "v0.1"],
@@ -67,12 +66,6 @@ const directions = [
     "language",
     "语言与文字",
     "研究词汇、经验压缩、概念打包与书写系统。"
-  ],
-  [
-    "05",
-    "safety",
-    "安全研究",
-    "在约束与不确定性下，研究安全路径、控制权与系统设计。"
   ]
 ]
 
@@ -84,8 +77,8 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
   if (fm.kind === "home") return <section class="home-hero">
     <p class="eyebrow">SL’S FIELD NOTES · 持续修订中</p>
     <h1>从小模型出发，<br />理解更大的世界。</h1>
-    <p class="hero-description">关于学习、经济、语言、复杂系统与安全的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
-    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开笔记 / 05 个研究方向</span><span>首辑 · 2026.10</span></div>
+    <p class="hero-description">关于学习、经济、语言与复杂系统的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
+    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开笔记 / {String(directions.length).padStart(2, "0")} 个研究方向</span><span>首辑 · 2026.10</span></div>
     <div class="collection-heading"><h2>按研究方向阅读</h2><span>RESEARCH COLLECTIONS</span></div>
     <div class="notes-grid topic-grid">{directions.map(([no, slug, title, description]) =>
       <a class="internal note-card" href={`${root}/${slug}/`} key={slug}>
@@ -115,7 +108,10 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
 export const PublicationFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const root = pathToRoot(fileData.slug!)
   return <footer class="publication-footer"><p>© 2026 SL. All rights reserved.</p>
+    <p class="site-pageviews" data-pageviews-url={`${root}/static/pageviews.json`} aria-live="polite">累计浏览量：<span data-pageviews-count>加载中…</span></p>
     <p class="research-use-footer">本站内容为研究笔记。安全与投资内容不构成操作或交易建议。<span lang="en"> Research use only; not operational or investment advice.</span></p>
     <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>
   </footer>
 }
+
+PublicationFooter.afterDOMLoaded = pageviewsScript
