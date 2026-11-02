@@ -4,7 +4,7 @@
       "id": "theory",
       "title": "理论体系",
       "slug": "framework/index",
-      "description": "从现实、表示和决策三条主线，理解概念、条件与价值前提。",
+      "description": "我们怎样理解一个系统，又怎样知道自己的解释靠不靠谱？从这些基本问题慢慢展开。",
       "groups": [
         {
           "id": "architecture",
@@ -57,7 +57,7 @@
       "id": "methods",
       "title": "研究方法",
       "slug": "framework/methods/index",
-      "description": "构造候选表示，用压力测试和证据检查判断，并持续维护研究。",
+      "description": "遇到一个问题，怎样提问、寻找证据，再回过头来检查自己的判断。",
       "groups": [
         {
           "id": "representation",
@@ -94,7 +94,7 @@
       "id": "applications",
       "title": "理论应用",
       "slug": "applications/index",
-      "description": "把理论放进企业、经济、学习与合作等领域，检查假设、材料和解释。",
+      "description": "把想法放回学习、经济、企业和合作这些具体问题里，看看能发现什么。",
       "groups": [
         {
           "id": "company",
@@ -161,7 +161,7 @@
       "id": "book",
       "title": "书稿阅读",
       "slug": "framework/book/index",
-      "description": "沿五部五十二章连续阅读，理解理论、领域应用与长期研究的完整论证。",
+      "description": "想从头读起，可以沿着五部书稿，把这些想法的来龙去脉串起来。",
       "groups": [
         {
           "id": "guide",

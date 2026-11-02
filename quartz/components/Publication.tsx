@@ -56,12 +56,12 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
   const metadata = (slug: string): Record<string, unknown> => allFiles.find(file => file.slug === slug)?.frontmatter ?? {}
   const root = pathToRoot(fileData.slug!)
   if (fm.kind === "home") return <section class="home-hero">
-    <p class="eyebrow">SL’S RESEARCH · 持续修订中</p>
-    <h1>从理论出发，<br />在现实中检验与修订。</h1>
-    <p class="hero-description">围绕现实、表示与决策，建立相互连接的研究框架。<br />从共同概念与方法，走向有条件、可检验的领域应用。</p>
+    <p class="eyebrow">SL’S FIELD NOTES · 持续修订中</p>
+    <h1>从小模型出发，<br />理解更大的世界。</h1>
+    <p class="hero-description">关于学习、经济、语言与复杂系统的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
     <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开文章 / 四条阅读路线</span><a class="internal" href={`${root}/updates`}>网站 v{release.version} · {release.date}</a></div>
-    <div class="research-cycle" aria-label="研究闭环">现实与证据 <span>→</span> 构造表示 <span>→</span> 推理与决策 <span>→</span> 反馈与修订</div>
-    <div class="collection-heading"><h2>理解体系，再进入应用</h2><span>READING PATHS</span></div>
+    <div class="research-cycle" aria-label="探索的过程">提出问题 <span>→</span> 试着解释 <span>→</span> 看看现实 <span>→</span> 继续追问</div>
+    <div class="collection-heading"><h2>从这里开始</h2><span>READING PATHS</span></div>
     <div class="notes-grid topic-grid">{readingSections.map((section, i) =>
       <a class="internal note-card" href={readingHref(root, section.slug)} key={section.id}>
         <div class="card-top"><span>阅读路线</span><span>{String(i + 1).padStart(2, "0")}</span></div>
