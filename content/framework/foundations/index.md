@@ -2,13 +2,15 @@
 title: "系统、生命与价值"
 description: "从整体与局部，到生命定义、目标合理性与自由选择的四篇专题。"
 author: "SL"
-version: "0.2"
+version: "0.3"
 created: "2026-11-01"
-updated: "2026-11-01"
+updated: "2026-11-02"
 published: "2026-11-01"
 publish: true
 kind: category
 ---
+
+这是保留原主题关系的交叉索引。[系统、目标与价值](../index.md#values)和[生命专题](../index.md#explorations)从理论体系进入；[个人选择](../../applications/index.md#personal)从理论应用进入。
 
 这些专题可以独立阅读。它们从不同层面追问：我们怎样划分系统，怎样理解生命，又怎样选择值得追求的目标？
 

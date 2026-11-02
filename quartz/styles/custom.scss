@@ -57,3 +57,34 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--secondary); out
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } a.note-card { transition: none; } }
 
 .publication-footer .site-pageviews { font-variant-numeric: tabular-nums; }
+
+
+/* Reading structure follows article roles rather than storage folders. */
+.site-navigation a[aria-current] { color: var(--dark); text-decoration: underline; text-underline-offset: .35em; }
+.reading-navigation { min-height: 0; overflow-y: auto; font-size: .85rem; padding: .15rem .3rem 1rem 0; }
+.reading-navigation summary { cursor: pointer; color: var(--darkgray); line-height: 1.65; padding: .3rem 0; }
+.reading-navigation summary::marker { color: var(--tertiary); }
+.reading-navigation summary:focus-visible { outline: 2px solid var(--secondary); outline-offset: 2px; }
+.reading-outline-title { font-weight: 650; margin-bottom: .55rem; }
+.reading-section > summary { font-weight: 600; }
+.reading-navigation ul { list-style: none; padding: 0 0 0 .85rem; margin: .15rem 0 .45rem; border-left: 1px solid var(--lightgray); }
+.reading-navigation li { margin: .25rem 0; }
+.reading-navigation a { display: block; font-weight: 400; line-height: 1.7; padding: .15rem .2rem; overflow-wrap: anywhere; }
+.reading-navigation a[aria-current="page"] { font-weight: 650; color: var(--dark); background: var(--highlight); border-radius: 3px; }
+.reading-utility { margin-top: 1rem !important; }
+.reading-context { background: var(--highlight); padding: .9rem 1rem; border-left: 2px solid var(--tertiary); font-size: .78rem; line-height: 1.8; margin-bottom: 1.7rem; }
+.reading-context p { margin: .4rem 0 0; color: var(--darkgray); }
+.reading-role { display: inline-block; margin-left: .7rem; color: var(--darkgray); }
+.research-cycle { padding: 1.3rem 0 .2rem; font-size: .85rem; line-height: 2; color: var(--darkgray); }
+.research-cycle span { color: var(--tertiary); margin: 0 .3rem; }
+.topic-grid a.note-card:first-child { grid-column: auto; }
+.latest-release { border-left: 2px solid var(--tertiary); padding: .3rem 1rem; margin-top: 1.7rem; line-height: 1.8; }
+.latest-release > span { display: block; font-size: .72rem; color: var(--darkgray); margin-bottom: .3rem; }
+.latest-release > a { font-size: .92rem; }
+.latest-release p { margin: .4rem 0 0; font-size: .8rem; color: var(--darkgray); }
+@media (max-width: 800px) {
+  .page > #quartz-body .sidebar.left { flex-wrap: wrap; gap: .8rem; }
+  .reading-navigation { flex: 0 0 100%; max-height: 45vh; margin-top: .2rem; border-bottom: 1px solid var(--lightgray); }
+  .reading-navigation .reading-tree { padding-bottom: .6rem; }
+  .reading-context { font-size: .75rem; }
+}

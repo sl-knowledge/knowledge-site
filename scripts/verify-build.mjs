@@ -24,3 +24,40 @@ for (const file of files) {
   }
 }
 console.log(`Verified ${files.length} built public pages, publication layout, copyright and search entries.`)
+
+// Verify that the navigation remains complete as public content grows.
+const readingMap = JSON.parse(fs.readFileSync("quartz/reading-map.json", "utf8"))
+const release = JSON.parse(fs.readFileSync("quartz/site-release.json", "utf8"))
+const articleSlugs = new Set(files.filter(file => {
+  const source = fs.readFileSync(path.join("content", file), "utf8")
+  return parse(source.match(/^---\r?\n([\s\S]*?)\r?\n---/)[1]).kind === "article"
+}).map(file => file.replaceAll(path.sep, "/").replace(/\.md$/, "")))
+assert.deepEqual(new Set(Object.keys(readingMap.articles)), articleSlugs, "every article needs a primary reading location")
+const primaryOccurrences = new Map()
+for (const section of readingMap.sections) {
+  assert.ok(search[section.slug], `${section.slug}: missing reading overview`)
+  const overview = fs.readFileSync(`public/${section.slug}.html`, "utf8")
+  for (const group of section.groups) {
+    assert.ok(overview.includes(`id="${group.id}"`), `${section.slug}: missing group anchor ${group.id}`)
+    for (const slug of group.slugs) {
+      assert.ok(articleSlugs.has(slug), `${slug}: reading link must resolve to a public article`)
+      const reading = readingMap.articles[slug]
+      if (reading.section === section.id && reading.group === group.id) primaryOccurrences.set(slug, (primaryOccurrences.get(slug) ?? 0) + 1)
+    }
+  }
+}
+for (const slug of articleSlugs) {
+  assert.equal(primaryOccurrences.get(slug), 1, `${slug}: expected one primary location`)
+  for (const target of readingMap.articles[slug].readings) assert.ok(articleSlugs.has(target), `${slug}: invalid prerequisite ${target}`)
+  const html = fs.readFileSync(`public/${slug}.html`, "utf8")
+  assert.ok(html.includes('aria-label="文章阅读关系"'), `${slug}: missing reading context`)
+}
+for (const file of files) {
+  const html = fs.readFileSync(path.join("public", file.replace(/\.md$/, ".html")), "utf8")
+  assert.ok(html.includes('aria-label="阅读目录"'), `${file}: missing logical sidebar`)
+  assert.ok(html.includes(`网站 v${release.version}`), `${file}: incorrect site release`)
+  assert.ok(!html.includes("此文件夹下有"), `${file}: storage-folder count must not replace reading classification`)
+}
+assert.match(release.version, /^\d+\.\d+\.\d+$/)
+assert.ok(fs.readFileSync("public/updates.html", "utf8").includes(`id="v${release.version.replaceAll(".", "-")}"`), "release must have a public update record")
+console.log(`Verified reading coverage for ${articleSlugs.size} articles and site release v${release.version}.`)

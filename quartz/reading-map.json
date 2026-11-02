@@ -1,0 +1,545 @@
+{
+  "sections": [
+    {
+      "id": "theory",
+      "title": "理论体系",
+      "slug": "framework/index",
+      "description": "从现实、表示和决策三条主线，理解概念、条件与价值前提。",
+      "groups": [
+        {
+          "id": "architecture",
+          "title": "总架构与术语",
+          "slugs": [
+            "framework/methods/research-architecture",
+            "framework/methods/canonical-vocabulary"
+          ]
+        },
+        {
+          "id": "reality",
+          "title": "现实与动态系统",
+          "slugs": [
+            "framework/book/constraints-and-future-options"
+          ]
+        },
+        {
+          "id": "representation",
+          "title": "表示与认识",
+          "slugs": [
+            "framework/book/what-belongs-in-a-model"
+          ]
+        },
+        {
+          "id": "decision",
+          "title": "不确定性与决策",
+          "slugs": [
+            "framework/book/acting-under-uncertainty"
+          ]
+        },
+        {
+          "id": "values",
+          "title": "系统、目标与价值",
+          "slugs": [
+            "framework/foundations/systems-within-the-universe",
+            "framework/foundations/why-objectives-are-reasonable"
+          ]
+        },
+        {
+          "id": "explorations",
+          "title": "专题探索",
+          "slugs": [
+            "framework/foundations/life-as-generative-structure",
+            "language/vocabulary-and-experience-compression"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "title": "研究方法",
+      "slug": "framework/methods/index",
+      "description": "构造候选表示，用压力测试和证据检查判断，并持续维护研究。",
+      "groups": [
+        {
+          "id": "representation",
+          "title": "表示构造",
+          "slugs": [
+            "framework/methods/cf-grammar"
+          ]
+        },
+        {
+          "id": "testing",
+          "title": "判别与情景",
+          "slugs": [
+            "framework/methods/stress-testing"
+          ]
+        },
+        {
+          "id": "research-system",
+          "title": "人机协作与长期研究",
+          "slugs": [
+            "framework/book/human-ai-research-system"
+          ]
+        },
+        {
+          "id": "validation",
+          "title": "验证与修订",
+          "slugs": [
+            "framework/methods/originality-and-validation",
+            "framework/methods/consistency-and-revision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "applications",
+      "title": "理论应用",
+      "slug": "applications/index",
+      "description": "把理论放进企业、经济、学习与合作等领域，检查假设、材料和解释。",
+      "groups": [
+        {
+          "id": "company",
+          "title": "企业与投资",
+          "slugs": [
+            "framework/book/investment-three-systems",
+            "framework/methods/company-analysis-protocol",
+            "framework/methods/investment-research-charter",
+            "framework/cases/success-and-transition",
+            "framework/cases/business-reconstruction-yuhong",
+            "applications/physical-ai-interview"
+          ]
+        },
+        {
+          "id": "economy",
+          "title": "经济循环",
+          "slugs": [
+            "economics/first-principles-learning",
+            "economics/sustainable-circulation"
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "学习与教学",
+          "slugs": [
+            "learning/framework-driven-learning",
+            "learning/cognitive-disequilibrium",
+            "learning/asking-better-questions",
+            "learning/english-for-chinese-speakers"
+          ]
+        },
+        {
+          "id": "language",
+          "title": "语言与文字系统",
+          "slugs": [
+            "language/origins-of-writing",
+            "language/concept-packaging-and-characters"
+          ]
+        },
+        {
+          "id": "cooperation",
+          "title": "合作与承诺",
+          "slugs": [
+            "applications/cooperation-under-incomplete-trust"
+          ]
+        },
+        {
+          "id": "control",
+          "title": "控制、信息与安全",
+          "slugs": [
+            "applications/viability-first-control"
+          ]
+        },
+        {
+          "id": "personal",
+          "title": "个人选择",
+          "slugs": [
+            "framework/foundations/freedom-and-future-options"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "title": "书稿阅读",
+      "slug": "framework/book/index",
+      "description": "沿五部五十二章连续阅读，理解理论、领域应用与长期研究的完整论证。",
+      "groups": [
+        {
+          "id": "guide",
+          "title": "第一稿导读",
+          "slugs": [
+            "framework/book/book-reading-guide"
+          ]
+        },
+        {
+          "id": "parts",
+          "title": "五部全文",
+          "slugs": [
+            "framework/book/constraints-and-future-options",
+            "framework/book/what-belongs-in-a-model",
+            "framework/book/acting-under-uncertainty",
+            "framework/book/investment-three-systems",
+            "framework/book/human-ai-research-system"
+          ]
+        },
+        {
+          "id": "companions",
+          "title": "配套查阅",
+          "slugs": [
+            "framework/methods/research-architecture",
+            "framework/methods/canonical-vocabulary",
+            "framework/methods/originality-and-validation",
+            "framework/methods/consistency-and-revision"
+          ]
+        }
+      ]
+    }
+  ],
+  "articles": {
+    "framework/methods/research-architecture": {
+      "section": "theory",
+      "group": "architecture",
+      "role": "综合研究架构",
+      "bookReference": "全书总架构",
+      "readings": [
+        "framework/methods/canonical-vocabulary",
+        "framework/book/constraints-and-future-options"
+      ]
+    },
+    "framework/methods/canonical-vocabulary": {
+      "section": "theory",
+      "group": "architecture",
+      "role": "跨篇定义规范",
+      "bookReference": "全书术语配套",
+      "readings": [
+        "framework/methods/research-architecture"
+      ]
+    },
+    "framework/book/constraints-and-future-options": {
+      "section": "theory",
+      "group": "reality",
+      "role": "主干论述",
+      "bookReference": "第一部，第1—8章",
+      "readings": [
+        "framework/methods/canonical-vocabulary"
+      ]
+    },
+    "framework/book/what-belongs-in-a-model": {
+      "section": "theory",
+      "group": "representation",
+      "role": "主干论述",
+      "bookReference": "第二部，第9—20章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/methods/canonical-vocabulary"
+      ]
+    },
+    "framework/book/acting-under-uncertainty": {
+      "section": "theory",
+      "group": "decision",
+      "role": "主干论述",
+      "bookReference": "第三部，第21—30章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "framework/foundations/systems-within-the-universe": {
+      "section": "theory",
+      "group": "values",
+      "role": "基础概念专题",
+      "bookReference": "第一部第2、6、8章的主题关联",
+      "readings": [
+        "framework/book/constraints-and-future-options"
+      ]
+    },
+    "framework/foundations/why-objectives-are-reasonable": {
+      "section": "theory",
+      "group": "values",
+      "role": "规范性论述",
+      "bookReference": "第一部第2章；第三部第21—22章的主题关联",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/acting-under-uncertainty"
+      ]
+    },
+    "framework/foundations/life-as-generative-structure": {
+      "section": "theory",
+      "group": "explorations",
+      "role": "独立理论探索",
+      "bookReference": "第一部第3—4、7章的概念关联",
+      "readings": [
+        "framework/methods/canonical-vocabulary",
+        "framework/book/constraints-and-future-options"
+      ]
+    },
+    "language/vocabulary-and-experience-compression": {
+      "section": "theory",
+      "group": "explorations",
+      "role": "表征相关专题",
+      "bookReference": "第二部第9、11章的概念关联",
+      "readings": [
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "framework/methods/cf-grammar": {
+      "section": "methods",
+      "group": "representation",
+      "role": "诊断与提问支架",
+      "bookReference": "第二部第9—12、14—15章",
+      "readings": [
+        "framework/methods/research-architecture",
+        "framework/methods/canonical-vocabulary"
+      ]
+    },
+    "framework/methods/stress-testing": {
+      "section": "methods",
+      "group": "testing",
+      "role": "跨领域测试方法",
+      "bookReference": "第一部第7章；第二部第15章；第三部第23、25、27—28章",
+      "readings": [
+        "framework/methods/canonical-vocabulary",
+        "framework/book/constraints-and-future-options"
+      ]
+    },
+    "framework/book/human-ai-research-system": {
+      "section": "methods",
+      "group": "research-system",
+      "role": "研究执行与治理架构",
+      "bookReference": "第五部，第43—52章",
+      "readings": [
+        "framework/methods/research-architecture",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "framework/methods/originality-and-validation": {
+      "section": "methods",
+      "group": "validation",
+      "role": "验证计划",
+      "bookReference": "第二部第20章；第五部第52章",
+      "readings": [
+        "framework/methods/research-architecture",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "framework/methods/consistency-and-revision": {
+      "section": "methods",
+      "group": "validation",
+      "role": "编辑审计与演进记录",
+      "bookReference": "全书一致性配套",
+      "readings": [
+        "framework/methods/canonical-vocabulary",
+        "framework/methods/research-architecture"
+      ]
+    },
+    "framework/book/investment-three-systems": {
+      "section": "applications",
+      "group": "company",
+      "role": "领域框架",
+      "bookReference": "第四部，第31—42章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "framework/methods/company-analysis-protocol": {
+      "section": "applications",
+      "group": "company",
+      "role": "领域方法",
+      "bookReference": "第四部第31—36、38章",
+      "readings": [
+        "framework/book/investment-three-systems",
+        "framework/methods/cf-grammar"
+      ]
+    },
+    "framework/methods/investment-research-charter": {
+      "section": "applications",
+      "group": "company",
+      "role": "领域方法",
+      "bookReference": "第四部第31—42章",
+      "readings": [
+        "framework/book/investment-three-systems",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "framework/cases/success-and-transition": {
+      "section": "applications",
+      "group": "company",
+      "role": "历史案例比较",
+      "bookReference": "第四部第33、35—36章；第三部第25、27章",
+      "readings": [
+        "framework/methods/company-analysis-protocol",
+        "framework/book/acting-under-uncertainty"
+      ]
+    },
+    "framework/cases/business-reconstruction-yuhong": {
+      "section": "applications",
+      "group": "company",
+      "role": "公司案例研究",
+      "bookReference": "第四部第32—36章",
+      "readings": [
+        "framework/methods/company-analysis-protocol",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "applications/physical-ai-interview": {
+      "section": "applications",
+      "group": "company",
+      "role": "访谈分析与假想示例",
+      "bookReference": "第一部第3、7章；第三部第25、27—28章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/methods/stress-testing"
+      ]
+    },
+    "economics/first-principles-learning": {
+      "section": "applications",
+      "group": "economy",
+      "role": "领域建模与学习路线",
+      "bookReference": "第一部第2—3章；第二部第9、14章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "economics/sustainable-circulation": {
+      "section": "applications",
+      "group": "economy",
+      "role": "领域机制框架",
+      "bookReference": "第一部第3—4章；第三部第23章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "economics/first-principles-learning"
+      ]
+    },
+    "learning/framework-driven-learning": {
+      "section": "applications",
+      "group": "learning",
+      "role": "教学工作框架",
+      "bookReference": "第二部第9、12、15—19章",
+      "readings": [
+        "framework/book/what-belongs-in-a-model",
+        "framework/book/human-ai-research-system"
+      ]
+    },
+    "learning/cognitive-disequilibrium": {
+      "section": "applications",
+      "group": "learning",
+      "role": "学习机制假说与边界",
+      "bookReference": "第二部第15、17章",
+      "readings": [
+        "learning/framework-driven-learning",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "learning/asking-better-questions": {
+      "section": "applications",
+      "group": "learning",
+      "role": "教学设计",
+      "bookReference": "第二部第9、12、15章",
+      "readings": [
+        "learning/framework-driven-learning",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "learning/english-for-chinese-speakers": {
+      "section": "applications",
+      "group": "learning",
+      "role": "教学建议与待验证迁移",
+      "bookReference": "第二部第9章；词汇专题关联",
+      "readings": [
+        "learning/framework-driven-learning",
+        "language/vocabulary-and-experience-compression"
+      ]
+    },
+    "language/origins-of-writing": {
+      "section": "applications",
+      "group": "language",
+      "role": "领域机制假说",
+      "bookReference": "第一部第3章；第二部第14—15章的概念关联",
+      "readings": [
+        "language/vocabulary-and-experience-compression",
+        "framework/book/what-belongs-in-a-model"
+      ]
+    },
+    "language/concept-packaging-and-characters": {
+      "section": "applications",
+      "group": "language",
+      "role": "领域机制假说",
+      "bookReference": "第一部第3章；第二部第14—15章的概念关联",
+      "readings": [
+        "language/origins-of-writing",
+        "language/vocabulary-and-experience-compression"
+      ]
+    },
+    "applications/cooperation-under-incomplete-trust": {
+      "section": "applications",
+      "group": "cooperation",
+      "role": "机制假说与实验草案",
+      "bookReference": "第一部第7章；第三部第25、27章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/acting-under-uncertainty"
+      ]
+    },
+    "applications/viability-first-control": {
+      "section": "applications",
+      "group": "control",
+      "role": "抽象控制领域研究",
+      "bookReference": "第一部第4、7章；第三部第22—23、26—28章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/acting-under-uncertainty"
+      ]
+    },
+    "framework/foundations/freedom-and-future-options": {
+      "section": "applications",
+      "group": "personal",
+      "role": "个人哲学与行动思考",
+      "bookReference": "第一部第4—5、7章；第三部第24—27章",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/book/acting-under-uncertainty"
+      ]
+    },
+    "framework/book/book-reading-guide": {
+      "section": "book",
+      "group": "guide",
+      "role": "连续阅读索引",
+      "bookReference": "全书第1—52章",
+      "readings": [
+        "framework/methods/research-architecture",
+        "framework/methods/canonical-vocabulary"
+      ]
+    }
+  },
+  "labels": {
+    "framework/book/constraints-and-future-options": "第一部｜现实与动态系统",
+    "framework/book/what-belongs-in-a-model": "第二部｜表示与认识",
+    "framework/book/acting-under-uncertainty": "第三部｜不确定性与决策",
+    "framework/book/investment-three-systems": "第四部｜投资的三个系统",
+    "framework/book/human-ai-research-system": "第五部｜人机协作研究系统",
+    "framework/book/book-reading-guide": "第一稿：五部五十二章阅读总览"
+  },
+  "auxiliary": {
+    "economics/index": {
+      "section": "applications",
+      "group": "economy"
+    },
+    "learning/index": {
+      "section": "applications",
+      "group": "learning"
+    },
+    "language/index": {
+      "section": "applications",
+      "group": "language"
+    },
+    "framework/cases/index": {
+      "section": "applications",
+      "group": "company"
+    },
+    "framework/foundations/index": {
+      "section": "theory",
+      "group": "explorations"
+    }
+  }
+}

@@ -2,15 +2,16 @@
 title: "语言与文字"
 description: "关于词汇、经验压缩、书写系统、概念打包与语言学习的研究笔记。"
 author: SL
-version: "0.1"
+version: "0.2"
 created: "2026-10-31"
-updated: "2026-11-01"
+updated: "2026-11-02"
 published: "2026-10-31"
 publish: true
 kind: category
 status: 栏目
 ---
 
+[文字系统研究](../applications/index.md#language)位于理论应用；[词汇与经验压缩](../framework/index.md#explorations)同时属于与表示有关的专题探索。两类文章保留各自的证据和验证边界。
 
 这组研究从符号与概念的关系出发，探索语言结构如何影响文字的形成，以及书写系统如何反过来约束表达与学习。
 

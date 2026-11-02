@@ -1,13 +1,17 @@
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { pathToRoot } from "../util/path"
+import { readingSections, articleReadings, readingFor, readingHref } from "./ReadingNavigation"
+import release from "../site-release.json"
 // @ts-ignore
 import pageviewsScript from "./scripts/pageviews.inline"
 
-export const SiteNavigation: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+export const SiteNavigation: QuartzComponent = ({ fileData }) => {
   const root = pathToRoot(fileData.slug!)
+  const current = String(fileData.slug)
+  const reading = readingFor(current)
   return <nav class="site-navigation" aria-label="主导航">
     <a class="internal nav-home" href={`${root}/`}>SL / 研究与学习</a>
-    <div><a class="internal" href={`${root}/learning/`}>学习方法</a><a class="internal" href={`${root}/economics/`}>经济学</a><a class="internal" href={`${root}/language/`}>语言与文字</a><a class="internal" href={`${root}/framework/`}>理论框架</a><a class="internal" href={`${root}/applications/`}>理论应用</a><a class="internal" href={`${root}/about`}>关于</a></div>
+    <div>{readingSections.map(section => <a class="internal" key={section.id} href={readingHref(root, section.slug)} aria-current={current === section.slug ? "page" : reading?.section === section.id ? "location" : undefined}>{section.title}</a>)}<a class="internal" href={`${root}/about`} aria-current={current === "about" ? "page" : undefined}>关于</a></div>
   </nav>
 }
 
@@ -46,56 +50,30 @@ const entries = [
   ["35", "研究方法与规范", "压力测试：约束识别、反馈与恢复窗口", "ST1—ST12固定原则：检查情景、约束、反馈、恢复窗口和共同失效，附最小示例与引用模板。", "framework/methods/stress-testing", "v0.1"],
 ]
 
-const directions = [
-  [
-    "01",
-    "framework",
-    "理论框架",
-    "从五部书稿、研究方法、系统与价值、案例研究四条路线进入。"
-  ],
-  [
-    "02",
-    "learning",
-    "学习方法",
-    "通过框架、问题与反馈，把理解逐步转为可调用的能力。"
-  ],
-  [
-    "03",
-    "economics",
-    "经济学",
-    "从相互生产、相互满足需求的最小模型，理解交换与持续循环。"
-  ],
-  [
-    "04",
-    "language",
-    "语言与文字",
-    "研究词汇、经验压缩、概念打包与书写系统。"
-  ],
-  ["05", "applications", "理论应用", "让理论进入具体问题，检查假设、行动窗口与可检验的机制。"]
-]
-
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
   const fm: Record<string, unknown> = fileData.frontmatter ?? {}
   const notes = allFiles.filter(file => file.frontmatter?.kind === "article")
   const metadata = (slug: string): Record<string, unknown> => allFiles.find(file => file.slug === slug)?.frontmatter ?? {}
   const root = pathToRoot(fileData.slug!)
   if (fm.kind === "home") return <section class="home-hero">
-    <p class="eyebrow">SL’S FIELD NOTES · 持续修订中</p>
-    <h1>从小模型出发，<br />理解更大的世界。</h1>
-    <p class="hero-description">关于学习、经济、语言与复杂系统的研究笔记。<br />让推导形成预期，让现实修正理解。</p>
-    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开笔记 / {String(directions.length).padStart(2, "0")} 个研究方向</span><span>首辑 · 2026.10</span></div>
-    <div class="collection-heading"><h2>按研究方向阅读</h2><span>RESEARCH COLLECTIONS</span></div>
-    <div class="notes-grid topic-grid">{directions.map(([no, slug, title, description]) =>
-      <a class="internal note-card" href={`${root}/${slug}/`} key={slug}>
-        <div class="card-top"><span>研究方向</span><span>{no}</span></div>
-        <h3>{title}</h3><p>{description}</p>
-        <div class="card-bottom"><span>{notes.filter(file => file.slug?.startsWith(`${slug}/`)).length} 篇公开笔记</span><span>进入专题 ↗</span></div>
+    <p class="eyebrow">SL’S RESEARCH · 持续修订中</p>
+    <h1>从理论出发，<br />在现实中检验与修订。</h1>
+    <p class="hero-description">围绕现实、表示与决策，建立相互连接的研究框架。<br />从共同概念与方法，走向有条件、可检验的领域应用。</p>
+    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开文章 / 四条阅读路线</span><a class="internal" href={`${root}/updates`}>网站 v{release.version} · {release.date}</a></div>
+    <div class="research-cycle" aria-label="研究闭环">现实与证据 <span>→</span> 构造表示 <span>→</span> 推理与决策 <span>→</span> 反馈与修订</div>
+    <div class="collection-heading"><h2>理解体系，再进入应用</h2><span>READING PATHS</span></div>
+    <div class="notes-grid topic-grid">{readingSections.map((section, i) =>
+      <a class="internal note-card" href={readingHref(root, section.slug)} key={section.id}>
+        <div class="card-top"><span>阅读路线</span><span>{String(i + 1).padStart(2, "0")}</span></div>
+        <h3>{section.title}</h3><p>{section.description}</p>
+        <div class="card-bottom"><span>{section.id === "book" ? "五部 · 五十二章" : `${notes.filter(file => articleReadings[String(file.slug)]?.section === section.id).length} 篇文章`}</span><span>进入阅读 ↗</span></div>
       </a>
     )}</div>
+    <div class="latest-release"><span>最新更新 · v{release.version}</span><a class="internal" href={`${root}/updates#v${release.version.replaceAll(".", "-")}`}>{release.title} ↗</a><p>{release.summary}</p></div>
     <div class="collection-heading"><h2>最近发表</h2><span>RECENT NOTES</span></div>
     <div class="notes-grid recent-notes">{entries.slice(-4).reverse().map(([no, category, title, description, slug, version]) =>
       <a class="internal note-card" href={`${root}/${slug}`} key={slug}>
-        <div class="card-top"><span>{category}</span><span>{no}</span></div>
+        <div class="card-top"><span>{readingSections.find(s => s.id === articleReadings[slug]?.section)?.title ?? category}</span><span>{no}</span></div>
         <h3>{String(metadata(slug).title ?? title)}</h3><p>{String(metadata(slug).description ?? description)}</p>
         <div class="card-bottom"><span>v{String(metadata(slug).version ?? version.slice(1))} · {String(metadata(slug).author ?? "SL")}</span><span aria-hidden="true">↗</span></div>
       </a>
@@ -113,6 +91,7 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
 export const PublicationFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const root = pathToRoot(fileData.slug!)
   return <footer class="publication-footer"><p>© 2026 SL. All rights reserved.</p>
+    <p class="site-release"><a class="internal" href={`${root}/updates`}>网站 v{release.version} · 更新记录</a><span> · {release.date}</span></p>
     <p class="site-pageviews" data-pageviews-url={`${root}/static/pageviews.json`} aria-live="polite">累计浏览量：<span data-pageviews-count>加载中…</span></p>
     <p class="research-use-footer">本站内容为研究笔记。安全与投资内容不构成操作或交易建议。<span lang="en"> Research use only; not operational or investment advice.</span></p>
     <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>

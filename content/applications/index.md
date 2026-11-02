@@ -1,8 +1,8 @@
 ---
 title: "理论应用"
-description: "把约束、可行性与可恢复性框架用于具体问题，保留模型假设、示意案例、反例与检验方案。"
+description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.3"
+version: "0.4"
 created: "2026-11-02"
 updated: "2026-11-02"
 published: "2026-11-02"
@@ -10,22 +10,62 @@ publish: true
 kind: category
 ---
 
-这里收录理论进入具体问题后的应用研究。每篇说明问题、假设、模型适用条件与尚待检验的部分，区分理论推导、假想案例和经验证据。
+这里将理论和研究方法放入具体领域。每个领域分别区分框架、研究流程与案例；阅读时检查引用了哪些概念，增加了什么领域假设，以及哪些结果仍待验证。
 
-## 产业与服务依赖
+部分文章是相关专题或工作假说。归入同一阅读结构，不意味着它们已经从主干理论严格推导出来。共用概念见[理论体系](../framework/index.md)，跨领域工具见[研究方法](../framework/methods/index.md)。
 
-- [持续能力，还是难以退出的依赖？——读一期 Physical AI 访谈](./physical-ai-interview.md)：通过字幕核对和假想物流企业，分析机器人服务的持续性、转换成本与恢复窗口，并列出待检验预测。
+<a id="company"></a>
 
-## 控制、信息与安全
+## 企业与投资
 
-- [控制权、信息与时间：可生存性优先的控制与安全设计原则](./viability-first-control.md)：C1—C16 原则索引、三类失效、四项保障义务与五个比较性质；区分已有数学方法、分析原则与待检验假说。
+本组为研究资料，不构成投资或交易建议；研究清单与情景分析不能直接替代实际交易判断。
+
+- [投资的三个系统：公司、市场与投资者](../framework/book/investment-three-systems.md)：领域框架：区分公司、市场与投资者，同时保留书稿第四部的完整论证。
+- [企业分析操作总纲](../framework/methods/company-analysis-protocol.md)：领域研究方法：客户任务、经营机制、财务核对、关键证据与长期跟踪。
+- [投资研究与交易决策总纲](../framework/methods/investment-research-charter.md)：领域研究方法：研究目标、证据纪律、估值情景和独立验证。
+- [过去的成功，为什么可能成为下一次转型的约束？](../framework/cases/success-and-transition.md)：历史案例比较：区分能力、组织约束、准备、竞争窗口与其他解释。
+- [东方雨虹：业务重构，怎样才算真正改善？](../framework/cases/business-reconstruction-yuhong.md)：公司案例：分别检查渠道、信用资本效率和海外能力迁移。
+- [持续能力，还是难以退出的依赖？——读一期 Physical AI 访谈](physical-ai-interview.md)：产业案例：通过字幕材料与假想企业，分析机器人服务依赖和恢复窗口。
+
+<a id="economy"></a>
+
+## 经济循环
+
+- [第一性原理经济学习法](../economics/first-principles-learning.md)：AB最小模型是起点；制度、货币和规模变化需要新增领域机制。
+- [经济活动的本质与可持续循环](../economics/sustainable-circulation.md)：循环条件是待检查的经济框架；行业与政策结论须各自验证。
+
+<a id="learning"></a>
+
+## 学习与教学
+
+- [框架驱动的学习循环](../learning/framework-driven-learning.md)：把表示—预期—差异—修订用于学习；效果须在学习任务中比较。
+- [认知失衡：问题从哪里来](../learning/cognitive-disequilibrium.md)：认知失衡不自动导致好奇或有效学习，保留条件与反例。
+- [把提出问题的控制权交给学习者](../learning/asking-better-questions.md)：提问支架与逐步移交；不把教学控制权与工程控制权直接等同。
+- [给中文母语学习英语者的建议](../learning/english-for-chinese-speakers.md)：语言假说转成训练设想时仍需检验学习效果，不作母语群体的普遍定律。
+
+<a id="language"></a>
+
+## 语言与文字系统
+
+- [文字的起源：语言结构如何长出书写系统](../language/origins-of-writing.md)：与主干的对应仍需补充；文字系统史和参数解释须独立证据。
+- [概念打包与字的约束：汉字如何固化汉语的单音节语素结构](../language/concept-packaging-and-characters.md)：保留共同演化、竞争解释和可检验预测；不将相关性写成已证实因果。
+
+<a id="cooperation"></a>
 
 ## 合作与承诺
 
-- [不完全信任下的合作：预警余量与可恢复性](./cooperation-under-incomplete-trust.md)：区分承诺可信、合作可恢复与安排可接受，使用假想供应模型说明行动窗口，并提出探索性实验方案。
+- [不完全信任下的合作：预警余量与可恢复性](cooperation-under-incomplete-trust.md)：可信性、可恢复性、可接受性分别讨论；m>0不单独保证合作成立。
 
-这些内容用于学习与研究，不构成政策、操作、投资或其他专业建议。模型与实验方案草案不能直接作为实际执行依据，详见[研究用途与免责声明](../disclaimer.md)。
+<a id="control"></a>
 
-## 相关阅读
+## 控制、信息与安全
 
-[理论框架](../framework/index.md)提供基础概念与研究方法；[案例研究](../framework/cases/index.md)保留已有的企业与转型研究。
+本组为研究资料，不构成操作指引；形式条件、研究原则与实际系统验证须分别对待。
+
+- [控制权、信息与时间：可生存性优先的控制与安全设计原则](viability-first-control.md)：抽象控制研究：C1—C16原则、三类失效、保证条件与信息、权限和时间的关系。
+
+<a id="personal"></a>
+
+## 个人选择
+
+- [自由与逍遥：在约束中保留未来选择](../framework/foundations/freedom-and-future-options.md)：个人哲学阐释：思考未来路径、恢复能力、自主承诺与价值选择。

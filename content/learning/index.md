@@ -2,12 +2,14 @@
 title: "学习方法"
 description: "怎样建立理解、发现差异，并生成下一个值得研究的问题。"
 author: SL
-version: "0.1"
+version: "0.2"
 created: "2026-10-31"
-updated: "2026-10-31"
+updated: "2026-11-02"
 published: "2026-10-31"
 publish: true
 ---
+
+本专题位于[理论应用 → 学习与教学](../applications/index.md#learning)。它将表示、预期、差异和反馈转成教学问题；各项学习效果仍需在具体任务中检验。
 
 学习不止于记住答案。这组笔记研究如何建立初始框架，让问题从预期与现实的差异中自然长出来。
 
