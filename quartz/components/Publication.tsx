@@ -40,7 +40,8 @@ const entries = [
   ["29", "研究方法与规范", "CF Grammar：从约束诊断到可检验的研究表示", "用主体、目标、环境和时域组织诊断，区分支持、约束、缓冲与替代，并把机制假说放回证据和修订闭环。", "framework/methods/cf-grammar", "v0.1"],
   ["30", "投资研究方法", "投资研究与交易决策总纲", "研究资料，不构成投资或交易建议。保留研究目标、机制、关键证据、估值情景与独立验证主线，将交易动作改为研究假说。", "framework/methods/investment-research-charter", "v0.1"],
   ["31", "投资研究方法", "企业分析操作总纲", "研究资料，不构成投资或交易建议。从三问、分层研究与十二个问题，到财务核对、关键证据和可追溯跟踪；操作指研究流程。", "framework/methods/company-analysis-protocol", "v0.1"],
-  ["32", "理论应用", "不完全信任下的合作：预警余量与可恢复性", "机制假说与假想供应模型：对方失约后，自己是否仍有行动空间？", "applications/cooperation-under-incomplete-trust", "v0.7"],
+  ["32", "理论应用", "不完全信任下的合作：预警余量与可恢复性", "机制假说与假想供应模型：对方失约后，自己是否仍有行动空间？", "applications/cooperation-under-incomplete-trust", "v0.8"],
+  ["33", "理论应用", "控制权、信息与时间：可生存性优先的控制与安全设计原则", "研究资料，不构成操作指引。区分控制权、信息与时间，整理三类失效、四项保障义务和五个比较性质。", "applications/viability-first-control", "v0.1"],
 ]
 
 const directions = [
