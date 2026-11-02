@@ -40,7 +40,7 @@ export const ReadingNavigation: QuartzComponent = ({ fileData, allFiles }) => {
             <ul>
               {item(section.slug, `${section.title}导读`)}
               {section.groups.map(group => <li key={group.id}>
-                <details class="reading-group" open={active && (reading?.group === group.id || current === section.slug)}>
+                <details class="reading-group" open={active && reading?.group === group.id}>
                   <summary>{group.title}</summary>
                   <ul>{group.slugs.map(slug => item(slug))}</ul>
                 </details>
