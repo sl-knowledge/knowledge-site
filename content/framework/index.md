@@ -2,7 +2,7 @@
 title: "理论框架"
 description: "按五部书稿、研究方法与规范、系统生命与价值、案例研究四条路线阅读。"
 author: "SL"
-version: "0.2"
+version: "0.3"
 created: "2026-10-31"
 updated: "2026-11-01"
 published: "2026-10-31"
@@ -31,4 +31,4 @@ kind: category
 
 ## 相关方向
 
-[安全研究](../safety/index.md)讨论可持续安全路径、驾驶舱控制权与安全设计；[语言与文字](../language/index.md)讨论词汇、概念与表达；[经济学](../economics/index.md)从最小交换模型展开经济理解。
+[语言与文字](../language/index.md)讨论词汇、概念与表达；[经济学](../economics/index.md)从最小交换模型展开经济理解。
