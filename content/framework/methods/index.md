@@ -1,10 +1,10 @@
 ---
 title: "研究方法与规范"
-description: "从CF诊断到表示、投资研究总纲、术语、独立验证与修订，查阅研究方法和规范。"
+description: "从CF诊断、压力测试到表示、投资研究总纲、术语、独立验证与修订，查阅研究方法和规范。"
 author: "SL"
-version: "0.2"
+version: "0.3"
 created: "2026-11-01"
-updated: "2026-11-01"
+updated: "2026-11-02"
 published: "2026-11-01"
 publish: true
 kind: category
@@ -17,6 +17,10 @@ kind: category
 1. [CF Grammar：从约束诊断到可检验的研究表示](./cf-grammar.md)：通过主体、目标、环境与时域，组织支持、约束、缓冲和替代关系；附教学示例与工作清单。
 2. [开放世界研究的总架构](./research-architecture.md)：说明表示发现、既有方法、预测与行动、现实反馈和最小修订的完整分工。
 3. [统一术语、符号与知识等级](./canonical-vocabulary.md)：查状态、约束、能力、可达性、可生存性、失效与知识等级的定义。
+
+## 压力测试与情景分析
+
+- [压力测试：约束识别、反馈与恢复窗口](./stress-testing.md)：ST1—ST12固定原则、外生条件与内生反馈、恢复窗口、共同失效，以及应用引用模板。
 
 ## 投资与企业研究方法
 

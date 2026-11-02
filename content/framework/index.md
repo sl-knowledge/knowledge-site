@@ -2,9 +2,9 @@
 title: "理论框架"
 description: "按五部书稿、研究方法与规范、系统生命与价值、案例研究四条路线阅读。"
 author: "SL"
-version: "0.3"
+version: "0.4"
 created: "2026-10-31"
-updated: "2026-11-01"
+updated: "2026-11-02"
 published: "2026-10-31"
 publish: true
 kind: category
@@ -17,7 +17,7 @@ kind: category
 | 你想解决什么问题？ | 从哪里进入？ | 内容 |
 | --- | --- | --- |
 | 系统阅读整套书稿 | [五部书稿](./book/index.md) | 阅读总览与五部全文，共52章 |
-| 学习诊断、建模和验证方法 | [研究方法与规范](./methods/index.md) | CF Grammar、总架构、术语、验证与修订 |
+| 学习诊断、建模和验证方法 | [研究方法与规范](./methods/index.md) | CF Grammar、压力测试、总架构、术语、验证与修订 |
 | 思考系统、生命、目标与自由 | [系统、生命与价值](./foundations/index.md) | 四篇可独立阅读的专题 |
 | 看方法怎样进入具体问题 | [案例研究](./cases/index.md) | 转型与业务重构的两篇案例 |
 
