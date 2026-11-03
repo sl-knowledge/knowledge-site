@@ -1,0 +1,41 @@
+name: Research feedback
+description: Report a theoretical, evidential, translation or reference problem.
+title: "[Research feedback] "
+body:
+  - type: input
+    id: article
+    attributes:
+      label: Article URL and version
+      placeholder: "URL · v0.x · SF3 / chapter / section"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type of concern
+      options:
+        - Definition or scope
+        - Assumption or derivation
+        - Counterexample or evidence
+        - Translation or terminology
+        - Reference or quotation
+        - Website presentation
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim and concern
+      description: Identify the exact statement and explain what may be wrong or unclear.
+    validations:
+      required: true
+  - type: textarea
+    id: support
+    attributes:
+      label: Supporting argument or evidence
+      description: Give a derivation, counterexample, competing explanation or public source if available.
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction and affected statements
+      description: Optional. Please exclude private or identifying material.

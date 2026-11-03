@@ -1,19 +1,15 @@
 # SL · 研究与学习
 
-[阅读网站](https://sl-knowledge.github.io/knowledge-site/)
+[主要公开版本：English](https://sl-knowledge.github.io/knowledge-site-en/) · [中文对应版本](https://sl-knowledge.github.io/knowledge-site/)
 
-SL 的公开研究笔记，涵盖学习方法、经济学、语言与文字及理论框架。文章持续修订，并标注作者、版本与日期。
+一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论。文章分别标注作者、版本、日期与研究状态。
 
-本站内容用于学习与研究。安全及投资内容的适用范围见[研究用途与免责声明](https://sl-knowledge.github.io/knowledge-site/disclaimer)。
+中文可用于起草；公开修订以英文站为优先，再同步中文对应版本。已有理论、条件性论证、研究假说与实证材料保持各自知识地位，语言转换不增加证据。
 
-## 英文版
+欢迎通过[英文研究反馈入口](https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml)提交纠错、反例、来源与翻译问题。请注明文章版本、具体陈述和相关假设。阅读[公开版本政策](PUBLICATION-POLICY.md)与[反馈说明](CONTRIBUTING.md)。
 
-本站有同步维护的[英文版](https://sl-knowledge.github.io/knowledge-site-en/)：每篇英文文章对应本站的一个地址。顶部导航与页脚的 English 入口，会在当前页面已有英文版时直达对应页面，否则回到英文版首页。
+## 版权与研究用途
 
-英文版尚未翻译的页面，仍在中文站发布；英文版的阅读目录保留完整结构，并以「中文」标记指向中文站原文。英文站使用的页面清单记录在 `quartz/english-edition.json`，由英文站的同步检查逐项核对。
+原创文章：© 2026 SL. All rights reserved.，详见[文章版权](CONTENT-LICENSE.md)。现阶段没有改为Creative Commons许可。
 
-## 版权
-
-原创文章：© 2026 SL. All rights reserved.，详见 [CONTENT-LICENSE.md](CONTENT-LICENSE.md)。
-
-网站基于 [Quartz](https://quartz.jzhao.xyz/) 构建；Quartz 代码遵循 [MIT 许可证](LICENSE.txt)。
+Quartz软件代码继续遵循[MIT许可证](LICENSE.txt)，不代表对文章内容的授权。安全和投资内容的适用边界见[研究用途与免责声明](https://sl-knowledge.github.io/knowledge-site/disclaimer)。
