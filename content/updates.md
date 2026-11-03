@@ -2,15 +2,28 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "0.7"
+version: "0.8"
 created: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-03"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-5-0"></a>
+
+## v0.5.0 · 2026-11-03
+
+**发布已完成的中文母本统一修订，并更新控制权理论稿。**
+
+- **证据符号（CN-02）。** [第二部v0.1.1](./framework/book/what-belongs-in-a-model.md)统一使用 \(\mathcal D\)，需标时点时用 \(\mathcal D_t\)；完成期限 \(D\) 与发现时点 \(t_D\) 保留。
+- **可生存性名称（CN-03）。** [统一术语v0.4.1](./framework/methods/canonical-vocabulary.md)采用“可生存性、可生存核、可生存性边界”，注明旧译法；改名章节保留旧入口。[总架构v0.1.1](./framework/methods/research-architecture.md)、[一致性说明v0.2.1](./framework/methods/consistency-and-revision.md)同步。
+- **表示失效分类（CN-04）。** 统一“初始设定遗漏、结构漂移、任务错配”，保留旧称映射与案例，并说明原因可并存或暂时未知。[第五部v0.1.1](./framework/book/human-ai-research-system.md)同步修订记录用语。
+- **[控制权、信息与时间v0.2](./applications/viability-first-control.md)。** 新增C17—C20：可恢复性的候选比较准则、规则层面的联合约束、责任与信息条件、端到端时间核对。保留C1—C16编号，C1—C20均增加固定引用入口。C17不作为既有保证的直接推论；训练、规划与规则仍需领域验证。
+
+本次没有新增实证结果。控制权稿不含具体事故案例或具体系统的操作建议；英文站已有对应页同步术语修订，尚未翻译的正文继续链接中文版本。其他未完成的母本核对事项另行处理，既有文章网址继续使用。
 
 <a id="v0-4-0"></a>
 
