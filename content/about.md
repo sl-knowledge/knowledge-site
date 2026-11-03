@@ -2,12 +2,18 @@
 title: "关于"
 description: "SL 的公开研究：理论体系、研究方法、领域应用、版本与版权说明。"
 author: SL
-version: "0.8.1"
+version: "0.9"
 created: "2026-10-31"
 updated: "2026-11-03"
 published: "2026-10-31"
 publish: true
 ---
+
+## 了解这个网站
+
+- [这个网站在做什么](./site-purpose.md)：研究的目的、网站结构，以及怎样使用这些文章。
+- [研究历程：2025—2026](./research-history.md)：问题与研究方法怎样逐步形成。
+- [从关于宇宙的思考，到后来的研究](./cosmic-reflections-and-later-research.md)：信息扩散与凝聚的思想，怎样连接早期思考与当下研究。
 
 ## 研究用途与免责声明
 

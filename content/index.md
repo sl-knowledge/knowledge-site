@@ -2,7 +2,7 @@
 title: "SL · 研究与学习"
 description: "一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论"
 author: SL
-version: "0.8.1"
+version: "0.8.2"
 created: "2026-10-31"
 updated: "2026-11-03"
 published: "2026-10-31"
@@ -23,7 +23,7 @@ kind: home
 - [理论应用](./applications/index.md)：把想法用到具体问题里。
 - [书稿阅读](./framework/book/index.md)：按五部五十二章的顺序，慢慢读下去。
 
-[看看最近更新了什么](./updates.md) · [了解这个网站与使用约定](./about.md)
+[看看最近更新了什么](./updates.md) · [这个网站在做什么](./site-purpose.md) · [关于与使用约定](./about.md)
 
 ## 研究反馈
 

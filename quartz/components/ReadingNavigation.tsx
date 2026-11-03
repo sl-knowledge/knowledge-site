@@ -48,7 +48,7 @@ export const ReadingNavigation: QuartzComponent = ({ fileData, allFiles }) => {
             </ul>
           </details>
         })}
-        <ul class="reading-utility">{item("updates", "网站更新记录")}{item("about", "关于与版权")}</ul>
+        <ul class="reading-utility">{item("site-purpose", "这个网站在做什么")}{item("updates", "网站更新记录")}{item("about", "关于与版权")}</ul>
       </div>
     </details>
   </nav>

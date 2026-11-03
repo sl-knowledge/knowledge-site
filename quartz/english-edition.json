@@ -6,6 +6,7 @@
     "applications/index",
     "applications/physical-ai-interview",
     "applications/viability-first-control",
+    "cosmic-reflections-and-later-research",
     "disclaimer",
     "economics/first-principles-learning",
     "economics/index",
@@ -46,6 +47,8 @@
     "learning/english-for-chinese-speakers",
     "learning/framework-driven-learning",
     "learning/index",
+    "research-history",
+    "site-purpose",
     "updates"
   ]
 }
