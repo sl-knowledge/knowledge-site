@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.1.2"
+version: "1.1.3"
 created: "2026-11-02"
 updated: "2026-11-03"
 published: "2026-11-02"
