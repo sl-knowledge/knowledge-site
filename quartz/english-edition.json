@@ -1,0 +1,18 @@
+{
+  "site": "https://sl-knowledge.github.io/knowledge-site-en",
+  "pages": [
+    "index",
+    "about",
+    "disclaimer",
+    "updates",
+    "applications/index",
+    "framework/index",
+    "framework/book/index",
+    "framework/methods/index",
+    "framework/methods/canonical-vocabulary",
+    "framework/methods/cf-grammar",
+    "framework/methods/consistency-and-revision",
+    "framework/methods/originality-and-validation",
+    "framework/methods/research-architecture"
+  ]
+}

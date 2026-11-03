@@ -19,6 +19,7 @@ article table { font-size: .92rem; }
 .site-navigation > div { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; }
 .site-navigation > div > a { white-space: nowrap; }
 .site-navigation a:hover { text-decoration: underline; text-underline-offset: .3em; }
+.language-switch { color: var(--secondary); white-space: nowrap; font-weight: 600; }
 .publication-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.1rem; font-size: .76rem; color: var(--darkgray); padding: .3rem 0 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid var(--lightgray); }
 .version-badge { background: var(--highlight); color: var(--secondary); border-radius: 3px; padding: .2rem .5rem; font-weight: 600; }
 .publication-footer { margin-top: 4rem; padding: 1.8rem 0; border-top: 1px solid var(--lightgray); font-size: .75rem; opacity: 1; }

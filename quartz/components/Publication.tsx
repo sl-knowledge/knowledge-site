@@ -2,8 +2,20 @@ import { QuartzComponent, QuartzComponentProps } from "./types"
 import { pathToRoot } from "../util/path"
 import { readingSections, articleReadings, readingFor, readingHref } from "./ReadingNavigation"
 import release from "../site-release.json"
+import englishEdition from "../english-edition.json"
 // @ts-ignore
 import pageviewsScript from "./scripts/pageviews.inline"
+
+// The English edition mirrors this site's paths page for page. A page that is
+// not translated yet has no counterpart, so the switch falls back to the
+// English home page instead of leading to an address that does not exist.
+const englishPages = new Set<string>(englishEdition.pages)
+export const englishUrl = (slug: string): string => {
+  if (!englishPages.has(slug)) return englishEdition.site
+  if (slug === "index") return `${englishEdition.site}/`
+  if (slug.endsWith("/index")) return `${englishEdition.site}/${slug.slice(0, -"/index".length)}/`
+  return `${englishEdition.site}/${slug}`
+}
 
 export const SiteNavigation: QuartzComponent = ({ fileData }) => {
   const root = pathToRoot(fileData.slug!)
@@ -11,7 +23,7 @@ export const SiteNavigation: QuartzComponent = ({ fileData }) => {
   const reading = readingFor(current)
   return <nav class="site-navigation" aria-label="主导航">
     <a class="internal nav-home" href={`${root}/`}>SL / 研究与学习</a>
-    <div>{readingSections.map(section => <a class="internal" key={section.id} href={readingHref(root, section.slug)} aria-current={current === section.slug ? "page" : reading?.section === section.id ? "location" : undefined}>{section.title}</a>)}<a class="internal" href={`${root}/about`} aria-current={current === "about" ? "page" : undefined}>关于</a></div>
+    <div>{readingSections.map(section => <a class="internal" key={section.id} href={readingHref(root, section.slug)} aria-current={current === section.slug ? "page" : reading?.section === section.id ? "location" : undefined}>{section.title}</a>)}<a class="internal" href={`${root}/about`} aria-current={current === "about" ? "page" : undefined}>关于</a><a class="language-switch" href={englishUrl(current)} hreflang="en" lang="en">English</a></div>
   </nav>
 }
 
@@ -94,7 +106,7 @@ export const PublicationFooter: QuartzComponent = ({ fileData }: QuartzComponent
     <p class="site-release"><a class="internal" href={`${root}/updates`}>网站 v{release.version} · 更新记录</a><span> · {release.date}</span></p>
     <p class="site-pageviews" data-pageviews-url={`${root}/static/pageviews.json`} aria-live="polite">累计浏览量：<span data-pageviews-count>加载中…</span></p>
     <p class="research-use-footer">本站内容为研究笔记。安全与投资内容不构成操作或交易建议。<span lang="en"> Research use only; not operational or investment advice.</span></p>
-    <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>
+    <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a class="language-switch" href={englishUrl(String(fileData.slug))} hreflang="en" lang="en">English</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>
   </footer>
 }
 

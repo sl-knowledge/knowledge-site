@@ -13,6 +13,7 @@ for (const file of files) {
   assert.ok(html.includes(slug === "index" ? 'class="home-hero"' : 'class="publication-meta"'), `${file}: missing publication layout`)
   assert.ok(search[slug], `${file}: missing from search index`)
   assert.ok(html.includes("研究用途与免责声明 / Disclaimer"), `${file}: missing full disclaimer link`)
+  assert.ok(html.includes('hreflang="en"'), `${file}: missing link to the English edition`)
   const source = fs.readFileSync(path.join("content", file), "utf8")
   const fm = parse(source.match(/^---\r?\n([\s\S]*?)\r?\n---/)[1])
   if (fm.researchScope) {
