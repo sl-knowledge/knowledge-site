@@ -2,7 +2,7 @@
 title: "理论应用"
 description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.4"
+version: "0.5"
 created: "2026-11-02"
 updated: "2026-11-02"
 published: "2026-11-02"
@@ -54,7 +54,7 @@ kind: category
 
 ## 合作与承诺
 
-- [不完全信任下的合作：预警余量与可恢复性](cooperation-under-incomplete-trust.md)：可信性、可恢复性、可接受性分别讨论；m>0不单独保证合作成立。
+- [不完全信任下的合作：预警余量与可恢复性](cooperation-under-incomplete-trust.md)：v0.10：在一般主体的层面，讨论可信性、可恢复性、未来可选择性和可接受性，并连接已有书稿与压力测试。
 
 <a id="control"></a>
 
