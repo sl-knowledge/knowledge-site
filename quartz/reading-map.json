@@ -25,7 +25,8 @@
           "id": "representation",
           "title": "表示与认识",
           "slugs": [
-            "framework/book/what-belongs-in-a-model"
+            "framework/book/what-belongs-in-a-model",
+            "framework/foundations/simplicity-and-recovery"
           ]
         },
         {
@@ -509,6 +510,17 @@
       "readings": [
         "framework/methods/research-architecture",
         "framework/methods/canonical-vocabulary"
+      ]
+    },
+    "framework/foundations/simplicity-and-recovery": {
+      "section": "theory",
+      "group": "representation",
+      "role": "抽象结构与条件性论证",
+      "bookReference": "第二部表示充分性；第三部可恢复性；控制原则C17",
+      "readings": [
+        "framework/book/what-belongs-in-a-model",
+        "framework/book/acting-under-uncertainty",
+        "framework/methods/stress-testing"
       ]
     }
   },

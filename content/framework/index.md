@@ -2,9 +2,9 @@
 title: "理论体系"
 description: "从总架构、统一术语与现实、表示、决策三部主干进入，并查阅系统、价值、生命与概念专题。"
 author: "SL"
-version: "0.6"
+version: "0.7"
 created: "2026-10-31"
-updated: "2026-11-02"
+updated: "2026-11-03"
 published: "2026-10-31"
 publish: true
 kind: category
@@ -65,6 +65,8 @@ kind: category
 ## 表示与认识
 
 - [我们如何知道什么值得进入模型](book/what-belongs-in-a-model.md)：证据、表示、竞争解释、预测与修订：怎样判断一个模型够不够用。
+
+- [简化与退路：受约束系统中的可恢复性](foundations/simplicity-and-recovery.md)：SF1—SF9区分运行成本与恢复范围，检查信息区分、有限测试、规则保留与修订条件。
 
 <a id="decision"></a>
 
