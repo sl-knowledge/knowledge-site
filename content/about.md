@@ -2,7 +2,7 @@
 title: "关于"
 description: "SL 的公开研究：理论体系、研究方法、领域应用、版本与版权说明。"
 author: SL
-version: "0.6"
+version: "0.7"
 created: "2026-10-31"
 updated: "2026-11-02"
 published: "2026-10-31"
