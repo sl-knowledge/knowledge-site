@@ -1,8 +1,8 @@
 ---
 title: "SL · 研究与学习"
-description: "关于学习、经济、语言文字与复杂系统的公开研究笔记。从小模型出发，理解更大的世界。"
+description: "一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论"
 author: SL
-version: "0.6"
+version: "0.7"
 created: "2026-10-31"
 updated: "2026-11-02"
 published: "2026-10-31"
