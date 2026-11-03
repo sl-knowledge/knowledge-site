@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "0.6"
+version: "0.7"
 created: "2026-11-02"
 updated: "2026-11-02"
 published: "2026-11-02"
@@ -11,6 +11,18 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-4-0"></a>
+
+## v0.4.0 · 2026-11-02
+
+**统一从发现到完成的计时口径。** 区分实施时长、包含判断协调的完整应对时长，以及扣除完整流程后的有效余量；分别记录最迟开始整个流程 \(t_R\) 与最迟开始实际实施 \(t_L\)。
+
+- [统一术语v0.4](./framework/methods/canonical-vocabulary.md#recovery-time-structure)给出定义、旧符号映射、逐方案条件与非零协调延迟例子。[压力测试v0.2](./framework/methods/stress-testing.md#st8)同步ST8，固定编号保留。
+- [第一部v0.3](./framework/book/constraints-and-future-options.md#recovery-time-structure)和[第三部v0.2](./framework/book/acting-under-uncertainty.md)采用同一完整应对口径。
+- [合作文章v0.11](./applications/cooperation-under-incomplete-trust.md)保留原五组数值，明确实施前延迟为零；另加1周协调延迟的独立变体，有效余量为4周。[Physical AI文章v0.4](./applications/physical-ai-interview.md)的零额外延迟设定明确写出；[控制原则v0.1.1](./applications/viability-first-control.md)澄清交接计时。
+
+旧稿中从发现到最迟实施的窗口，只有在额外延迟为零时才等于有效余量。非零延迟必须重新计算；预警间隔仍与发现延迟和有效余量分别记录。公式是有条件的时间记账关系，没有新增实证结果，也不构成实际操作建议。已有英文术语页同步，其他文章的完整英译仍待补齐。
 
 <a id="v0-3-0"></a>
 

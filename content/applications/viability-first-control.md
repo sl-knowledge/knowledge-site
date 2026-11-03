@@ -2,7 +2,7 @@
 title: "控制权、信息与时间：可生存性优先的控制与安全设计原则"
 description: "研究资料，不构成操作指引。从受约束的动态系统出发，整理一组跨领域的控制与安全设计原则：谁依据什么信息、在多长时间内对哪个变量行动，怎样识别三类失效、四项保障义务与五个比较性质。"
 author: SL
-version: "0.1"
+version: "0.1.1"
 created: "2026-11-02"
 updated: "2026-11-02"
 published: "2026-11-02"
@@ -13,7 +13,7 @@ aliases:
   - framework/viability-first-control
 ---
 
-> **公开研究稿 v0.1 · 理论原则与研究假说，未作具体系统验证或认证。** 本文从作者关于自动化控制权分配与跨领域安全设计的研究中，抽取可以独立使用的理论部分，不涉及具体机型、具体事故或具体系统的分析。文中区分三类内容：已有的数学方法、本文提出的分析原则、尚待检验的研究假说。本文不构成任何领域的操作指引或设计规范。
+> **公开研究稿 v0.1.1 · 理论原则与研究假说，未作具体系统验证或认证。** 本文从作者关于自动化控制权分配与跨领域安全设计的研究中，抽取可以独立使用的理论部分，不涉及具体机型、具体事故或具体系统的分析。文中区分三类内容：已有的数学方法、本文提出的分析原则、尚待检验的研究假说。本文不构成任何领域的操作指引或设计规范。
 >
 > **引用方式。** 为便于其他文章引用，本文的主要原则都有固定编号（C1—C16）。引用时可写作"见《控制权、信息与时间》原则 C5"。
 
@@ -170,7 +170,7 @@ $$
 
 > **C14　交接不是普遍的安全状态。** 当自动功能无法给出安全命令、把控制交给另一个控制者（例如人）时，需要论证接收方拥有**足以支持有效应对的信息、权限、可行策略或目标，以及足够的反应时间**。这不要求每次都新增权限或更换目标，而是要求交接后确实存在可执行的路径；没有这样的论证，转交责任不能作为安全得到改善的证据。
 
-这与[不完全信任下的合作](./cooperation-under-incomplete-trust.md)中的预警余量是同一个时间问题：接收方能否在最迟启动时点之前，发现情况、理解情况并采取行动。
+这一点可按[不完全信任下的合作](./cooperation-under-incomplete-trust.md)与[统一术语](../framework/methods/canonical-vocabulary.md#recovery-time-structure)的计时口径检查：接收方发现后，是否有时间完成理解、判断、协调与实施。最迟开始整个流程与最迟开始实际实施分别记录；不能等到实施的最迟时点才开始理解情况。这里对应的是时间结构，具体安全结论仍需领域验证。
 
 ### 6.4 命令路径与旁路
 
@@ -293,3 +293,7 @@ $$
 - Degani, A., & Heymann, M. (2002). Formal verification of human-automation interaction. *Human Factors*, 44(1). [NASA 技术报告页面](https://ntrs.nasa.gov/citations/20040088229)
 - Leveson, N. G. (2011). *Engineering a Safer World: Systems Thinking Applied to Safety*. MIT Press. [出版社页面](https://mitpress.mit.edu/9780262533690/engineering-a-safer-world/)
 - IAEA (1996). *Defence in Depth in Nuclear Safety* (INSAG-10). [PDF](https://www-pub.iaea.org/MTCD/publications/PDF/Pub1013e_web.pdf)
+
+## v0.1.1修订说明
+
+第6.3节明确交接后的完整应对时间，区分两类最迟开始时点。C1—C16内容编号与研究边界保留。
