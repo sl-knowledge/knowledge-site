@@ -1,6 +1,6 @@
 # Research feedback
 
-The English edition is the primary public research edition. Reports in English or Chinese are welcome.
+Reports in English or Chinese are welcome.
 
 Before opening an issue, check the article version and existing issues. Please include:
 

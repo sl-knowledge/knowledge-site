@@ -1,10 +1,10 @@
 # SL · 研究与学习
 
-[主要公开版本：English](https://sl-knowledge.github.io/knowledge-site-en/) · [中文对应版本](https://sl-knowledge.github.io/knowledge-site/)
+[English](https://sl-knowledge.github.io/knowledge-site-en/) · [中文对应版本](https://sl-knowledge.github.io/knowledge-site/)
 
 一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论。文章分别标注作者、版本、日期与研究状态。
 
-中文可用于起草；公开修订以英文站为优先，再同步中文对应版本。已有理论、条件性论证、研究假说与实证材料保持各自知识地位，语言转换不增加证据。
+文章提供中英文版本。已有理论、条件性论证、研究假说与实证材料保持各自知识地位。
 
 欢迎通过[英文研究反馈入口](https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml)提交纠错、反例、来源与翻译问题。请注明文章版本、具体陈述和相关假设。阅读[公开版本政策](PUBLICATION-POLICY.md)与[反馈说明](CONTRIBUTING.md)。
 

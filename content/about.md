@@ -2,7 +2,7 @@
 title: "关于"
 description: "SL 的公开研究：理论体系、研究方法、领域应用、版本与版权说明。"
 author: SL
-version: "0.8"
+version: "0.8.1"
 created: "2026-10-31"
 updated: "2026-11-03"
 published: "2026-10-31"
@@ -27,13 +27,11 @@ publish: true
 
 同一篇文章会在原地址更新。较大修订提升次版本（例如 0.1 → 0.2），勘误可提升修订号（例如 0.2 → 0.2.1）。网站版本另行记录每一批内容和阅读结构变化，见[网站更新记录](./updates.md)。文章引用请注明该篇版本；重要修订和撤回会说明影响。
 
-## 主要公开版本与研究反馈
-
-英文版作为主要公开版本，中文保留起草与对应阅读功能。本次英译以已记录的中文公开稿为来源基准；后续重要公开修订先整理、核对英文稿，再同步中文。版本差异需要核查，不因语言优先就自动认定某种表述正确。
+## 研究反馈
 
 引用请注明文章版本、原则或章节，以及实际阅读版本的链接。欢迎[提出纠错或反例](https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml)，附具体陈述、相关假设和论证或证据；公开反馈经审阅后才会进入文章。
 
-具体约定见[公开版本政策](https://github.com/sl-knowledge/knowledge-site-en/blob/main/PUBLICATION-POLICY.md)。文章版权暂时保留现有条款，未来许可另行决定。
+提交反馈时，请注明实际阅读的版本。
 
 ## 版权
 

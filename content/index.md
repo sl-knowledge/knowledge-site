@@ -2,7 +2,7 @@
 title: "SL · 研究与学习"
 description: "一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论"
 author: SL
-version: "0.8"
+version: "0.8.1"
 created: "2026-10-31"
 updated: "2026-11-03"
 published: "2026-10-31"
@@ -25,8 +25,6 @@ kind: home
 
 [看看最近更新了什么](./updates.md) · [了解这个网站与使用约定](./about.md)
 
-## 以英文版为主要公开版本
-
-本站逐步以[英文版](https://sl-knowledge.github.io/knowledge-site-en/)作为主要公开版本，中文继续用于起草并保留对应阅读版本。公开修订先整理英文稿，再同步中文；文章的论证、假设、编号与版本应相互对应。
+## 研究反馈
 
 欢迎通过英文仓库的[研究反馈入口](https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml)提出纠错、反例与翻译问题。请注明文章版本和具体陈述。
