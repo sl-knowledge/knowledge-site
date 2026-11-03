@@ -24,7 +24,7 @@
     "dev": "npx quartz build --serve",
     "preview": "npx quartz build --serve",
     "validate:content": "node scripts/validate-content.mjs",
-    "postbuild": "node scripts/verify-build.mjs"
+    "postbuild": "node scripts/verify-build.mjs && node scripts/verify-markdown-rendering.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
