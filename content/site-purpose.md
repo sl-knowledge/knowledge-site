@@ -2,7 +2,7 @@
 title: "这个网站在做什么"
 description: "从具体问题中抽出理论，尝试联系分散在不同领域的知识，让人和 AI 更方便地理解、迁移、检验和使用。"
 author: SL
-version: "0.5.10"
+version: "0.5.11"
 created: "2026-11-03"
 updated: "2026-11-03"
 published: "2026-11-03"

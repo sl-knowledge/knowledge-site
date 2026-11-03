@@ -2,9 +2,9 @@
 title: "研究用途与免责声明"
 description: "说明本站研究笔记的使用边界，重点区分安全研究与操作指引、投资研究与交易建议。"
 author: SL
-version: "0.1"
+version: "0.1.1"
 created: "2026-11-01"
-updated: "2026-11-01"
+updated: "2026-11-03"
 published: "2026-11-01"
 publish: true
 kind: policy
@@ -63,4 +63,4 @@ Information may be incomplete, incorrect or outdated. Citations do not imply end
 - [SEC投资者教育：Performance Claims](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-47)：区分历史业绩、回测、目标和预测等表述。该资料不代表对本站的认可。
 - [FAA：Aviation Handbooks & Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation)：公开航空教育资料入口；本站文章不替代具体机型与运行任务所适用的批准文件。
 
-[关于作者、版本与版权](./about.md)
+[关于、版本与版权](./about.md)
