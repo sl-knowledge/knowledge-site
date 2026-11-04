@@ -1,6 +1,6 @@
 {
-  "version": "0.8.3",
+  "version": "0.8.4",
   "date": "2026-11-03",
-  "title": "Markdown 排版修正",
-  "summary": "修复加粗标记与中文标点衔接，并检查全站 Markdown 渲染。"
+  "title": "介绍页面修订",
+  "summary": "修订网站介绍的结构与表述。"
 }
