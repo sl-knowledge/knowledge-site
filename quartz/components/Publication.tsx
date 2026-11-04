@@ -62,7 +62,7 @@ const entries = [
   ["35", "研究方法与规范", "压力测试：约束识别、反馈与恢复窗口", "ST1—ST12固定原则：检查情景、约束、反馈、恢复窗口和共同失效，附最小示例与引用模板。", "framework/methods/stress-testing", "v0.1"],
   ["36", "理论体系", "简化与退路：受约束系统中的可恢复性", "SF1—SF9：简化减少了什么负担，又保留了哪些恢复能力？", "framework/foundations/simplicity-and-recovery", "v0.2"],
   ["37", "理论体系", "平稳不等于有退路：出问题的概率与被锁定的概率", "分别评价日常表现、问题概率、条件锁定概率与后果。", "framework/foundations/lock-in-vs-probability", "v0.4"],
-  ["38", "理论应用", "证据是在更新判断，还是维护原观点？投资研究的自查", "研究资料，不构成投资或交易建议。十二项自查与可复核的证据更新记录。", "applications/investment-evidence-self-check", "v0.1"],
+  ["38", "理论应用", "证据是在更新判断，还是维护原观点？", "研究资料，不构成投资或交易建议。命题依赖、十二项自查与条件性更新记录。", "applications/investment-evidence-self-check", "v0.3"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

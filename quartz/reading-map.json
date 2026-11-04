@@ -538,11 +538,13 @@
     "applications/investment-evidence-self-check": {
       "section": "applications",
       "group": "company",
-      "role": "证据更新与研究自查",
-      "bookReference": "第四部投资证据；第二部竞争解释与修订",
+      "role": "命题依赖与证据更新",
+      "bookReference": "第二部表示与修订；多尺度与约束分析",
       "readings": [
-        "framework/methods/investment-research-charter",
-        "framework/book/what-belongs-in-a-model"
+        "framework/book/what-belongs-in-a-model",
+        "framework/foundations/systems-within-the-universe",
+        "framework/methods/stress-testing",
+        "framework/methods/investment-research-charter"
       ]
     }
   },
