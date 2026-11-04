@@ -109,7 +109,7 @@ export const PublicationFooter: QuartzComponent = ({ fileData }: QuartzComponent
     <p class="site-release"><a class="internal" href={`${root}/updates`}>网站 v{release.version} · 更新记录</a><span> · {release.date}</span></p>
     <p class="site-pageviews" data-pageviews-url={`${root}/static/pageviews.json`} aria-live="polite">累计浏览量：<span data-pageviews-count>加载中…</span></p>
     <p class="research-use-footer">本站内容为研究笔记。安全与投资内容不构成操作或交易建议。<span lang="en"> Research use only; not operational or investment advice.</span></p>
-    <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a class="language-switch" href={englishUrl(String(fileData.slug))} hreflang="en" lang="en">English</a><a href="https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml">研究反馈 / Feedback</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>
+    <div><a class="internal" href={`${root}/disclaimer`}>研究用途与免责声明 / Disclaimer</a><a class="internal" href={`${root}/about`}>关于与版权</a><a class="internal" href={`${root}/about#contact`}>联系 / Contact</a><a class="language-switch" href={englishUrl(String(fileData.slug))} hreflang="en" lang="en">English</a><a href="https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml">研究反馈 / Feedback</a><a href="https://github.com/sl-knowledge/knowledge-site">GitHub</a><a href="https://quartz.jzhao.xyz/">Built with Quartz</a></div>
   </footer>
 }
 
