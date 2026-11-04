@@ -61,6 +61,7 @@ const entries = [
   ["34", "理论应用", "持续能力，还是难以退出的依赖？——读一期 Physical AI 访谈", "研究示例，不构成投资或交易建议。从字幕核对与假想企业出发，分析机器人服务依赖和恢复窗口。", "applications/physical-ai-interview", "v0.3"],
   ["35", "研究方法与规范", "压力测试：约束识别、反馈与恢复窗口", "ST1—ST12固定原则：检查情景、约束、反馈、恢复窗口和共同失效，附最小示例与引用模板。", "framework/methods/stress-testing", "v0.1"],
   ["36", "理论体系", "简化与退路：受约束系统中的可恢复性", "SF1—SF9：简化减少了什么负担，又保留了哪些恢复能力？", "framework/foundations/simplicity-and-recovery", "v0.2"],
+  ["37", "理论体系", "平稳不等于有退路：出问题的概率与被锁定的概率", "分别评价日常表现、问题概率、条件锁定概率与后果。", "framework/foundations/lock-in-vs-probability", "v0.4"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

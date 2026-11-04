@@ -33,7 +33,8 @@
           "id": "decision",
           "title": "不确定性与决策",
           "slugs": [
-            "framework/book/acting-under-uncertainty"
+            "framework/book/acting-under-uncertainty",
+            "framework/foundations/lock-in-vs-probability"
           ]
         },
         {
@@ -521,6 +522,16 @@
         "framework/book/what-belongs-in-a-model",
         "framework/book/acting-under-uncertainty",
         "framework/methods/stress-testing"
+      ]
+    },
+    "framework/foundations/lock-in-vs-probability": {
+      "section": "theory",
+      "group": "decision",
+      "role": "概率口径与条件性风险分析",
+      "bookReference": "第三部不可恢复损失；SF9筛选与保留机制",
+      "readings": [
+        "framework/book/acting-under-uncertainty",
+        "framework/foundations/simplicity-and-recovery"
       ]
     }
   },

@@ -2,7 +2,7 @@
 title: "理论体系"
 description: "从总架构、统一术语与现实、表示、决策三部主干进入，并查阅系统、价值、生命与概念专题。"
 author: "SL"
-version: "0.7"
+version: "0.8"
 created: "2026-10-31"
 updated: "2026-11-03"
 published: "2026-10-31"
@@ -73,6 +73,8 @@ kind: category
 ## 不确定性与决策
 
 - [不确定世界中的行动](book/acting-under-uncertainty.md)：从判断到行动：后果结构、稳健性、等待的价值、承诺与锁定。
+
+- [平稳不等于有退路：出问题的概率与被锁定的概率](foundations/lock-in-vs-probability.md)：LK1—LK6区分日常表现、概率、恢复能力与后果，补充SF9的风险评价口径。
 
 <a id="values"></a>
 
