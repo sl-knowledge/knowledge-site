@@ -2,9 +2,9 @@
 title: "理论应用"
 description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.5"
+version: "0.6"
 created: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-04"
 published: "2026-11-02"
 publish: true
 kind: category
@@ -23,6 +23,7 @@ kind: category
 - [投资的三个系统：公司、市场与投资者](../framework/book/investment-three-systems.md)：领域框架：区分公司、市场与投资者，同时保留书稿第四部的完整论证。
 - [企业分析操作总纲](../framework/methods/company-analysis-protocol.md)：领域研究方法：客户任务、经营机制、财务核对、关键证据与长期跟踪。
 - [投资研究与交易决策总纲](../framework/methods/investment-research-charter.md)：领域研究方法：研究目标、证据纪律、估值情景和独立验证。
+- [证据是在更新判断，还是维护原观点？投资研究的自查](./investment-evidence-self-check.md)：研究自查：检查搜集、评价、更新与复盘，附命题卡和证据更新记录。
 - [过去的成功，为什么可能成为下一次转型的约束？](../framework/cases/success-and-transition.md)：历史案例比较：区分能力、组织约束、准备、竞争窗口与其他解释。
 - [东方雨虹：业务重构，怎样才算真正改善？](../framework/cases/business-reconstruction-yuhong.md)：公司案例：分别检查渠道、信用资本效率和海外能力迁移。
 - [持续能力，还是难以退出的依赖？——读一期 Physical AI 访谈](physical-ai-interview.md)：产业案例：通过字幕材料与假想企业，分析机器人服务依赖和恢复窗口。

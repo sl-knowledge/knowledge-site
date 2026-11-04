@@ -105,6 +105,7 @@
             "framework/book/investment-three-systems",
             "framework/methods/company-analysis-protocol",
             "framework/methods/investment-research-charter",
+            "applications/investment-evidence-self-check",
             "framework/cases/success-and-transition",
             "framework/cases/business-reconstruction-yuhong",
             "applications/physical-ai-interview"
@@ -532,6 +533,16 @@
       "readings": [
         "framework/book/acting-under-uncertainty",
         "framework/foundations/simplicity-and-recovery"
+      ]
+    },
+    "applications/investment-evidence-self-check": {
+      "section": "applications",
+      "group": "company",
+      "role": "证据更新与研究自查",
+      "bookReference": "第四部投资证据；第二部竞争解释与修订",
+      "readings": [
+        "framework/methods/investment-research-charter",
+        "framework/book/what-belongs-in-a-model"
       ]
     }
   },
