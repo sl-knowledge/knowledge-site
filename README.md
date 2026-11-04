@@ -8,6 +8,10 @@
 
 欢迎通过[英文研究反馈入口](https://github.com/sl-knowledge/knowledge-site-en/issues/new?template=research-feedback.yml)提交纠错、反例、来源与翻译问题。请注明文章版本、具体陈述和相关假设。阅读[公开版本政策](PUBLICATION-POLICY.md)与[反馈说明](CONTRIBUTING.md)。
 
+## 联系
+
+研究合作及内容使用与授权咨询（包括AI训练与评测），请联系：[slknowledge@outlook.com](mailto:slknowledge@outlook.com)。
+
 ## 版权与研究用途
 
 原创文章：© 2026 SL. All rights reserved.，详见[文章版权](CONTENT-LICENSE.md)。现阶段没有改为Creative Commons许可。
