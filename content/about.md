@@ -2,7 +2,7 @@
 title: "关于"
 description: "SL 的公开研究：理论体系、研究方法、领域应用、版本与版权说明。"
 author: SL
-version: "0.10.0"
+version: "0.10.1"
 created: "2026-10-31"
 updated: "2026-11-04"
 published: "2026-10-31"
@@ -37,7 +37,7 @@ publish: true
 
 ## 联系
 
-研究合作及内容使用与授权咨询（包括AI训练与评测），请联系：[slknowledge@outlook.com](mailto:slknowledge@outlook.com)。
+内容使用与授权咨询（包括AI训练与评测），请联系：[slknowledge@outlook.com](mailto:slknowledge@outlook.com)。
 
 ## 研究反馈
 

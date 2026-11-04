@@ -10,7 +10,7 @@
 
 ## 联系
 
-研究合作及内容使用与授权咨询（包括AI训练与评测），请联系：[slknowledge@outlook.com](mailto:slknowledge@outlook.com)。
+内容使用与授权咨询（包括AI训练与评测），请联系：[slknowledge@outlook.com](mailto:slknowledge@outlook.com)。
 
 ## 版权与研究用途
 
