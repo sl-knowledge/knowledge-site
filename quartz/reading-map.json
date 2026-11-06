@@ -577,5 +577,35 @@
       "section": "theory",
       "group": "explorations"
     }
-  }
+  },
+  "sidebarGroups": [
+    {
+      "id": "research-history",
+      "title": "研究纲领与历程",
+      "slugs": [
+        "research-programme",
+        "research-history",
+        "cosmic-reflections-and-later-research",
+        "bunge-and-research-path"
+      ]
+    },
+    {
+      "id": "subject-indexes",
+      "title": "专题索引",
+      "slugs": [
+        "economics/index",
+        "learning/index",
+        "language/index",
+        "framework/cases/index",
+        "framework/foundations/index"
+      ]
+    }
+  ],
+  "utilitySlugs": [
+    "index",
+    "site-purpose",
+    "updates",
+    "disclaimer",
+    "about"
+  ]
 }

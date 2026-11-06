@@ -48,7 +48,11 @@ export const ReadingNavigation: QuartzComponent = ({ fileData, allFiles }) => {
             </ul>
           </details>
         })}
-        <ul class="reading-utility">{item("site-purpose", "这个网站在做什么")}{item("updates", "网站更新记录")}{item("about", "关于与版权")}</ul>
+        {map.sidebarGroups.map(group => <details class="reading-section" key={group.id} data-reading-section={group.id} open={group.slugs.includes(current)}>
+          <summary>{group.title}</summary>
+          <ul>{group.slugs.map(slug => item(slug))}</ul>
+        </details>)}
+        <ul class="reading-utility">{map.utilitySlugs.map(slug => item(slug))}</ul>
       </div>
     </details>
   </nav>
