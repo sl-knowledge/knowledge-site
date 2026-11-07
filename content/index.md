@@ -2,9 +2,9 @@
 title: "SL · 研究与学习"
 description: "一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论"
 author: SL
-version: "0.8.2"
+version: "0.8.3"
 created: "2026-10-31"
-updated: "2026-11-03"
+updated: "2026-11-07"
 published: "2026-10-31"
 publish: true
 kind: home

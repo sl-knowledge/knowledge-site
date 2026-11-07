@@ -74,6 +74,7 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
     <p class="eyebrow">SL’S FIELD NOTES · 持续修订中</p>
     <h1>从小模型出发，<br />理解更大的世界。</h1>
     <p class="hero-description">一个独立研究者的开放研究站：<br />持续修订的书稿、工作论文与可检验的推论</p>
+    <p class="hero-purpose"><a class="internal" href={`${root}/site-purpose`}>这个网站在做什么 <span aria-hidden="true">→</span></a></p>
     <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开文章 / 四条阅读路线</span><a class="internal" href={`${root}/updates`}>网站 v{release.version} · {release.date}</a></div>
     <div class="research-cycle" aria-label="探索的过程">提出问题 <span>→</span> 试着解释 <span>→</span> 看看现实 <span>→</span> 继续追问</div>
     <div class="collection-heading"><h2>从这里开始</h2><span>READING PATHS</span></div>
