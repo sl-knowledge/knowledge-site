@@ -2,9 +2,9 @@
 title: "证据是在更新判断，还是维护原观点？"
 description: "用命题依赖图、十二项自查及记录模板，组织证据定位、快慢尺度、条件传导、相关性复核与机制重审。通用研究方法；涉及投资的使用不构成投资或交易建议。"
 author: SL
-version: "0.3"
+version: "0.3.1"
 created: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-08"
 published: "2026-11-04"
 publish: true
 status: "公开研究稿 · 命题依赖与证据更新方法"
@@ -21,7 +21,7 @@ tags:
 
 本文提出一套可记录的更新方法：**先区分命题及其依赖，再把证据定位到对象、变量与时间尺度，检查它经过哪些条件影响其他判断。** 支持增强、减弱、未变与暂时无法判断，都应有相应理由。
 
-正文依次给出命题依赖图、十二项自查、传导与修订规则、记录模板及抽象条件推演。整套方法仍需独立检验；它用于研究审查，不直接生成操作指令。涉及投资的使用也不构成投资或交易建议。
+正文依次给出命题依赖图、十二项自查、传导与修订规则、记录模板及抽象条件推演。整套方法仍需独立检验；它用于研究审查。
 
 <a id="hypothesis-dependencies"></a>
 
@@ -316,6 +316,14 @@ flowchart LR
 - [《企业分析操作总纲》v0.1.1](https://sl-knowledge.github.io/knowledge-site/framework/methods/company-analysis-protocol)：竞争者与反证、关键Evidence和结论边界。
 - [《我们如何知道什么值得进入模型》v0.1.2](https://sl-knowledge.github.io/knowledge-site/framework/book/what-belongs-in-a-model)：证据类型、竞争解释、前瞻检验与修订。
 - [《投资的三个系统》v0.2.1](https://sl-knowledge.github.io/knowledge-site/framework/book/investment-three-systems)：公司、市场与投资者自身约束的区别。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+本文不直接生成操作指令；涉及投资的使用不构成投资或交易建议。
 
 ---
 

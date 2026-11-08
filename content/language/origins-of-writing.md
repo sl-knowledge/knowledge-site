@@ -2,16 +2,16 @@
 title: "文字的起源：语言结构如何长出书写系统"
 description: "用语素与音节边界、文字来源和制度连续性，探索不同书写系统形成的条件。理论草稿 v0.1。"
 author: SL
-version: "0.1"
+version: "0.1.1"
 created: "2026-10-30"
-updated: "2026-10-31"
+updated: "2026-11-08"
 published: "2026-10-31"
 publish: true
 kind: article
 status: 理论草稿
 ---
 
-> **理论草稿 v0.1** · 本文包含待检验的假说与推论；证据局限、反例和待核对引用均保留在正文中。
+**理论草稿 · 待检验假说**
 
 ## 摘要
 
@@ -270,3 +270,11 @@ Handel 沿用 Boltz 的记法，把一个字写成 G(P, S)：字形 G 同时带�
 - Hannas (1997), [Asia's Orthographic Dilemma](https://www.ubcpress.ca/asias-orthographic-dilemma)；Hannas (2003), The Writing on the Wall
 - Tranter (2013), [Logography and layering: A functional cross-linguistic analysis](<https://eprints.whiterose.ac.uk/id/eprint/91110/7/NT%20(2013)%20Logography%20(WL&L)%20-%20AAM.pdf>), Written Language and Literacy 16(1)
 - [A computational model of the discovery of writing](https://www.benjamins.com/catalog/wll.00004.spr), Written Language and Literacy
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **理论草稿 v0.1** · 本文包含待检验的假说与推论；证据局限、反例和待核对引用均保留在正文中。

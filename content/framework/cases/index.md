@@ -2,9 +2,9 @@
 title: "案例研究"
 description: "研究资料，不构成投资或交易建议。通过企业转型与业务重构，检查约束诊断、机制解释和证据边界。"
 author: "SL"
-version: "0.3"
+version: "0.3.1"
 created: "2026-11-01"
-updated: "2026-11-02"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: category

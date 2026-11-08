@@ -2,9 +2,9 @@
 title: "理论应用"
 description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.7"
+version: "0.7.1"
 created: "2026-11-02"
-updated: "2026-11-04"
+updated: "2026-11-08"
 published: "2026-11-02"
 publish: true
 kind: category
@@ -17,8 +17,6 @@ kind: category
 <a id="company"></a>
 
 ## 企业与投资
-
-本组为研究资料，不构成投资或交易建议；研究清单与情景分析不能直接替代实际交易判断。
 
 - [投资的三个系统：公司、市场与投资者](../framework/book/investment-three-systems.md)：领域框架：区分公司、市场与投资者，同时保留书稿第四部的完整论证。
 - [企业分析操作总纲](../framework/methods/company-analysis-protocol.md)：领域研究方法：客户任务、经营机制、财务核对、关键证据与长期跟踪。
@@ -61,8 +59,6 @@ kind: category
 
 ## 控制、信息与安全
 
-本组为研究资料，不构成操作指引；形式条件、研究原则与实际系统验证须分别对待。
-
 - [控制权、信息与时间：可生存性优先的控制与安全设计原则](viability-first-control.md)：抽象控制研究：C1—C16原则、三类失效、保证条件与信息、权限和时间的关系。
 
 <a id="personal"></a>
@@ -70,3 +66,13 @@ kind: category
 ## 个人选择
 
 - [自由与逍遥：在约束中保留未来选择](../framework/foundations/freedom-and-future-options.md)：个人哲学阐释：思考未来路径、恢复能力、自主承诺与价值选择。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+**企业与投资。** 本组为研究资料，不构成投资或交易建议；研究清单与情景分析不能直接替代实际交易判断。
+
+**控制与安全。** 本组为研究资料，不构成操作指引；形式条件、研究原则与实际系统验证须分别对待。

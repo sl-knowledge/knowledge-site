@@ -2,17 +2,15 @@
 title: "原创性自查与独立验证计划"
 description: "比较六项候选思想，提出基线、消融、前瞻预测和表示修订的验证方案。"
 author: "SL"
-version: "0.1"
+version: "0.1.1"
 created: "2026-11-01"
-updated: "2026-11-01"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: article
 aliases:
   - framework/originality-and-validation
 ---
-
-> **公开整理版 v0.1 · 原创性自查与研究设计。** 根据2026-10-05《原创性审计与独立验证计划v0.1》整理，并采用随后总架构和统一术语中的修正。下文是拟开展的比较方案，不是已经执行的实验、公开预注册或第三方原创性鉴定。
 
 ## 一、把“听起来有道理”转成可比较的问题
 
@@ -162,3 +160,11 @@ aliases:
 “未显著”与“等效”必须分开。真正值得保护的不是某个术语，而是允许结果改变研究立场的过程。
 
 配套阅读：[总架构](./research-architecture.md)、[统一术语](./canonical-vocabulary.md)、[人机协作研究系统](../book/human-ai-research-system.md)、[五部阅读总览](../book/book-reading-guide.md)。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **公开整理版 v0.1 · 原创性自查与研究设计。** 根据2026-10-05《原创性审计与独立验证计划v0.1》整理，并采用随后总架构和统一术语中的修正。下文是拟开展的比较方案，不是已经执行的实验、公开预注册或第三方原创性鉴定。

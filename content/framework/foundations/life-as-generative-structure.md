@@ -2,17 +2,15 @@
 title: "生命作为生成结构：核心理论版 V2"
 description: "从关系更新、持续执行到扰动恢复，提出EGBE工作定义、三变量桥接模型与待执行的验证计划。"
 author: "SL"
-version: "0.2.1"
+version: "0.2.2"
 created: "2026-09-28"
-updated: "2026-11-03"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: article
 aliases:
   - framework/life-as-generative-structure
 ---
-
-> **公开整理版 v0.1 · 生命的关系视角与研究假说。** 以2026-09-28《生命作为生成结构：核心理论版V2》（Core v2.0）为主体整理。本文未报告新实验数据，EGBE是候选性质，桥接模型与实验计划尚待验证；本页不是已经建立生命必要充分定义的宣言。
 
 ## 阅读起点：生命不只是材料，也涉及组织如何延续
 
@@ -629,3 +627,11 @@ Rosen关系生物学、RAF及化学组织理论等在原研究稿中也是后续
 附录C所列证明、长篇映射与旧模拟是研究档案的追溯线索。本页没有提供或重新验证这些模拟，也没有把它们作为已复现的结果。原始研究文档保留，网站稿单独维护。
 
 相关概念：[约束与未来选择](../book/constraints-and-future-options.md)、[表示与检验](../book/what-belongs-in-a-model.md)、[原创性与独立验证计划](../methods/originality-and-validation.md)。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **公开整理版 v0.1 · 生命的关系视角与研究假说。** 以2026-09-28《生命作为生成结构：核心理论版V2》（Core v2.0）为主体整理。本文未报告新实验数据，EGBE是候选性质，桥接模型与实验计划尚待验证；本页不是已经建立生命必要充分定义的宣言。

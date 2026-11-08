@@ -2,17 +2,15 @@
 title: "统一术语、符号与知识等级"
 description: "将状态、约束、可达性、表示失效和研究治理的定义放在同一份可查阅规范中。"
 author: "SL"
-version: "0.4.1"
+version: "0.4.2"
 created: "2026-11-01"
-updated: "2026-11-03"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: article
 aliases:
   - framework/canonical-vocabulary
 ---
-
-> **公开整理版 v0.4.1 · 本书内部术语规范。** 根据2026-10-06《Canonical Vocabulary & Notation v1.0》整理。这里的“统一”适用于本书及其公开整理稿，不表示各研究领域都采用同一术语，也不表示工作定义已成为学界标准。
 
 ## 一、先区分知识等级与证据类型
 
@@ -301,3 +299,11 @@ m_{\mathrm{eff}}=D-t_D-\tau_{\mathrm{response}}
 ## v0.4修订说明
 
 统一实施时长、完整应对时长与有效余量，区分最迟开始整个流程和最迟开始实际实施；补充非零协调延迟案例、逐方案比较和旧符号映射。一般可恢复性与机制假说的证据地位不变。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **公开整理版 v0.4.1 · 本书内部术语规范。** 根据2026-10-06《Canonical Vocabulary & Notation v1.0》整理。这里的“统一”适用于本书及其公开整理稿，不表示各研究领域都采用同一术语，也不表示工作定义已成为学界标准。

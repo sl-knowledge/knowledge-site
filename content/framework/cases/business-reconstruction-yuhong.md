@@ -2,9 +2,9 @@
 title: "东方雨虹：业务重构，怎样才算真正改善？"
 description: "研究资料，不构成投资或交易建议。把渠道结构变化、信用资本效率和海外能力迁移分别验证，研究经营变化如何转成持续现金回报。"
 author: SL
-version: "0.2.1"
+version: "0.2.2"
 created: "2026-11-01"
-updated: "2026-11-03"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: article
@@ -12,8 +12,6 @@ aliases:
   - framework/business-reconstruction-yuhong
 researchScope: investment
 ---
-
-> **公开整理版 v0.2 · 经营机制案例。** 根据原研究备忘录的前六节整理，研究基准日保留为2026-10-09；本次公开整理日期为2026-11-01。文中财务口径为2026年半年度报告，围绕这一材料窗口讨论待验证机制。
 
 ## 一、先确定我们研究的改变
 
@@ -92,3 +90,11 @@ researchScope: investment
 - 本稿保留原备忘录的核心研究问题，将后续聊天中混入的估值、其他公司及新增专题留在原研究库中。
 
 相关框架：[约束、可行性与未来选择](../book/constraints-and-future-options.md)；历史对照：[过去的成功与下一次转型](./success-and-transition.md)。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **公开整理版 v0.2 · 经营机制案例。** 根据原研究备忘录的前六节整理，研究基准日保留为2026-10-09；本次公开整理日期为2026-11-01。文中财务口径为2026年半年度报告，围绕这一材料窗口讨论待验证机制。

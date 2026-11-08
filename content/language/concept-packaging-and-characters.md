@@ -2,16 +2,16 @@
 title: "概念打包与字的约束：汉字如何固化汉语的单音节语素结构"
 description: "从同态码与任意码的定义出发，探索汉字约束、概念打包和语言学习之间的联系。理论草稿 v0.1。"
 author: SL
-version: "0.1"
+version: "0.1.1"
 created: "2026-10-30"
-updated: "2026-10-31"
+updated: "2026-11-08"
 published: "2026-10-31"
 publish: true
 kind: article
 status: 理论草稿
 ---
 
-> **理论草稿 v0.1** · 本文包含待检验的假说与推论；证据局限、反例和待核对引用均保留在正文中。
+**理论草稿 · 待检验假说**
 
 ## 摘要
 
@@ -473,3 +473,11 @@ DeFrancis 说对的地方保留：汉字记录的是语言里的语素，不是�
 - [Tan, Xu, Chang & Siok (2013), China's language input system in the digital age affects children's reading development, PNAS](https://pmc.ncbi.nlm.nih.gov/articles/PMC3549123)
 
 其余前人工作（Hockett、徐通锵、Masini、Baxter 与 Sagart、Dingemanse、Kirby、Christiansen 与 Chater、Schmid、Corson）为凭记忆引用，尚未逐一核对原文。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **理论草稿 v0.1** · 本文包含待检验的假说与推论；证据局限、反例和待核对引用均保留在正文中。

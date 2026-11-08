@@ -1,7 +1,7 @@
 import { parse } from "yaml"
 import { QuartzTransformerPlugin } from "../types"
 
-// Keep the full notice in page/search content; validated descriptions carry the RSS boundary.
+// Keep the full notice after the article; descriptions retain the boundary in feeds.
 export const ResearchNotice: QuartzTransformerPlugin = () => ({
   name: "ResearchNotice",
   textTransform(ctx, src) {
@@ -26,6 +26,14 @@ export const ResearchNotice: QuartzTransformerPlugin = () => ({
     const label = english ? "Full research-use disclaimer" : "完整研究用途与免责声明"
     const href = english ? `${policy}#english-summary` : policy
     const notice = `> **${heading}**\n>\n> ${text} [${label}](${href})\n\n`
-    return src.slice(0, match[0].length) + "\n" + notice + src.slice(match[0].length).replace(/^\s*\n/, "")
+    const marker = '<a id="research-use-disclaimer"></a>'
+    if (src.includes(marker)) return src
+    const copyright = /\n(?:---\r?\n(?:\r?\n)*)?© \d{4} SL\. All rights reserved\.\s*$/.exec(src)
+    const position = copyright?.index ?? src.trimEnd().length
+    return (
+      src.slice(0, position).trimEnd() +
+      "\n\n---\n\n" + marker + "\n\n" + notice.trimEnd() +
+      (copyright ? src.slice(position).trimEnd() : "") + "\n"
+    )
   },
 })

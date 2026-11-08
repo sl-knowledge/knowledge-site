@@ -2,17 +2,15 @@
 title: "从研究卡片到书稿：一致性审计与修订说明"
 description: "记录八项关键概念修正、五部的定义分工，以及从卡片到书稿的编辑原则。"
 author: "SL"
-version: "0.2.1"
+version: "0.2.2"
 created: "2026-11-01"
-updated: "2026-11-03"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: article
 aliases:
   - framework/consistency-and-revision
 ---
-
-> **公开整理版 v0.2.1 · 历史编辑审计与修订说明。** 根据2026-10-06《全书一致性审计v1.0》整理。原审计针对当时五部重构工作稿；本文说明其问题与编辑决定，不是对当前所有公开文章完成的第三方一致性认证，也不证明理论已经成立。
 
 ## 一、从研究卡片到书稿，需要改变什么？
 
@@ -123,3 +121,11 @@ aliases:
 这些是研究定位与写作纪律的变化。其实际效果仍由[独立验证计划](./originality-and-validation.md)所提出的比较来判断。
 
 配套阅读：[总架构](./research-architecture.md)、[统一术语](./canonical-vocabulary.md)、[五部五十二章阅读总览](../book/book-reading-guide.md)。
+
+---
+
+<a id="research-notes"></a>
+
+## 研究与版本说明
+
+> **公开整理版 v0.2.1 · 历史编辑审计与修订说明。** 根据2026-10-06《全书一致性审计v1.0》整理。原审计针对当时五部重构工作稿；本文说明其问题与编辑决定，不是对当前所有公开文章完成的第三方一致性认证，也不证明理论已经成立。

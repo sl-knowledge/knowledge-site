@@ -21,6 +21,13 @@ for (const file of files) {
     assert.ok(html.includes(heading), `${file}: missing research-use notice`)
     const articleStart = html.indexOf("<article")
     const noticePosition = html.indexOf(heading, articleStart)
+    const noticeAnchor = html.indexOf('id="research-use-disclaimer"', articleStart)
+    const articleEnd = html.indexOf("</article>", articleStart)
+    assert.ok(noticeAnchor > articleStart && noticeAnchor < articleEnd, `${file}: missing end-of-article notice marker`)
+    assert.ok(noticePosition > noticeAnchor, `${file}: disclaimer must follow the article`)
+    const afterNotice = html.slice(noticeAnchor, articleEnd)
+    assert.ok(!/<h[1-6]\b(?![^>]*id="footnote-label")/.test(afterNotice), `${file}: substantive sections must precede the disclaimer`)
+
     assert.ok(noticePosition >= articleStart && noticePosition < html.indexOf("</article>", articleStart), `${file}: notice must be in article content`)
   }
 }
