@@ -2,9 +2,9 @@
 title: "研究方法"
 description: "CF Grammar、压力测试、人机协作，以及验证和修订规范；连接理论主干与领域研究。"
 author: "SL"
-version: "0.4"
+version: "0.4.1"
 created: "2026-11-01"
-updated: "2026-11-02"
+updated: "2026-11-08"
 published: "2026-11-01"
 publish: true
 kind: category
@@ -29,6 +29,8 @@ kind: category
 ## 人机协作与长期研究
 
 - [人机协作研究系统](../book/human-ai-research-system.md)：五部书稿的第五部，说明怎样长期维护表示、证据、预测、版本和修订记录。
+
+- [从具体问题到生成机制：一次人机协作研究的过程](./from-question-to-mechanism.md)：用六个步骤简要记录一次讨论怎样从具体问题形成机制草案。
 
 <a id="validation"></a>
 
