@@ -69,6 +69,13 @@
           ]
         },
         {
+          "id": "argument-analysis",
+          "title": "论证与分歧分析",
+          "slugs": [
+            "framework/methods/ethical-disagreement-map"
+          ]
+        },
+        {
           "id": "testing",
           "title": "判别与情景",
           "slugs": [
@@ -561,6 +568,13 @@
       "group": "research-system",
       "role": "研究过程案例",
       "bookReference": "第五部：提问、表示与人机分工",
+      "readings": []
+    },
+    "framework/methods/ethical-disagreement-map": {
+      "section": "methods",
+      "group": "argument-analysis",
+      "role": "知识凝聚与诊断方法",
+      "bookReference": "问题表示、主体角色与可行集合",
       "readings": []
     }
   },

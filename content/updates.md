@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.9.1"
+version: "1.10.0"
 created: "2026-11-02"
 updated: "2026-11-09"
 published: "2026-11-02"
@@ -11,6 +11,12 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-17-0"></a>
+
+## v0.17.0 · 2026-11-09
+
+发表[《伦理学分歧的结构与生成机制》v0.7](./framework/methods/ethical-disagreement-map.md)，包含H0–H3地图、Q/J/A/S角色、操作流程、记录模板与两份正式案例。新增“研究方法 → 论证与分歧分析”，并在[伦理学人机协作案例](./framework/methods/from-ethical-debate-to-argument-map.md)中加入本文链接。中英文同步发表。
 
 <a id="v0-16-1"></a>
 
