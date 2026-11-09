@@ -2,7 +2,7 @@
 title: "研究方法"
 description: "CF Grammar、压力测试、人机协作，以及验证和修订规范；连接理论主干与领域研究。"
 author: "SL"
-version: "0.5"
+version: "0.5.1"
 created: "2026-11-01"
 updated: "2026-11-09"
 published: "2026-11-01"
@@ -22,7 +22,7 @@ kind: category
 
 ## 论证与分歧分析
 
-- [伦理学分歧的结构与生成机制](./ethical-disagreement-map.md)：用H0–H3连接事实、角色、评价规则与可行方案，提供操作流程、记录模板与案例分析。
+- [伦理分歧从哪里来？](./ethical-disagreement-map.md)：用H0–H3连接事实、角色、评价规则与可行方案，提供操作流程、记录模板与案例分析。
 
 <a id="testing"></a>
 

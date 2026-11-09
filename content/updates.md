@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.10.0"
+version: "1.10.1"
 created: "2026-11-02"
 updated: "2026-11-09"
 published: "2026-11-02"
@@ -11,6 +11,12 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-17-1"></a>
+
+## v0.17.1 · 2026-11-09
+
+将[《伦理分歧从哪里来？》更新至v0.8](./framework/methods/ethical-disagreement-map.md)，展开理由与优先规则，明确硬条件相容性检验的适用范围，并将行动协调与原则共识分开报告。操作流程和模板置于案例之前。中英文稿、目录及[伦理学人机协作案例中的引用](./framework/methods/from-ethical-debate-to-argument-map.md)同步更新，文章网址保持不变。
 
 <a id="v0-17-0"></a>
 
