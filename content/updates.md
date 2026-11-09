@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.8.3"
+version: "1.9.0"
 created: "2026-11-02"
-updated: "2026-11-08"
+updated: "2026-11-09"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-16-0"></a>
+
+## v0.16.0 · 2026-11-09
+
+发表[《从伦理争论到论证分歧地图：一次人机协作研究》v1.0.1](./framework/methods/from-ethical-debate-to-argument-map.md)，记录问题重设、表示比较、主体区分与研究范围控制的过程。中英文同步发表，归入“研究方法 → 人机协作与长期研究”。
 
 <a id="v0-15-3"></a>
 

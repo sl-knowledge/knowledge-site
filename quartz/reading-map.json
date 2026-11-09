@@ -80,7 +80,8 @@
           "title": "人机协作与长期研究",
           "slugs": [
             "framework/book/human-ai-research-system",
-            "framework/methods/from-question-to-mechanism"
+            "framework/methods/from-question-to-mechanism",
+            "framework/methods/from-ethical-debate-to-argument-map"
           ]
         },
         {
@@ -553,6 +554,13 @@
       "group": "research-system",
       "role": "研究过程案例",
       "bookReference": "第五部：研究状态、版本与人机分工",
+      "readings": []
+    },
+    "framework/methods/from-ethical-debate-to-argument-map": {
+      "section": "methods",
+      "group": "research-system",
+      "role": "研究过程案例",
+      "bookReference": "第五部：提问、表示与人机分工",
       "readings": []
     }
   },
