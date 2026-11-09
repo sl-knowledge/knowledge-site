@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.10.1"
+version: "1.11.0"
 created: "2026-11-02"
 updated: "2026-11-09"
 published: "2026-11-02"
@@ -11,6 +11,12 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-18-0"></a>
+
+## v0.18.0 · 2026-11-09
+
+将[《伦理分歧从哪里来？》更新至v1.0](./framework/methods/ethical-disagreement-map.md)，补入伦理注意与问题形成，明确比较规则的适用边界，连接政治可行性及道德分歧认识论，并附已填写的[笛子案例九格卡](./framework/methods/ethical-disagreement-map.md#flute-output-card)。正文与公式统一数学记法。中英文及[人机协作案例中的引用](./framework/methods/from-ethical-debate-to-argument-map.md)同步更新，文章网址保持不变。
 
 <a id="v0-17-1"></a>
 
