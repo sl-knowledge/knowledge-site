@@ -2,9 +2,9 @@
 title: "研究方法"
 description: "CF Grammar、压力测试、人机协作，以及验证和修订规范；连接理论主干与领域研究。"
 author: "SL"
-version: "0.5.2"
+version: "0.5.3"
 created: "2026-11-01"
-updated: "2026-11-09"
+updated: "2026-11-10"
 published: "2026-11-01"
 publish: true
 kind: category
@@ -39,6 +39,8 @@ kind: category
 - [从具体问题到生成机制：一次人机协作研究的过程](./from-question-to-mechanism.md)：用六个步骤简要记录一次讨论怎样从具体问题形成机制草案。
 
 - [从伦理争论到论证分歧地图：一次人机协作研究](./from-ethical-debate-to-argument-map.md)：记录研究问题如何经由表示比较、主体区分与范围控制，转向论证分歧分析。
+
+- [当 AI 评错了问题：一次人机协作的纠错记录](./ai-error-and-correction-case.md)：一次研究讨论中的17项观察与纠正，区分事实错误、研究层次和评价标准错位，并给出评审前的四问。
 
 <a id="validation"></a>
 

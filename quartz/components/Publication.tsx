@@ -67,6 +67,7 @@ const entries = [
   ["40", "理论应用", "需求与生成能力的缺口：支持、选择与行为的一种机制框架", "区分需求、能力、支持、缓冲与感知路径，提出带时间条件的组合路径、六个研究命题和分析卡。", "applications/needs-and-generative-capability", "v0.2"],
   ["41", "理论体系", "约束、生成与人的价值", "连接生成解释、证据纪律与候选价值承诺的开放哲学纲要，区分事实、价值与多主体伦理判断。", "framework/foundations/constraints-generation-and-human-value", "v0.2"],
   ["42", "哲学思想", "信息的扩散、凝聚与递归演化：一种宇宙哲学视角", "从信息扩散与凝聚、稳定结构和新的生成能力，思考宇宙、生命、认知与知识活动的递归演化。", "philosophy/information-expansion-and-condensation", "v0.1"],
+  ["43", "研究方法", "当 AI 评错了问题：一次人机协作的纠错记录", "一次研究讨论中的17项观察与纠正，区分事实错误、研究层次和评价标准错位，并给出评审前的四问。", "framework/methods/ai-error-and-correction-case", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

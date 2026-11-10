@@ -104,7 +104,8 @@
           "slugs": [
             "framework/book/human-ai-research-system",
             "framework/methods/from-question-to-mechanism",
-            "framework/methods/from-ethical-debate-to-argument-map"
+            "framework/methods/from-ethical-debate-to-argument-map",
+            "framework/methods/ai-error-and-correction-case"
           ]
         },
         {
@@ -632,6 +633,17 @@
       "role": "哲学随笔",
       "bookReference": "结构形成、生成能力与知识凝聚",
       "readings": []
+    },
+    "framework/methods/ai-error-and-correction-case": {
+      "section": "methods",
+      "group": "research-system",
+      "role": "人机协作纠错案例",
+      "bookReference": "第五部：研究任务、角色、证据与修订",
+      "readings": [
+        "framework/methods/ethical-disagreement-map",
+        "framework/methods/from-question-to-mechanism",
+        "framework/methods/from-ethical-debate-to-argument-map"
+      ]
     }
   },
   "labels": {

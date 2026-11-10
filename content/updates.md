@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.13.0"
+version: "1.14.0"
 created: "2026-11-02"
 updated: "2026-11-10"
 published: "2026-11-02"
@@ -11,6 +11,12 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-21-0"></a>
+
+## v0.21.0 · 2026-11-10
+
+发表[《当 AI 评错了问题：一次人机协作的纠错记录》](./framework/methods/ai-error-and-correction-case.md) v0.1，记录一次研究讨论中如何发现、纠正事实错误、评价错位与分工问题，附17项观察及四问核对表。中英文及[人机协作与长期研究目录](./framework/methods/index.md#research-system)同步更新。
 
 <a id="v0-20-0"></a>
 
