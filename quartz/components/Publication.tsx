@@ -66,6 +66,7 @@ const entries = [
   ["39", "理论应用", "信念门控的实践回路：宗教参与的一种机制假说", "连接多种入口、实践结构、结果与归因的候选回路，附研究命题、记录卡及信息凝聚地图。", "applications/belief-gated-practice-loop", "v0.2"],
   ["40", "理论应用", "需求与生成能力的缺口：支持、选择与行为的一种机制框架", "区分需求、能力、支持、缓冲与感知路径，提出带时间条件的组合路径、六个研究命题和分析卡。", "applications/needs-and-generative-capability", "v0.2"],
   ["41", "理论体系", "约束、生成与人的价值", "连接生成解释、证据纪律与候选价值承诺的开放哲学纲要，区分事实、价值与多主体伦理判断。", "framework/foundations/constraints-generation-and-human-value", "v0.2"],
+  ["42", "哲学思想", "信息的扩散、凝聚与递归演化：一种宇宙哲学视角", "从信息扩散与凝聚、稳定结构和新的生成能力，思考宇宙、生命、认知与知识活动的递归演化。", "philosophy/information-expansion-and-condensation", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
@@ -78,7 +79,7 @@ export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzC
     <h1>从小模型出发，<br />理解更大的世界。</h1>
     <p class="hero-description">一个独立研究者的开放研究站：<br />持续修订的书稿、工作论文与可检验的推论</p>
     <p class="hero-purpose"><a class="internal" href={`${root}/site-purpose`}>这个网站在做什么 <span aria-hidden="true">→</span></a></p>
-    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开文章 / 四条阅读路线</span><a class="internal" href={`${root}/updates`}>网站 v{release.version} · {release.date}</a></div>
+    <div class="hero-bottom"><span>{String(notes.length).padStart(2, "0")} 篇公开文章 / {readingSections.length} 条阅读路线</span><a class="internal" href={`${root}/updates`}>网站 v{release.version} · {release.date}</a></div>
     <div class="research-cycle" aria-label="探索的过程">提出问题 <span>→</span> 试着解释 <span>→</span> 看看现实 <span>→</span> 继续追问</div>
     <div class="collection-heading"><h2>从这里开始</h2><span>READING PATHS</span></div>
     <div class="notes-grid topic-grid">{readingSections.map((section, i) =>

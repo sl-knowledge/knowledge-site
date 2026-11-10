@@ -2,9 +2,9 @@
 title: "SL · 研究与学习"
 description: "一个独立研究者的开放研究站：持续修订的书稿、工作论文与可检验的推论"
 author: SL
-version: "0.8.3"
+version: "0.8.4"
 created: "2026-10-31"
-updated: "2026-11-07"
+updated: "2026-11-10"
 published: "2026-10-31"
 publish: true
 kind: home
@@ -18,6 +18,7 @@ kind: home
 
 你可以从一个感兴趣的问题读起，也可以沿着书稿，从头看看这些想法是怎样一步步长出来的。
 
+- [哲学思想](./philosophy/index.md)：关于宇宙、结构与知识的基本思考。
 - [理论体系](./framework/index.md)：这些想法怎样连在一起。
 - [研究方法](./framework/methods/index.md)：怎样提问、找证据，检查和修正自己的理解。
 - [理论应用](./applications/index.md)：把想法用到具体问题里。

@@ -1,6 +1,21 @@
 {
   "sections": [
     {
+      "id": "philosophy",
+      "title": "哲学思想",
+      "slug": "philosophy/index",
+      "description": "关于宇宙、结构形成、生命、认知与知识活动的哲学思考，保存研究方向背后的基本问题。",
+      "groups": [
+        {
+          "id": "cosmos",
+          "title": "宇宙与演化",
+          "slugs": [
+            "philosophy/information-expansion-and-condensation"
+          ]
+        }
+      ]
+    },
+    {
       "id": "theory",
       "title": "理论体系",
       "slug": "framework/index",
@@ -610,6 +625,13 @@
         "framework/foundations/why-objectives-are-reasonable",
         "framework/methods/ethical-disagreement-map"
       ]
+    },
+    "philosophy/information-expansion-and-condensation": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "哲学随笔",
+      "bookReference": "结构形成、生成能力与知识凝聚",
+      "readings": []
     }
   },
   "labels": {
