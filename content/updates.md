@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.11.0"
+version: "1.12.0"
 created: "2026-11-02"
-updated: "2026-11-09"
+updated: "2026-11-10"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-19-0"></a>
+
+## v0.19.0 · 2026-11-10
+
+发表三篇哲学研究：[《信念门控的实践回路》](./applications/belief-gated-practice-loop.md)、[《需求与生成能力的缺口》](./applications/needs-and-generative-capability.md)与[《约束、生成与人的价值》](./framework/foundations/constraints-generation-and-human-value.md)，均为v0.2。以导读或摘要、凝聚结构、命题及记录卡明确文章成果。将[《自由与逍遥》更新至v0.2.1](./framework/foundations/freedom-and-future-options.md)，包括能力反馈与生成器的自我改写。中英文、分类索引、文章关联及完整左侧目录同步更新。
 
 <a id="v0-18-0"></a>
 

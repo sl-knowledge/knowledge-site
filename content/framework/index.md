@@ -2,9 +2,9 @@
 title: "理论体系"
 description: "从总架构、统一术语与现实、表示、决策三部主干进入，并查阅系统、价值、生命与概念专题。"
 author: "SL"
-version: "0.8"
+version: "0.8.1"
 created: "2026-10-31"
-updated: "2026-11-03"
+updated: "2026-11-10"
 published: "2026-10-31"
 publish: true
 kind: category
@@ -79,6 +79,8 @@ kind: category
 <a id="values"></a>
 
 ## 系统、目标与价值
+
+- [约束、生成与人的价值](./foundations/constraints-generation-and-human-value.md)：连接生成解释、证据纪律与候选价值承诺的开放哲学纲要，区分事实、价值与多主体伦理判断。
 
 - [任何系统都是宇宙的子系统](foundations/systems-within-the-universe.md)：系统边界是建模选择：局部与环境的联系、快慢尺度，以及模型何时需要改变。
 - [目标函数为什么合理？](foundations/why-objectives-are-reasonable.md)：生存条件与价值前提的区别：目标为谁服务、谁来选择、反馈是否真实。

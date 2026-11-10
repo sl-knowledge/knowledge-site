@@ -2,9 +2,9 @@
 title: "理论应用"
 description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.7.1"
+version: "0.8"
 created: "2026-11-02"
-updated: "2026-11-08"
+updated: "2026-11-10"
 published: "2026-11-02"
 publish: true
 kind: category
@@ -63,7 +63,11 @@ kind: category
 
 <a id="personal"></a>
 
-## 个人选择
+## 信念、实践与个人选择
+
+- [信念门控的实践回路：宗教参与的一种机制假说](./belief-gated-practice-loop.md)：连接多种入口、实践结构、结果与归因的候选回路，附研究命题、记录卡及信息凝聚地图。
+
+- [需求与生成能力的缺口：支持、选择与行为的一种机制框架](./needs-and-generative-capability.md)：区分需求、能力、支持、缓冲与感知路径，提出带时间条件的组合路径、六个研究命题和分析卡。
 
 - [自由与逍遥：在约束中保留未来选择](../framework/foundations/freedom-and-future-options.md)：个人哲学阐释：思考未来路径、恢复能力、自主承诺与价值选择。
 

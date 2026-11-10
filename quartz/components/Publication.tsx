@@ -63,6 +63,9 @@ const entries = [
   ["36", "理论体系", "简化与退路：受约束系统中的可恢复性", "SF1—SF9：简化减少了什么负担，又保留了哪些恢复能力？", "framework/foundations/simplicity-and-recovery", "v0.2"],
   ["37", "理论体系", "平稳不等于有退路：出问题的概率与被锁定的概率", "分别评价日常表现、问题概率、条件锁定概率与后果。", "framework/foundations/lock-in-vs-probability", "v0.4"],
   ["38", "理论应用", "证据是在更新判断，还是维护原观点？", "研究资料，不构成投资或交易建议。命题依赖、十二项自查与条件性更新记录。", "applications/investment-evidence-self-check", "v0.3"],
+  ["39", "理论应用", "信念门控的实践回路：宗教参与的一种机制假说", "连接多种入口、实践结构、结果与归因的候选回路，附研究命题、记录卡及信息凝聚地图。", "applications/belief-gated-practice-loop", "v0.2"],
+  ["40", "理论应用", "需求与生成能力的缺口：支持、选择与行为的一种机制框架", "区分需求、能力、支持、缓冲与感知路径，提出带时间条件的组合路径、六个研究命题和分析卡。", "applications/needs-and-generative-capability", "v0.2"],
+  ["41", "理论体系", "约束、生成与人的价值", "连接生成解释、证据纪律与候选价值承诺的开放哲学纲要，区分事实、价值与多主体伦理判断。", "framework/foundations/constraints-generation-and-human-value", "v0.2"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

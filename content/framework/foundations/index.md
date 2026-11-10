@@ -1,10 +1,10 @@
 ---
 title: "系统、生命与价值"
-description: "从整体与局部，到生命定义、目标合理性与自由选择的四篇专题。"
+description: "从整体与局部，到生命定义、目标合理性、人的价值与自由选择的专题。"
 author: "SL"
-version: "0.3"
+version: "0.3.1"
 created: "2026-11-01"
-updated: "2026-11-02"
+updated: "2026-11-10"
 published: "2026-11-01"
 publish: true
 kind: category
@@ -23,6 +23,8 @@ kind: category
 - [生命作为生成结构：核心理论版 V2](./life-as-generative-structure.md)：从关系更新到持续执行与恢复范围，保留工作定义、模型、反例与待执行的验证计划。
 
 ## 目标与人生选择
+
+- [约束、生成与人的价值](./constraints-generation-and-human-value.md)：连接生成解释、证据纪律与候选价值承诺的开放哲学纲要，区分事实、价值与多主体伦理判断。
 
 - [目标函数为什么合理？](./why-objectives-are-reasonable.md)：区分生存条件与价值前提，追问目标为谁服务、谁来选择，以及反馈是否真实。
 - [自由与逍遥：在约束中保留未来选择](./freedom-and-future-options.md)：思考可达路径、恢复能力、适应时间与自主承诺。

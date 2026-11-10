@@ -42,7 +42,8 @@
           "title": "系统、目标与价值",
           "slugs": [
             "framework/foundations/systems-within-the-universe",
-            "framework/foundations/why-objectives-are-reasonable"
+            "framework/foundations/why-objectives-are-reasonable",
+            "framework/foundations/constraints-generation-and-human-value"
           ]
         },
         {
@@ -162,9 +163,11 @@
         },
         {
           "id": "personal",
-          "title": "个人选择",
+          "title": "信念、实践与个人选择",
           "slugs": [
-            "framework/foundations/freedom-and-future-options"
+            "framework/foundations/freedom-and-future-options",
+            "applications/belief-gated-practice-loop",
+            "applications/needs-and-generative-capability"
           ]
         }
       ]
@@ -576,6 +579,37 @@
       "role": "知识凝聚与诊断方法",
       "bookReference": "问题表示、主体角色与可行集合",
       "readings": []
+    },
+    "applications/belief-gated-practice-loop": {
+      "section": "applications",
+      "group": "personal",
+      "role": "机制假说",
+      "bookReference": "生成条件、问题表示与未来路径",
+      "readings": [
+        "framework/methods/cf-grammar",
+        "framework/methods/from-question-to-mechanism"
+      ]
+    },
+    "applications/needs-and-generative-capability": {
+      "section": "applications",
+      "group": "personal",
+      "role": "机制假说",
+      "bookReference": "生成条件、问题表示与未来路径",
+      "readings": [
+        "applications/belief-gated-practice-loop",
+        "framework/foundations/freedom-and-future-options",
+        "framework/methods/stress-testing"
+      ]
+    },
+    "framework/foundations/constraints-generation-and-human-value": {
+      "section": "theory",
+      "group": "values",
+      "role": "开放哲学纲要",
+      "bookReference": "生成条件、问题表示与未来路径",
+      "readings": [
+        "framework/foundations/why-objectives-are-reasonable",
+        "framework/methods/ethical-disagreement-map"
+      ]
     }
   },
   "labels": {
