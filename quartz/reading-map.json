@@ -160,7 +160,8 @@
           "title": "语言与文字系统",
           "slugs": [
             "language/origins-of-writing",
-            "language/concept-packaging-and-characters"
+            "language/concept-packaging-and-characters",
+            "language/why-translation-is-so-difficult"
           ]
         },
         {
@@ -309,7 +310,8 @@
       "role": "表征相关专题",
       "bookReference": "第二部第9、11章的概念关联",
       "readings": [
-        "framework/book/what-belongs-in-a-model"
+        "framework/book/what-belongs-in-a-model",
+        "language/why-translation-is-so-difficult"
       ]
     },
     "framework/methods/cf-grammar": {
@@ -643,6 +645,15 @@
         "framework/methods/ethical-disagreement-map",
         "framework/methods/from-question-to-mechanism",
         "framework/methods/from-ethical-debate-to-argument-map"
+      ]
+    },
+    "language/why-translation-is-so-difficult": {
+      "section": "applications",
+      "group": "language",
+      "role": "翻译与意义",
+      "bookReference": "第二部第9、11章的概念关联",
+      "readings": [
+        "language/vocabulary-and-experience-compression"
       ]
     }
   },

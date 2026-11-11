@@ -2,9 +2,9 @@
 title: "语言与文字"
 description: "关于词汇、经验压缩、书写系统、概念打包与语言学习的研究笔记。"
 author: SL
-version: "0.2"
+version: "0.2.1"
 created: "2026-10-31"
-updated: "2026-11-02"
+updated: "2026-11-10"
 published: "2026-10-31"
 publish: true
 kind: category
@@ -18,6 +18,10 @@ status: 栏目
 ## 词汇、概念与经验
 
 - [词汇与经验压缩：从概念到共享符号](./vocabulary-and-experience-compression.md)：区分经验、概念与词语，讨论关系表达、社会共享，以及序参量类比怎样接受检验。
+
+## 翻译与意义
+
+- [翻译为什么这么难](./why-translation-is-so-difficult.md)
 
 ## 书写系统与概念打包
 

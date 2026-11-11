@@ -2,7 +2,7 @@
 title: "理论应用"
 description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.8"
+version: "0.8.1"
 created: "2026-11-02"
 updated: "2026-11-10"
 published: "2026-11-02"
@@ -48,6 +48,8 @@ kind: category
 
 - [文字的起源：语言结构如何长出书写系统](../language/origins-of-writing.md)：与主干的对应仍需补充；文字系统史和参数解释须独立证据。
 - [概念打包与字的约束：汉字如何固化汉语的单音节语素结构](../language/concept-packaging-and-characters.md)：保留共同演化、竞争解释和可检验预测；不将相关性写成已证实因果。
+
+- [翻译为什么这么难](../language/why-translation-is-so-difficult.md)
 
 <a id="cooperation"></a>
 
