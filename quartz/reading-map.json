@@ -190,6 +190,21 @@
       ]
     },
     {
+      "id": "science",
+      "title": "科普",
+      "slug": "science/index",
+      "description": "从日常问题出发，用科学研究解释常见现象。",
+      "groups": [
+        {
+          "id": "health",
+          "title": "健康与人体",
+          "slugs": [
+            "science/why-weight-loss-slows-down"
+          ]
+        }
+      ]
+    },
+    {
       "id": "book",
       "title": "书稿阅读",
       "slug": "framework/book/index",
@@ -655,6 +670,13 @@
       "readings": [
         "language/vocabulary-and-experience-compression"
       ]
+    },
+    "science/why-weight-loss-slows-down": {
+      "section": "science",
+      "group": "health",
+      "role": "体重与能量平衡科普",
+      "bookReference": "反馈与动态系统",
+      "readings": []
     }
   },
   "labels": {
