@@ -69,6 +69,7 @@ const entries = [
   ["42", "哲学思想", "信息的扩散、凝聚与递归演化：一种宇宙哲学视角", "从信息扩散与凝聚、稳定结构和新的生成能力，思考宇宙、生命、认知与知识活动的递归演化。", "philosophy/information-expansion-and-condensation", "v0.1"],
   ["43", "研究方法", "当 AI 评错了问题：一次人机协作的纠错记录", "一次研究讨论中的17项观察与纠正，区分事实错误、研究层次和评价标准错位，并给出评审前的四问。", "framework/methods/ai-error-and-correction-case", "v0.1"],
   ["44", "语言与文字", "翻译为什么这么难", "从语法区分、语境、信息组织和表达效果看翻译为何需要重建意义。", "language/why-translation-is-so-difficult", "v0.1"],
+  ["45", "理论体系", "层级因果—控制假说（HCC）", "稳定模块怎样通过可重组接口形成新的高层控制能力？以有限组合增益、预算匹配实验和竞争首达风险提出可检验的假说。", "framework/foundations/hierarchical-causal-control", "v0.2.2"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

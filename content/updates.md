@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.15.0"
+version: "1.16.0"
 created: "2026-11-02"
-updated: "2026-11-10"
+updated: "2026-11-11"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-24-0"></a>
+
+## v0.24.0 · 2026-11-11
+
+中英文同步发表[《层级因果—控制假说（HCC）》](./framework/foundations/hierarchical-causal-control.md) v0.2.2。文稿以一页导读开篇，提出生成性、长期固定与接口硬化的检验方法。
 
 <a id="v0-22-0"></a>
 

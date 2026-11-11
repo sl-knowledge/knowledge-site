@@ -2,9 +2,9 @@
 title: "理论体系"
 description: "从总架构、统一术语与现实、表示、决策三部主干进入，并查阅系统、价值、生命与概念专题。"
 author: "SL"
-version: "0.8.1"
+version: "0.8.2"
 created: "2026-10-31"
-updated: "2026-11-10"
+updated: "2026-11-11"
 published: "2026-10-31"
 publish: true
 kind: category
@@ -59,6 +59,8 @@ kind: category
 ## 现实与动态系统
 
 - [约束、可行性与未来选择：复杂系统分析框架](book/constraints-and-future-options.md)：系统、约束、能力与外部通道，可达性与可生存性，四种边界与恢复窗口。
+
+- [《层级因果—控制假说（HCC）》](./foundations/hierarchical-causal-control.md)。用三个可检验的假说研究稳定模块、可重组接口怎样形成新的高层控制能力，以及这种能力怎样失效。
 
 <a id="representation"></a>
 

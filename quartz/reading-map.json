@@ -33,7 +33,8 @@
           "id": "reality",
           "title": "现实与动态系统",
           "slugs": [
-            "framework/book/constraints-and-future-options"
+            "framework/book/constraints-and-future-options",
+            "framework/foundations/hierarchical-causal-control"
           ]
         },
         {
@@ -654,6 +655,16 @@
       "bookReference": "第二部第9、11章的概念关联",
       "readings": [
         "language/vocabulary-and-experience-compression"
+      ]
+    },
+    "framework/foundations/hierarchical-causal-control": {
+      "section": "theory",
+      "group": "reality",
+      "role": "约束架构工作假说",
+      "bookReference": "第一部：约束、可达性与可生存性",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/methods/stress-testing"
       ]
     }
   },
