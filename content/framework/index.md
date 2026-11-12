@@ -2,7 +2,7 @@
 title: "理论体系"
 description: "从总架构、统一术语与现实、表示、决策三部主干进入，并查阅系统、价值、生命与概念专题。"
 author: "SL"
-version: "0.8.2"
+version: "0.8.3"
 created: "2026-10-31"
 updated: "2026-11-11"
 published: "2026-10-31"
@@ -61,6 +61,8 @@ kind: category
 - [约束、可行性与未来选择：复杂系统分析框架](book/constraints-and-future-options.md)：系统、约束、能力与外部通道，可达性与可生存性，四种边界与恢复窗口。
 
 - [《层级因果—控制假说（HCC）》](./foundations/hierarchical-causal-control.md)。用三个可检验的假说研究稳定模块、可重组接口怎样形成新的高层控制能力，以及这种能力怎样失效。
+
+- [《系统怎样改变自己的约束？》](./foundations/how-systems-change-their-constraints.md)。用工位交接说明，中转空间和使用规则怎样共同改变下一轮的可行路径。
 
 <a id="representation"></a>
 

@@ -70,6 +70,7 @@ const entries = [
   ["43", "研究方法", "当 AI 评错了问题：一次人机协作的纠错记录", "一次研究讨论中的17项观察与纠正，区分事实错误、研究层次和评价标准错位，并给出评审前的四问。", "framework/methods/ai-error-and-correction-case", "v0.1"],
   ["44", "语言与文字", "翻译为什么这么难", "从语法区分、语境、信息组织和表达效果看翻译为何需要重建意义。", "language/why-translation-is-so-difficult", "v0.1"],
   ["45", "理论体系", "层级因果—控制假说（HCC）", "稳定模块怎样通过可重组接口形成新的高层控制能力？以有限组合增益、预算匹配实验和竞争首达风险提出可检验的假说。", "framework/foundations/hierarchical-causal-control", "v0.2.2"],
+  ["46", "理论体系", "系统怎样改变自己的约束？", "用一次交接说明，系统怎样通过形成可持续的结构，改变下一轮可以走的路。", "framework/foundations/how-systems-change-their-constraints", "v0.1"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

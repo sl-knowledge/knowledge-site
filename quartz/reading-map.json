@@ -34,7 +34,8 @@
           "title": "现实与动态系统",
           "slugs": [
             "framework/book/constraints-and-future-options",
-            "framework/foundations/hierarchical-causal-control"
+            "framework/foundations/hierarchical-causal-control",
+            "framework/foundations/how-systems-change-their-constraints"
           ]
         },
         {
@@ -665,6 +666,16 @@
       "readings": [
         "framework/book/constraints-and-future-options",
         "framework/methods/stress-testing"
+      ]
+    },
+    "framework/foundations/how-systems-change-their-constraints": {
+      "section": "theory",
+      "group": "reality",
+      "role": "约束怎样变化",
+      "bookReference": "第一部：约束与可行路径",
+      "readings": [
+        "framework/book/constraints-and-future-options",
+        "framework/foundations/hierarchical-causal-control"
       ]
     }
   },
