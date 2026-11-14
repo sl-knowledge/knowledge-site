@@ -1,8 +1,8 @@
 ---
 title: "宇宙觉醒：一个关于存在、演化与意义的框架"
-description: "从信息的扩散与凝聚出发，思考宇宙的循环、生命的有限与存在的意义。"
+description: "从信息是宇宙的本质这一哲学立场出发，思考信息的扩散与凝聚、宇宙循环及有限生命的意义。"
 author: "SL"
-version: "0.5"
+version: "0.6"
 created: "2026-11-14"
 updated: "2026-11-14"
 published: "2026-11-14"
@@ -10,15 +10,15 @@ publish: true
 kind: "article"
 ---
 
-## 一、这是一种哲学思想
+## 一、宇宙的本质是信息
 
-“宇宙觉醒”是一个以哲学为核心的思想框架。本文用信息的语言来描述世界的演化。
+宇宙的本质究竟是什么？**我的哲学立场是：信息是宇宙的本质，物质是信息在特定规律下的一种表现形式。**
+
+在这个框架中，信息指的是广义的存在、关系、结构及其变化的可能性。这个用法比人类记录和传递的知识、香农通信理论中度量的信息量更广。
 
 这篇文章是我对 2025 年《宇宙觉醒信息场论》的精简修订。
 
-它所关心的，不只是宇宙由什么构成，而是宇宙怎样不断产生新的差异、结构与可能性；生命、认知与文明在这个过程中处于什么位置；一个有限的生命，又怎样理解自己的存在。
-
-这个框架不是一个封闭的答案。它更像一颗种子：提供一种观察世界的角度，并在持续的思考、讨论与修正中生长。
+从这个起点出发，接下来的问题是：信息究竟怎样演化？它怎样呈现为物质、生命、认知，以及如此丰富多样的世界？这引出了信息扩散与信息凝聚。
 
 ## 二、信息扩散与信息凝聚
 
@@ -97,6 +97,8 @@ kind: "article"
 
 ## 七、与前人思想的联系
 
+约翰·惠勒用 *It from Bit* 探索信息与物理实在的关系。塞斯·劳埃德从计算与信息处理的角度理解宇宙，斯蒂芬·沃尔夫勒姆研究简单程序怎样产生复杂行为。这些是我在 2025 年原文里引用的思想线索。本文从信息本体的立场出发，关注信息怎样扩散、怎样凝聚成结构，以及这些结构怎样改变下一轮演化的条件。
+
 恩培多克勒以“爱”与“争”描述万物的聚合与分离。斯宾塞在《第一原理》中把物质整合及伴随的运动耗散与物质解体相对照。《周易·系辞下》以日月、寒暑的往来表现阴阳消长。这三处都可以和本文的交替图景对读。本文进一步追问的是，凝聚出的结构怎样保存过去，又怎样打开下一轮可能性。参见 [恩培多克勒残篇](https://en.wikisource.org/wiki/Fragments_of_Empedocles)、[斯宾塞《第一原理》](https://constitution.org/2-Authors/hs/first_prin.htm)和[《周易·系辞下》](https://zh.wikisource.org/wiki/易傳/繫辭下)。
 
 德日进在《人的现象》中讨论复杂性与意识的发展，并把演化指向欧米伽点。Ray Kurzweil 在《奇点临近》中把智能向宇宙扩展的阶段称为“宇宙觉醒”。本文与他们共享把宇宙演化、复杂性与意识联系起来的愿望，但不引入人格神，也不把技术扩张或复杂度单调上升设为最终终点。
@@ -133,3 +135,7 @@ Lee Smolin 的宇宙自然选择和 Roger Penrose 的共形循环宇宙学，都
 8. Spencer, H. [*First Principles*](https://constitution.org/2-Authors/hs/first_prin.htm)，第二部，第十二章，第 96–97 节。
 9. [《周易·系辞下》](https://zh.wikisource.org/wiki/易傳/繫辭下)，日月寒暑相推一段。
 10. Aaronson, S., Carroll, S. M., & Ouellette, L. (2014). [Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton](https://arxiv.org/abs/1405.6903). arXiv:1405.6903.
+11. Shannon, C. E. (1948). [A Mathematical Theory of Communication](https://cs-www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf). *The Bell System Technical Journal*, 27, 379–423, 623–656.
+12. Wheeler, J. A. (1990). [*Information, Physics, Quantum: The Search for Links*](https://cqi.inf.usi.ch/qic/wheeler.pdf).
+13. Lloyd, S. [*Programming the Universe*](https://www.penguinrandomhouse.com/books/102977/programming-the-universe-by-seth-lloyd/).
+14. Wolfram, S. (2002). [*A New Kind of Science*](https://www.wolframscience.com/nks/).
