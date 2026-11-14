@@ -10,6 +10,7 @@
           "id": "cosmos",
           "title": "宇宙与演化",
           "slugs": [
+            "philosophy/cosmic-awakening",
             "philosophy/information-expansion-and-condensation"
           ]
         }
@@ -630,6 +631,13 @@
         "framework/foundations/why-objectives-are-reasonable",
         "framework/methods/ethical-disagreement-map"
       ]
+    },
+    "philosophy/cosmic-awakening": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "哲学随笔",
+      "bookReference": "信息的扩散、凝聚与存在的意义",
+      "readings": []
     },
     "philosophy/information-expansion-and-condensation": {
       "section": "philosophy",

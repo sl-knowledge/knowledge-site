@@ -2,9 +2,9 @@
 title: "哲学思想"
 description: "关于宇宙、结构形成、生命、认知与知识活动的哲学思考，保存研究方向背后的基本问题。"
 author: "SL"
-version: "0.1"
+version: "0.2"
 created: "2026-11-10"
-updated: "2026-11-10"
+updated: "2026-11-14"
 published: "2026-11-10"
 publish: true
 kind: "category"
@@ -16,6 +16,7 @@ kind: "category"
 
 ## 宇宙与演化
 
+- [宇宙觉醒：一个关于存在、演化与意义的框架](./cosmic-awakening.md)：从信息的扩散与凝聚出发，思考宇宙的循环、生命的有限与存在的意义。
 - [信息的扩散、凝聚与递归演化：一种宇宙哲学视角](./information-expansion-and-condensation.md)：扩散、凝聚、递归层次与生成规则，延续始于2025年的宇宙哲学思考。
 - [从关于宇宙的思考，到后来的研究](../cosmic-reflections-and-later-research.md)：这一哲学视角与后续理论和应用研究的联系。
 
