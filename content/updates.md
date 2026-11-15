@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.19.0"
+version: "1.20.0"
 created: "2026-11-02"
-updated: "2026-11-14"
+updated: "2026-11-15"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-28-0"></a>
+
+## v0.28.0 · 2026-11-15
+
+中英文同步更新[《宇宙觉醒：一个关于存在、演化与意义的框架》](./philosophy/cosmic-awakening.md)至 v0.9。补充生命意义、善恶、守护与选择，更新前人思想导读。
 
 <a id="v0-27-0"></a>
 
