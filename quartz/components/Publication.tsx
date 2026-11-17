@@ -71,7 +71,12 @@ const entries = [
   ["44", "语言与文字", "翻译为什么这么难", "从语法区分、语境、信息组织和表达效果看翻译为何需要重建意义。", "language/why-translation-is-so-difficult", "v0.1"],
   ["45", "理论体系", "层级因果—控制假说（HCC）", "稳定模块怎样通过可重组接口形成新的高层控制能力？以有限组合增益、预算匹配实验和竞争首达风险提出可检验的假说。", "framework/foundations/hierarchical-causal-control", "v0.2.2"],
   ["46", "理论体系", "系统怎样改变自己的约束？", "用一次交接说明，系统怎样通过形成可持续的结构，改变下一轮可以走的路。", "framework/foundations/how-systems-change-their-constraints", "v0.1"],
-  ["47","哲学思想","宇宙觉醒：一个关于存在、演化与意义的框架","从信息是宇宙的本质这一哲学立场出发，思考信息的扩散与凝聚、宇宙循环及有限生命的意义。","philosophy/cosmic-awakening","v0.6"],
+  ["47", "哲学思想", "宇宙觉醒：一个关于存在、演化与意义的框架", "从存在即区别出发，连接信息场、宇宙循环、生命与思想、意义、善恶和守护。", "philosophy/cosmic-awakening", "v0.22"],
+  ["48", "哲学思想", "宇宙觉醒（一）：信息、显化与凝聚", "定义信息、显化、凝聚与扩散，说明世界怎样一层层生成，又一次次被打碎。", "philosophy/cosmic-awakening-01-information-manifestation-and-condensation", "v0.22"],
+  ["49", "哲学思想", "宇宙觉醒（二）：没有终点的螺旋", "讨论宇宙循环、哥德尔盲点、热寂及物理常数的可能来历，并明确区分数学结论与哲学猜想。", "philosophy/cosmic-awakening-02-endless-spiral", "v0.22"],
+  ["50", "哲学思想", "宇宙觉醒（三）：从星尘到思想", "从恒星、生命、思想到人，讨论信息场怎样通过它的显化开始认识自己。", "philosophy/cosmic-awakening-03-from-stardust-to-thought", "v0.22"],
+  ["51", "哲学思想", "宇宙觉醒（四）：成为能够守护的那一部分", "从事实解释转向价值承诺，讨论善恶、守护、选择，以及这一框架的预测与推翻条件。", "philosophy/cosmic-awakening-04-becoming-the-part-that-can-protect", "v0.22"],
+  ["52", "哲学思想", "宇宙觉醒·导读：前人走过的路", "按主题整理前人思想、相同点与差异，并收录《宇宙觉醒》v0.22 的完整参考文献。", "philosophy/cosmic-awakening-guide-earlier-paths", "v0.22"],
 ]
 
 export const PublicationMeta: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

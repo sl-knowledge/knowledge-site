@@ -11,6 +11,11 @@
           "title": "宇宙与演化",
           "slugs": [
             "philosophy/cosmic-awakening",
+            "philosophy/cosmic-awakening-01-information-manifestation-and-condensation",
+            "philosophy/cosmic-awakening-02-endless-spiral",
+            "philosophy/cosmic-awakening-03-from-stardust-to-thought",
+            "philosophy/cosmic-awakening-04-becoming-the-part-that-can-protect",
+            "philosophy/cosmic-awakening-guide-earlier-paths",
             "philosophy/information-expansion-and-condensation"
           ]
         }
@@ -635,9 +640,15 @@
     "philosophy/cosmic-awakening": {
       "section": "philosophy",
       "group": "cosmos",
-      "role": "哲学随笔",
+      "role": "宇宙哲学综合稿",
       "bookReference": "信息的扩散、凝聚与存在的意义",
-      "readings": []
+      "readings": [
+        "philosophy/cosmic-awakening-01-information-manifestation-and-condensation",
+        "philosophy/cosmic-awakening-02-endless-spiral",
+        "philosophy/cosmic-awakening-03-from-stardust-to-thought",
+        "philosophy/cosmic-awakening-04-becoming-the-part-that-can-protect",
+        "philosophy/cosmic-awakening-guide-earlier-paths"
+      ]
     },
     "philosophy/information-expansion-and-condensation": {
       "section": "philosophy",
@@ -684,6 +695,59 @@
       "readings": [
         "framework/book/constraints-and-future-options",
         "framework/foundations/hierarchical-causal-control"
+      ]
+    },
+    "philosophy/cosmic-awakening-01-information-manifestation-and-condensation": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "系列正文（一）",
+      "bookReference": "宇宙觉醒 v0.22",
+      "readings": [
+        "philosophy/cosmic-awakening",
+        "philosophy/cosmic-awakening-02-endless-spiral"
+      ]
+    },
+    "philosophy/cosmic-awakening-02-endless-spiral": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "系列正文（二）",
+      "bookReference": "宇宙觉醒 v0.22",
+      "readings": [
+        "philosophy/cosmic-awakening",
+        "philosophy/cosmic-awakening-01-information-manifestation-and-condensation",
+        "philosophy/cosmic-awakening-03-from-stardust-to-thought"
+      ]
+    },
+    "philosophy/cosmic-awakening-03-from-stardust-to-thought": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "系列正文（三）",
+      "bookReference": "宇宙觉醒 v0.22",
+      "readings": [
+        "philosophy/cosmic-awakening",
+        "philosophy/cosmic-awakening-02-endless-spiral",
+        "philosophy/cosmic-awakening-04-becoming-the-part-that-can-protect"
+      ]
+    },
+    "philosophy/cosmic-awakening-04-becoming-the-part-that-can-protect": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "系列正文（四）",
+      "bookReference": "宇宙觉醒 v0.22",
+      "readings": [
+        "philosophy/cosmic-awakening",
+        "philosophy/cosmic-awakening-03-from-stardust-to-thought",
+        "philosophy/cosmic-awakening-guide-earlier-paths"
+      ]
+    },
+    "philosophy/cosmic-awakening-guide-earlier-paths": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "前人思想导读",
+      "bookReference": "宇宙觉醒 v0.22",
+      "readings": [
+        "philosophy/cosmic-awakening",
+        "philosophy/cosmic-awakening-04-becoming-the-part-that-can-protect"
       ]
     }
   },
