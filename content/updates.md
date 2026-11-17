@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.21.0"
+version: "1.22.0"
 created: "2026-11-02"
 updated: "2026-11-17"
 published: "2026-11-02"
@@ -11,6 +11,12 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-30-0"></a>
+
+## v0.30.0 · 2026-11-17
+
+完成[《宇宙觉醒》v0.22 英文版](https://sl-knowledge.github.io/knowledge-site-en/philosophy/cosmic-awakening)，并同步发表四篇英文正文与一篇前人思想导读。英文的章节结构、限定语、预测表和 98 条参考文献现与中文母稿对应；中英文切换入口同步更新。
 
 <a id="v0-29-0"></a>
 
