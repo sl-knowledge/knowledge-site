@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.22.0"
+version: "1.23.0"
 created: "2026-11-02"
-updated: "2026-11-17"
+updated: "2026-11-18"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-31-0"></a>
+
+## v0.31.0 · 2026-11-18
+
+按照新的写作纪律同步修订三篇中英文文章：[《经济活动的本质与可持续循环》](./economics/sustainable-circulation.md)更新至 v0.2，将原稿末尾的探索性对话凝聚为经济学分支、四项目标、状态依赖权重及失败条件；[《把提出问题的控制权交给学习者》](./learning/asking-better-questions.md)更新至 v0.2，删除私人对话与占位引用，补入可核查研究、迁移边界和记录清单；[《伦理分歧从哪里来？》](./framework/methods/ethical-disagreement-map.md)更新至 v1.1，把用途声明和作者式人称改成问题、检查与输出的直接描述。三篇核心主张、必要安全边界和中英文结构均保留。
 
 <a id="v0-30-0"></a>
 
