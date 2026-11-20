@@ -2,9 +2,9 @@
 title: "哲学思想"
 description: "关于宇宙、结构形成、生命、认知与知识活动的哲学思考，保存研究方向背后的基本问题。"
 author: "SL"
-version: "0.4"
+version: "0.5"
 created: "2026-11-10"
-updated: "2026-11-17"
+updated: "2026-11-20"
 published: "2026-11-10"
 publish: true
 kind: "category"
@@ -16,6 +16,7 @@ kind: "category"
 
 ## 宇宙与演化
 
+- [存在即区别：存在、区别、关系与意义](./to-be-is-to-be-distinct.md)：哲学基本问题第 0.01 篇，以可逐词检查的定义链连接区别、存在、关系与意义，并用难例和反驳检验边界。
 - [宇宙觉醒：一个关于存在、演化与意义的框架](./cosmic-awakening.md)：v0.22 综合版，从存在即区别出发，连接信息场、宇宙循环、生命与思想、意义、善恶和守护。
   - [第一篇：信息、显化与凝聚](./cosmic-awakening-01-information-manifestation-and-condensation.md)
   - [第二篇：没有终点的螺旋](./cosmic-awakening-02-endless-spiral.md)

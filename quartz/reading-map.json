@@ -10,6 +10,7 @@
           "id": "cosmos",
           "title": "宇宙与演化",
           "slugs": [
+            "philosophy/to-be-is-to-be-distinct",
             "philosophy/cosmic-awakening",
             "philosophy/cosmic-awakening-01-information-manifestation-and-condensation",
             "philosophy/cosmic-awakening-02-endless-spiral",
@@ -635,6 +636,16 @@
       "readings": [
         "framework/foundations/why-objectives-are-reasonable",
         "framework/methods/ethical-disagreement-map"
+      ]
+    },
+    "philosophy/to-be-is-to-be-distinct": {
+      "section": "philosophy",
+      "group": "cosmos",
+      "role": "哲学基本问题（第 0.01 篇）",
+      "bookReference": "存在、区别、关系与意义的定义基础",
+      "readings": [
+        "philosophy/cosmic-awakening",
+        "framework/foundations/constraints-generation-and-human-value"
       ]
     },
     "philosophy/cosmic-awakening": {
