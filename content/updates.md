@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.24.0"
+version: "1.25.0"
 created: "2026-11-02"
-updated: "2026-11-20"
+updated: "2026-11-23"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-33-0"></a>
+
+## v0.33.0 · 2026-11-23
+
+按作者决定，将两份涉及信念与宗教参与的研究材料从中英文网站转回内部保存，删除公开正文、索引入口、文章关联与语言切换。《需求与生成能力的缺口》同步更新至 v0.2.1，删除与上述内部材料直接相连的小节和引用；其关于需求覆盖、能力、支持、缓冲与路径选择的主张不变。
 
 <a id="v0-32-0"></a>
 
@@ -88,7 +94,7 @@ kind: release
 
 ## v0.19.0 · 2026-11-10
 
-发表三篇哲学研究：[《信念门控的实践回路》](./applications/belief-gated-practice-loop.md)、[《需求与生成能力的缺口》](./applications/needs-and-generative-capability.md)与[《约束、生成与人的价值》](./framework/foundations/constraints-generation-and-human-value.md)，均为v0.2。以导读或摘要、凝聚结构、命题及记录卡明确文章成果。将[《自由与逍遥》更新至v0.2.1](./framework/foundations/freedom-and-future-options.md)，包括能力反馈与生成器的自我改写。中英文、分类索引、文章关联及完整左侧目录同步更新。
+发表[《需求与生成能力的缺口》](./applications/needs-and-generative-capability.md)与[《约束、生成与人的价值》](./framework/foundations/constraints-generation-and-human-value.md)，均为 v0.2；同批另有一份研究材料，已在 v0.33.0 转回内部保存。将[《自由与逍遥》更新至 v0.2.1](./framework/foundations/freedom-and-future-options.md)，包括能力反馈与生成器的自我改写。
 
 <a id="v0-18-0"></a>
 
@@ -130,19 +136,19 @@ kind: release
 
 ## v0.15.2 · 2026-11-08
 
-将[《从具体问题到生成机制》更新至v0.1.2](./framework/methods/from-question-to-mechanism.md)，补充反身性、关系类比与可能的记忆激活过程的事后回顾。中英文同步更新。
+该版涉及的一份研究过程材料已在 v0.33.0 转回内部保存。
 
 <a id="v0-15-1"></a>
 
 ## v0.15.1 · 2026-11-08
 
-将[《从具体问题到生成机制》更新至v0.1.1](./framework/methods/from-question-to-mechanism.md)，补充后续复核及生成规则、参数条件与具体表现的层次区分。中英文同步更新。
+该版涉及的一份研究过程材料已在 v0.33.0 转回内部保存。
 
 <a id="v0-15-0"></a>
 
 ## v0.15.0 · 2026-11-08
 
-发表[《从具体问题到生成机制：一次人机协作研究的过程》v0.1](./framework/methods/from-question-to-mechanism.md)，以六个步骤简要记录研究问题的推进与人机协作，归入“研究方法 → 人机协作与长期研究”。中英文同步发表并加入左侧目录。
+该版涉及的一份研究过程材料已在 v0.33.0 转回内部保存。
 
 <a id="v0-14-0"></a>
 

@@ -2,7 +2,6 @@
   "site": "https://sl-knowledge.github.io/knowledge-site-en",
   "pages": [
     "about",
-    "applications/belief-gated-practice-loop",
     "applications/cooperation-under-incomplete-trust",
     "applications/index",
     "applications/investment-evidence-self-check",
@@ -43,7 +42,6 @@
     "framework/methods/consistency-and-revision",
     "framework/methods/ethical-disagreement-map",
     "framework/methods/from-ethical-debate-to-argument-map",
-    "framework/methods/from-question-to-mechanism",
     "framework/methods/index",
     "framework/methods/investment-research-charter",
     "framework/methods/originality-and-validation",

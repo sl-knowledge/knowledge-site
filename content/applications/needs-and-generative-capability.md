@@ -2,9 +2,9 @@
 title: "需求与生成能力的缺口：支持、选择与行为的一种机制框架"
 description: "区分需求、能力、支持、缓冲与感知路径，提出带时间条件的组合路径、六个研究命题和分析卡。"
 author: "SL"
-version: "0.2"
+version: "0.2.1"
 created: "2026-11-09"
-updated: "2026-11-10"
+updated: "2026-11-23"
 published: "2026-11-10"
 publish: true
 kind: "article"
@@ -156,21 +156,15 @@ $$
 
 这些命题不能只通过重新命名行为来“验证”。例如，要检验 NG1，需要分别观察实际条件的证据、事前判断与后续行动，而不是把开始探索本身定义成“能力感提高”。
 
-## 8. 与实践回路、自由和学习的连接
+## 8. 与自由和学习的连接
 
-### 8.1 实践回路：需求不是唯一入口
-
-[《信念门控的实践回路》](./belief-gated-practice-loop.md)区分了信念、关系、继承与先行实践等入口。本文补充的是：需求与支持条件可能改变进入、维持或退出的代价，而不是把所有宗教参与重新归结为某一种“终极缺口”。皈依研究也提示需要关注关系与互动的作用，但具体样本不能直接代表全部传统。[4]
-
-实践中的改善、改善的归因与前提的真实性仍须分别判断。机制相似不等于宗教、教育与其他组织在价值、证据地位或后果上相同。
-
-### 8.2 自由：关注路径，而非自给程度
+### 8.1 自由：关注路径，而非自给程度
 
 [《自由与逍遥》](https://sl-knowledge.github.io/knowledge-site/framework/foundations/freedom-and-future-options)区分想得到、到得了与维持得住；[《约束、可行性与未来选择》](https://sl-knowledge.github.io/knowledge-site/framework/book/constraints-and-future-options)进一步讨论适应与恢复。本文把这些区分用于需求覆盖的路径比较。
 
 应保留的问题是：条件变化后，还能否调整、恢复或重建？答案可能来自自身能力，也可能来自可靠合作、公共条件与多样支持。[《平稳不等于有退路》](https://sl-knowledge.github.io/knowledge-site/framework/foundations/lock-in-vs-probability)则提醒，日常表现良好并不足以证明扰动后仍能退出或恢复。
 
-### 8.3 学习：形成能力，也检验能力
+### 8.2 学习：形成能力，也检验能力
 
 学习可以帮助组织事实、程序、结构与元认知知识；这些知识相互依赖，不能把事实知识简单说成只能回答旧问题。迁移是否发生，仍取决于练习、条件识别和反馈。
 
@@ -183,7 +177,6 @@ $$
 | 需求与福祉研究 [1] | 需求需要分维度考察，不预设固定满足顺序 | 本文分类不是经该研究证明的完整需求理论 |
 | 自我效能 [2] | 能力信念参与行动选择 | 信念不等于实际能力，也不涵盖全部感知路径 |
 | 自我决定理论 [3] | 自主、能力与关系可分别讨论 | 依赖支持不等于丧失自主 |
-| 皈依过程研究 [4] | 关系、转折与互动可能改变入口条件 | 不把个别过程概括为所有信仰的统一起源 |
 | 本站的可行性与恢复研究 | 把支持、能力与缓冲放回带期限的路径 | 不以恢复性代替全部价值判断 |
 
 本文的整理价值在于让这些问题在同一张卡上相互校验。它是否形成新的解释或预测，取决于这些区分能否被独立观察、能否排除竞争解释，而不是引用数量或跨领域覆盖面。
@@ -193,10 +186,10 @@ $$
 1. Tay, L., & Diener, E. (2011). [Needs and subjective well-being around the world](https://www.apa.org/pubs/journals/releases/psp-101-2-354.pdf). *Journal of Personality and Social Psychology*, 101(2), 354–365.
 2. Bandura, A. (1977). [Self-efficacy: Toward a unifying theory of behavioral change](https://pubmed.ncbi.nlm.nih.gov/847061/). *Psychological Review*, 84(2), 191–215.
 3. Ryan, R. M., & Deci, E. L. (2000). [Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being](https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf). *American Psychologist*, 55(1), 68–78.
-4. Lofland, J., & Stark, R. (1965). [Becoming a world-saver: A theory of conversion to a deviant perspective](https://www.romolocapuano.com/wp-content/uploads/2016/01/Lofland-and-Stark-becoming-a-worldsaver.pdf). *American Sociological Review*, 30(6), 862–875.
-
 ## 适用范围与版本说明
 
 本文是一份关于需求覆盖、支持与路径选择的机制框架，不是人格分类或临床判断，也不据此要求任何人放弃其支持关系。三类路径没有预设高下，其效果与正当性均须另行判断。
 
-v0.2 · 2026-11-09。保留需求—能力—支持—行为的问题线索，明确测量条件，采用组合路径，并收紧时间、快慢变量与信念入口的结论。
+v0.2 · 2026-11-09。保留需求—能力—支持—行为的问题线索，明确测量条件，采用组合路径，并收紧时间、快慢变量与多入口回路的结论。
+
+v0.2.1 · 2026-11-23。按公开范围调整，删除与内部研究材料直接相连的小节和引用；本文关于需求覆盖、能力、支持、缓冲与路径选择的主张不变。
