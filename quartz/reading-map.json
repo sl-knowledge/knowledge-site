@@ -163,7 +163,9 @@
             "learning/asking-better-questions",
             "learning/english-for-chinese-speakers",
             "learning/llm-introduction/lesson-01-representation",
-            "learning/llm-introduction/lesson-01-representation-teacher"
+            "learning/llm-introduction/lesson-01-representation-teacher",
+            "learning/llm-introduction/lesson-02-relations",
+            "learning/llm-introduction/lesson-02-relations-teacher"
           ]
         },
         {
@@ -453,6 +455,25 @@
       "readings": [
         "framework/book/constraints-and-future-options",
         "economics/first-principles-learning"
+      ]
+    },
+    "learning/llm-introduction/lesson-02-relations": {
+      "section": "applications",
+      "group": "learning",
+      "role": "入门课程·学习者版",
+      "bookReference": "第二部：表示与认识",
+      "readings": ["learning/llm-introduction/lesson-01-representation"]
+    },
+    "learning/llm-introduction/lesson-02-relations-teacher": {
+      "section": "applications",
+      "group": "learning",
+      "role": "入门课程·教师版",
+      "bookReference": "第二部：表示与认识",
+      "readings": [
+        "learning/llm-introduction/lesson-02-relations",
+        "learning/llm-introduction/lesson-01-representation-teacher",
+        "learning/framework-driven-learning",
+        "learning/cognitive-disequilibrium"
       ]
     },
     "learning/llm-introduction/lesson-01-representation": {

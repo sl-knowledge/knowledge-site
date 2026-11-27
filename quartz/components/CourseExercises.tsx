@@ -63,7 +63,7 @@ CourseExercises.css = `
   font-weight: 400;
 }
 
-.course-exercise input {
+.course-exercise input[type="text"] {
   box-sizing: border-box;
   width: 100%;
   min-height: 2.75rem;
@@ -159,5 +159,68 @@ CourseExercises.css = `
   margin-top: .25rem;
   font-size: .86rem;
   line-height: 1.5;
+}
+
+.course-score-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem .75rem;
+  border: 0;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.course-score-options legend {
+  font-weight: 650;
+  margin-bottom: .35rem;
+}
+
+.course-score-options label {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  gap: .35rem;
+  padding: 0 .55rem;
+  border: 1px solid var(--course-border);
+  border-radius: .55rem;
+  background: var(--light);
+  cursor: pointer;
+}
+
+.course-score-options label:has(:checked) {
+  border-color: var(--secondary);
+  box-shadow: inset 0 0 0 1px var(--secondary);
+}
+
+.course-score-options input {
+  accent-color: var(--secondary);
+}
+
+.course-score-results {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.course-score-results li {
+  display: grid;
+  grid-template-columns: 5.3rem minmax(0, 1fr) 2ch;
+  gap: .5rem;
+  align-items: center;
+  margin: .4rem 0;
+}
+
+.course-score-results meter {
+  width: 100%;
+  height: 1.2rem;
+}
+
+.course-score-results meter::-webkit-meter-bar {
+  background: var(--light);
+  border: 1px solid var(--course-border);
+}
+
+.course-score-results meter::-webkit-meter-optimum-value {
+  background: var(--secondary);
 }
 `
