@@ -4,6 +4,7 @@ import { PublicationMath } from "./quartz/plugins/transformers/publicationMath"
 import { ResearchNotice } from "./quartz/plugins/transformers/researchNotice"
 import { SiteNavigation, PublicationMeta, PublicationFooter } from "./quartz/components/Publication"
 import { ReadingNavigation, ReadingContext } from "./quartz/components/ReadingNavigation"
+import { CourseExercises } from "./quartz/components/CourseExercises"
 
 const config = await loadQuartzConfig()
 config.plugins.transformers.unshift(ResearchNotice(), PublicationMath())
@@ -31,6 +32,7 @@ const enhance = (page: typeof loaded.defaults) => ({
   ...page,
   left: [...(page.left ?? []), ReadingNavigation],
   beforeBody: [SiteNavigation, ...(page.beforeBody ?? []), PublicationMeta, ReadingContext],
+  afterBody: [...(page.afterBody ?? []), CourseExercises],
   footer: [PublicationFooter],
 })
 export const layout = {

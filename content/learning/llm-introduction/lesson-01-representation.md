@@ -27,7 +27,34 @@ kind: article
 
 现在，换一个小游戏。桌上有三张照片：白猫、黑猫、白狗。
 
-你想给每张照片编一个号码，好让朋友知道你指的是哪张照片。你会怎样编号？写下你的办法。
+你想给每张照片编一个号码，好让朋友知道你指的是哪张照片。你会怎样编号？可以填在照片下面，也可以写在纸上。
+
+<form class="course-exercise" data-course-exercise="numbering" data-success="三个编号都不同。朋友知道你的编号表，就能分清三张照片。" data-retry="有照片用了相同的号码。朋友只听到这个号码，能知道你指的是哪一张吗？">
+<div class="course-photo-gallery">
+<figure>
+  <img src="./assets/white-cat.jpg" alt="白猫" width="1024" height="1024">
+  <figcaption>白猫
+    <label data-course-control hidden>编号<input type="text" name="white-cat" inputmode="numeric" pattern="[0-9]+" required aria-label="白猫 · 编号"></label>
+  </figcaption>
+</figure>
+<figure>
+  <img src="./assets/black-cat.jpg" alt="黑猫" width="1535" height="1535">
+  <figcaption>黑猫
+    <label data-course-control hidden>编号<input type="text" name="black-cat" inputmode="numeric" pattern="[0-9]+" required aria-label="黑猫 · 编号"></label>
+  </figcaption>
+</figure>
+<figure>
+  <img src="./assets/white-dog.jpg" alt="白狗" width="896" height="896">
+  <figcaption>白狗
+    <label data-course-control hidden>编号<input type="text" name="white-dog" inputmode="numeric" pattern="[0-9]+" required aria-label="白狗 · 编号"></label>
+  </figcaption>
+</figure>
+</div>
+<div class="course-check" data-course-control hidden>
+  <button type="submit">检查我的编号</button>
+  <output aria-live="polite"></output>
+</div>
+</form>
 
 <details>
 <summary>看一种办法</summary>
@@ -96,6 +123,32 @@ kind: article
 
 </details>
 
+<form class="course-exercise" data-course-exercise="two-box" data-course-control hidden data-success="对上了。黑狗沿用了你的颜色规则和种类规则。" data-retry="再核对一下：左格读黑色的数字，右格读狗的数字。" data-collision="同一组里有两个相同的数字。先给白与黑不同的数字，再给猫与狗不同的数字。">
+<strong>试试两格卡片</strong>
+<p>给每项填一个数字，再用你自己的规则写出黑狗的两格编码。</p>
+<div class="course-code-fields">
+<fieldset>
+<legend>左格 · 颜色</legend>
+<label>白色<input type="text" name="white" inputmode="numeric" pattern="[0-9]" maxlength="1" required></label>
+<label>黑色<input type="text" name="black" inputmode="numeric" pattern="[0-9]" maxlength="1" required></label>
+</fieldset>
+<fieldset>
+<legend>右格 · 种类</legend>
+<label>猫<input type="text" name="cat" inputmode="numeric" pattern="[0-9]" maxlength="1" required></label>
+<label>狗<input type="text" name="dog" inputmode="numeric" pattern="[0-9]" maxlength="1" required></label>
+</fieldset>
+<fieldset>
+<legend>黑狗的编码</legend>
+<label>左格<input type="text" name="answer-colour" inputmode="numeric" pattern="[0-9]" maxlength="1" required></label>
+<label>右格<input type="text" name="answer-animal" inputmode="numeric" pattern="[0-9]" maxlength="1" required></label>
+</fieldset>
+</div>
+<div class="course-check" data-course-control hidden>
+  <button type="submit">检查黑狗编码</button>
+  <output aria-live="polite"></output>
+</div>
+</form>
+
 ## 三、你还想知道什么？
 
 桌上又出现一张白猫照片。这是另一只猫，不是原来那一只。
@@ -137,11 +190,14 @@ kind: article
 
 在常见的大语言模型中，文字先被分成一些小单位。每个小单位有自己的编号。模型再根据这个编号，从一张已经准备好的数字表中取出一组数字。
 
-这个过程可以写成：
+这个过程可以分成四步：
 
-```text
-文字 → 文字单位 → 编号 → 一组数字
-```
+<ol class="course-flow">
+<li><strong>文字</strong><span>输入一段文本</span></li>
+<li><strong>词元</strong><span>把文本分成小单位</span></li>
+<li><strong>编号</strong><span>查到每个词元的编号</span></li>
+<li><strong>向量</strong><span>按编号从表里取一组数字</span></li>
+</ol>
 
 这和刚才的游戏有一点相似：都是把要处理的东西变成数字。不过，真实模型的这张数字表主要是通过训练得到的，不像我们那样事先指定每个格子记录颜色或种类。我们还不知道模型怎样利用这些数字处理文字，那是后面要探索的事情。
 
