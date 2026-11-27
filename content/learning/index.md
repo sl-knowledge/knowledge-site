@@ -2,9 +2,9 @@
 title: "学习方法"
 description: "怎样建立理解、发现差异，并生成下一个值得研究的问题。"
 author: SL
-version: "0.2"
+version: "0.2.1"
 created: "2026-10-31"
-updated: "2026-11-02"
+updated: "2026-11-26"
 published: "2026-10-31"
 publish: true
 ---
@@ -18,3 +18,5 @@ publish: true
 - [把提出问题的控制权交给学习者](./asking-better-questions.md)：课程设计中的支架与逐步移交。
 
 - [给中文母语学习英语者的建议](./english-for-chinese-speakers.md)：把句子骨架、语法信息、动词搭配和练习反馈转成日常训练。
+
+- [大语言模型入门](./llm-introduction/index.md) 在学习者版里动手设计表示，教师版提供活动安排和评价方法。

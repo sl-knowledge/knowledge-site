@@ -161,7 +161,9 @@
             "learning/framework-driven-learning",
             "learning/cognitive-disequilibrium",
             "learning/asking-better-questions",
-            "learning/english-for-chinese-speakers"
+            "learning/english-for-chinese-speakers",
+            "learning/llm-introduction/lesson-01-representation",
+            "learning/llm-introduction/lesson-01-representation-teacher"
           ]
         },
         {
@@ -451,6 +453,24 @@
       "readings": [
         "framework/book/constraints-and-future-options",
         "economics/first-principles-learning"
+      ]
+    },
+    "learning/llm-introduction/lesson-01-representation": {
+      "section": "applications",
+      "group": "learning",
+      "role": "入门课程·学习者版",
+      "bookReference": "第二部：表示与认识",
+      "readings": []
+    },
+    "learning/llm-introduction/lesson-01-representation-teacher": {
+      "section": "applications",
+      "group": "learning",
+      "role": "入门课程·教师版",
+      "bookReference": "第二部：表示与认识",
+      "readings": [
+        "learning/llm-introduction/lesson-01-representation",
+        "learning/framework-driven-learning",
+        "learning/cognitive-disequilibrium"
       ]
     },
     "learning/framework-driven-learning": {
@@ -771,6 +791,10 @@
     "framework/book/book-reading-guide": "第一稿：五部五十二章阅读总览"
   },
   "auxiliary": {
+    "learning/llm-introduction/index": {
+      "section": "applications",
+      "group": "learning"
+    },
     "economics/index": {
       "section": "applications",
       "group": "economy"
@@ -809,6 +833,7 @@
       "slugs": [
         "economics/index",
         "learning/index",
+        "learning/llm-introduction/index",
         "language/index",
         "framework/cases/index",
         "framework/foundations/index"

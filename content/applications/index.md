@@ -2,7 +2,7 @@
 title: "理论应用"
 description: "从企业、经济循环、学习、语言、合作、控制与个人选择进入，区分领域框架、方法、案例与待检验假说。"
 author: SL
-version: "0.8.3"
+version: "0.8.4"
 created: "2026-11-02"
 updated: "2026-11-26"
 published: "2026-11-02"
@@ -41,6 +41,10 @@ kind: category
 - [认知失衡：问题从哪里来](../learning/cognitive-disequilibrium.md)：认知失衡不自动导致好奇或有效学习，保留条件与反例。
 - [把提出问题的控制权交给学习者](../learning/asking-better-questions.md)：提问支架与逐步移交；不把教学控制权与工程控制权直接等同。
 - [给中文母语学习英语者的建议](../learning/english-for-chinese-speakers.md)：语言假说转成训练设想时仍需检验学习效果，不作母语群体的普遍定律。
+
+### [大语言模型入门](../learning/llm-introduction/index.md)
+
+在学习者版里动手设计表示，教师版提供活动安排和评价方法。
 
 <a id="language"></a>
 
