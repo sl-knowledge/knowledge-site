@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.27.0"
+version: "1.27.1"
 created: "2026-11-02"
 updated: "2026-11-26"
 published: "2026-11-02"
@@ -12,11 +12,17 @@ kind: release
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
 
+<a id="v0-35-1"></a>
+
+## v0.35.1 · 2026-11-26
+
+[信念门控的实践回路](./applications/belief-gated-practice-loop.md)恢复原题《信念门控的实践回路：宗教的一种生成机制》，中英文同步更新。
+
 <a id="v0-35-0"></a>
 
 ## v0.35.0 · 2026-11-26
 
-恢复公开[《信念门控的实践回路：宗教参与的一种机制假说》](./applications/belief-gated-practice-loop.md) v0.2 和[《从具体问题到生成机制：一次人机协作研究的过程》](./framework/methods/from-question-to-mechanism.md) v0.1.2。中英文目录、相关文章链接和语言切换同步恢复。《需求与生成能力的缺口》更新至 v0.2.2，恢复与实践回路的比较小节及相关引用。
+恢复公开[《信念门控的实践回路》](./applications/belief-gated-practice-loop.md) v0.2 和[《从具体问题到生成机制：一次人机协作研究的过程》](./framework/methods/from-question-to-mechanism.md) v0.1.2。中英文目录、相关文章链接和语言切换同步恢复。《需求与生成能力的缺口》更新至 v0.2.2，恢复与实践回路的比较小节及相关引用。
 
 <a id="v0-34-0"></a>
 
