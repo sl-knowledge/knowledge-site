@@ -223,4 +223,39 @@ CourseExercises.css = `
 .course-score-results meter::-webkit-meter-optimum-value {
   background: var(--secondary);
 }
+
+article details.course-reveal {
+  --reveal-border: color-mix(in srgb, var(--secondary) 28%, var(--lightgray));
+  border: 1px solid var(--reveal-border);
+  border-radius: .65rem;
+  padding: .65rem 1rem;
+  margin: 1.1rem 0;
+}
+
+article details.course-reveal > summary {
+  color: var(--secondary);
+  font-weight: 650;
+  cursor: pointer;
+  min-height: 1.55rem;
+}
+
+article details.course-reveal > summary:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+  border-radius: .2rem;
+}
+
+article details.course-reveal[open] {
+  background: color-mix(in srgb, var(--secondary) 11%, var(--light));
+  border-inline-start: .25rem solid var(--secondary);
+}
+
+article details.course-reveal[open] > summary {
+  border-bottom: 1px solid var(--reveal-border);
+  padding-bottom: .55rem;
+}
+
+article details.course-reveal > :last-child:not(summary) {
+  margin-bottom: .35rem;
+}
 `

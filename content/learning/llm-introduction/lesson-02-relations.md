@@ -43,7 +43,7 @@ kind: article
 
 先写下你的理由。如果你觉得两者一样像，也可以。
 
-<details>
+<details class="course-reveal">
 <summary>想好以后，再看看几种回答</summary>
 
 有人选黑猫，因为它也是猫。有人选白狗，因为它也是白色的。
@@ -73,14 +73,14 @@ kind: article
 
 如果你上一课设计了别的卡片，也可以先用自己的卡片来做。试试你设计的方法能不能处理这四种动物。
 
-<details>
+<details class="course-reveal">
 <summary>需要一点提示</summary>
 
 白猫和白狗的第一格相同。第二格呢？每遇到一格相同，可以做什么？
 
 </details>
 
-<details>
+<details class="course-reveal">
 <summary>完成以后，查看一种办法</summary>
 
 一格一格比较。相同记 1 分，不同记 0 分，最后把分数加起来。
@@ -111,14 +111,14 @@ kind: article
 
 想一想：我们怎样只用乘法和加法，把两张卡片共同拥有的特征数出来？
 
-<details>
+<details class="course-reveal">
 <summary>需要一点提示</summary>
 
 试试计算 1×1、1×0、0×1 和 0×0。哪一种会得到 1？
 
 </details>
 
-<details>
+<details class="course-reveal">
 <summary>看一种计算方法</summary>
 
 两个格子都是 1 时，相乘才得到 1。因此我们可以把两张卡片同一位置的数字相乘，再把结果加起来。
@@ -151,7 +151,7 @@ kind: article
 
 如果你觉得够用，就保留。如果不够用，可以试着修改卡片或打分办法。
 
-<details>
+<details class="course-reveal">
 <summary>完成自己的尝试后，再看一个例子</summary>
 
 假如我只想比较颜色，就不应该因为两只动物都是猫而多给一分。

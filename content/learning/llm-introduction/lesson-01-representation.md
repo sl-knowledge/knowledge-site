@@ -56,7 +56,7 @@ kind: article
 </div>
 </form>
 
-<details>
+<details class="course-reveal">
 <summary>看一种办法</summary>
 
 | 照片 | 编号 |
@@ -83,7 +83,7 @@ kind: article
 
 如果你已经有了办法，可以直接做下面的检验；如果还没想出来，可以看看提示。
 
-<details>
+<details class="course-reveal">
 <summary>提示（需要时再看）</summary>
 
 朋友想知道两件事情。你可以试着先想怎样用数字告诉他颜色，再想怎样告诉他是猫还是狗。
@@ -100,7 +100,7 @@ kind: article
 
 如果你有同伴，可以让他只看数字和你们事先约定的规则，试着读出答案。如果只有你一个人，可以自己按照规则把数字读回去。
 
-<details>
+<details class="course-reveal">
 <summary>完成检验后，再看一种参考设计</summary>
 
 我们可以约定用两个格子：
@@ -163,7 +163,7 @@ kind: article
 
 如果原来的设计已经够用，就继续使用它。如果不够用，你会怎样修改？
 
-<details>
+<details class="course-reveal">
 <summary>完成自己的探索后，再看一种例子</summary>
 
 假如我想知道两张白猫照片是不是同一张，只看颜色和种类是不够的。我可以给每张照片再加一个独立的编号。

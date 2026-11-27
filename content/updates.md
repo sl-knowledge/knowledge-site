@@ -2,15 +2,21 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.29.0"
+version: "1.29.1"
 created: "2026-11-02"
-updated: "2026-11-26"
+updated: "2026-11-27"
 published: "2026-11-02"
 publish: true
 kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-37-1"></a>
+
+## v0.37.1 · 2026-11-27
+
+[大语言模型入门](./learning/llm-introduction/index.md)前两课的中英文学习者版统一更新了折叠样式。展开的提示、例子和参考答案采用独立卡片。
 
 <a id="v0-37-0"></a>
 
