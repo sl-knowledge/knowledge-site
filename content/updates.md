@@ -2,7 +2,7 @@
 title: "网站更新记录"
 description: "记录网站版本、发布日期、新增与重要修订，以及对阅读和引用的影响。"
 author: SL
-version: "1.29.1"
+version: "1.30.0"
 created: "2026-11-02"
 updated: "2026-11-27"
 published: "2026-11-02"
@@ -11,6 +11,12 @@ kind: release
 ---
 
 网站版本记录一批公开内容与阅读结构的变化；每篇文章继续保留自己的版本和更新日期。
+
+<a id="v0-38-0"></a>
+
+## v0.38.0 · 2026-11-27
+
+中英文同步发表[《二阶反思：把框架当作表现型》](./framework/methods/second-order-reflection.md) v0.3和[《决策之前：改变问题表示的七个动作》](./framework/methods/before-deciding.md) v0.2。前者在「论证与分歧分析」，后者在「判别与情景」。《决策之前》补上与《二阶反思》的关联链接。
 
 <a id="v0-37-1"></a>
 

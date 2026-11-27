@@ -2,9 +2,9 @@
 title: "研究方法"
 description: "CF Grammar、压力测试、人机协作，以及验证和修订规范；连接理论主干与领域研究。"
 author: "SL"
-version: "0.5.5"
+version: "0.5.6"
 created: "2026-11-01"
-updated: "2026-11-26"
+updated: "2026-11-27"
 published: "2026-11-01"
 publish: true
 kind: category
@@ -23,12 +23,14 @@ kind: category
 ## 论证与分歧分析
 
 - [伦理分歧从哪里来？](./ethical-disagreement-map.md)：检查伦理注意、理由、优先规则与可行性，提供操作流程、模板及已填写的九格案例卡。
+- [二阶反思：把框架当作表现型](./second-order-reflection.md)：用语言例子说明怎样看见自己的判断标准，并检验它在何处适用。
 
 <a id="testing"></a>
 
 ## 判别与情景
 
 - [压力测试：约束识别、反馈与恢复窗口](./stress-testing.md)：ST1—ST12固定原则，检查情景、反馈、支持撤去、恢复期限和共同失效。
+- [决策之前：改变问题表示的七个动作](./before-deciding.md)：用七个动作检查原问题遗漏了哪些选项、条件或证据。
 
 <a id="research-system"></a>
 
