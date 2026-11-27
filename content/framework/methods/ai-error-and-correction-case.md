@@ -2,9 +2,9 @@
 title: "当 AI 评错了问题：一次人机协作的纠错记录"
 description: "一次研究讨论中的17项观察与纠正，区分事实错误、研究层次和评价标准错位，并给出评审前的四问。"
 author: "SL"
-version: "0.1.1"
+version: "0.1.2"
 created: "2026-11-10"
-updated: "2026-11-23"
+updated: "2026-11-26"
 published: "2026-11-10"
 publish: true
 kind: "article"
@@ -76,4 +76,4 @@ kind: "article"
 本文依据对2026年11月9日至10日一次对话的事后整理稿改编。记录由参与对话的 AI 起草；引语沿用其中的节选，部分来自语音转写，按可读性整理。不同会话阶段仅用于定位事件，未用界面标签确认模型身份或作性能比较。
 
 - Simon, H. A. (1962). [*The Architecture of Complexity*](https://www.jstor.org/stable/985254). *Proceedings of the American Philosophical Society*, 106(6), 467–482。
-- 相关案例：[从伦理争论到论证分歧地图](./from-ethical-debate-to-argument-map.md)。
+- 相关案例：[从具体问题到生成机制](./from-question-to-mechanism.md)；[从伦理争论到论证分歧地图](./from-ethical-debate-to-argument-map.md)。
